@@ -8,7 +8,7 @@ from xapi_app.scenario import Cmi5Scenario
 from xapi_app.utils import file
 
 
-# user와 actor을 매칭할 수 있으면 actor의 수대로 실행이 가능해서 
+# TODO: Locust user의 instance 수와 actor을 매칭할 수 있으면 actor의 수대로 실행이 가능해서 
 # attmpt 관리가 가능하다
 
 def set_actor():
@@ -49,9 +49,11 @@ class User(HttpUser):
             lecture_object_context=object_extensions[0],
             contents_object_context=object_extensions[1]
         )
-        for scene in scenario.run_complted_with_contents():
-            self.client.request(scene)
-
-    # def on_start(self):
         
+        for full_statement, state in scenario.run_complted_with_contents():
+            if state:
+                self.client.request(state)
+            
+            self.client.request(full_statement)
+
 
