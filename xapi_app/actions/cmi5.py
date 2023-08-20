@@ -15,8 +15,8 @@ class Launched(XAPIAction):
             context=context
         )
         
-    def do(self, duration=None, attempt=None):
-        return None, self.verb
+    def start(self, **kwargs):
+        self.result = None
 
 class Initialized(XAPIAction):
     def __init__(self, actor, obj, context):
@@ -27,8 +27,8 @@ class Initialized(XAPIAction):
             context=context
         )
         
-    def do(self, duration=None, attempt=None):
-        return None, self.verb
+    def start(self, **kwargs):
+        self.result = None
     
 
 class Completed(XAPIAction):
@@ -40,8 +40,8 @@ class Completed(XAPIAction):
             context=context
         )
 
-    def do(self, duration=None, attempt=None):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             success=str(True),
             completion=str(True),
             duration=iso8601.parse_sec_to_duration(random.randint(3,7)),
@@ -51,7 +51,7 @@ class Completed(XAPIAction):
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/session_time": iso8601.parse_sec_to_duration(random.randint(1000, 3000))
             }
         )
-        return result, self.verb
+        
 
 class Passed(XAPIAction):
     def __init__(self, actor, obj, context):
@@ -62,8 +62,8 @@ class Passed(XAPIAction):
             context=context
         )
 
-    def do(self, duration=None, attempt=None):
-        return None, self.verb
+    def start(self, **kwargs):
+        self.result = None
     
 
 class Failed(XAPIAction):
@@ -75,16 +75,14 @@ class Failed(XAPIAction):
             context=context
         )
 
-    def do(self, duration=None, attempt=None):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             success=False,
             duration=iso8601.parse_sec_to_duration(random.randint(3,7)),
             extensions={
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/session_time":iso8601.parse_sec_to_duration(random.randint(1000, 3000))
             }
         )
-
-        return result, self.verb
 
 class Aboandoned(XAPIAction):
     def __init__(self, actor, obj, context):
@@ -95,11 +93,11 @@ class Aboandoned(XAPIAction):
             context=context
         )
 
-    def do(self, duration=None, attempt=None):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             duration=iso8601.parse_sec_to_duration(random.randint(3,7)),
         )
-        return result, self.verb
+
 
 class Waived(XAPIAction):
     def __init__(self, actor, obj, context):
@@ -110,8 +108,8 @@ class Waived(XAPIAction):
             context=context
         )
 
-    def do(self, duration=None, attempt=None):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             success=True,
             completion=True,
             duration=iso8601.parse_sec_to_duration(random.randint(3,7)),
@@ -119,7 +117,7 @@ class Waived(XAPIAction):
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/session_time": iso8601.parse_sec_to_duration(random.randint(1000, 3000))
             }
         )
-        return result, self.verb
+
 
 class Terminated(XAPIAction):
     def __init__(self, actor, obj, context):
@@ -130,14 +128,14 @@ class Terminated(XAPIAction):
             context=context
         )
 
-    def do(self, duration=None, attempt=None):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             duration=iso8601.parse_sec_to_duration(random.randint(3,7)),
             extensions={
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/session_time":iso8601.parse_sec_to_duration(random.randint(1000, 3000))
             }
         )
-        return result, self.verb
+        
 
 class Satisfied(XAPIAction):
     def __init__(self, actor, obj, context):
@@ -149,8 +147,8 @@ class Satisfied(XAPIAction):
         )
 
 
-    def do(self, duration=None, attempt=None):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             duration=iso8601.parse_sec_to_duration(random.randint(3,7)),
             score={},
             extensions={
@@ -158,5 +156,4 @@ class Satisfied(XAPIAction):
             }
         )
 
-        return result, self.verb
 

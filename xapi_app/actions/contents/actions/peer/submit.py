@@ -15,8 +15,8 @@ class Initialized(XAPIAction):
             context=context
         )
         
-    def do(self, attempt, session_id, duration=None):
-        return None, self.verb
+    def start(self, **kwargs):
+        self.result = None
 
 class Submitted(XAPIAction):
     def __init__(self, actor, obj, context):
@@ -27,8 +27,8 @@ class Submitted(XAPIAction):
             context=context
         )
 
-    def do(self, duration, attempt, session_id):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             success=str('true'),
             completion=str('true'),
             response="",
@@ -38,7 +38,7 @@ class Submitted(XAPIAction):
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
             }
         )
-        return result
+    
 
 
 class Completed(XAPIAction):
@@ -50,8 +50,8 @@ class Completed(XAPIAction):
             context=context
         )
 
-    def do(self, duration, attempt, session_id):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             success=str('true'),
             completion=str('true'),
             response="",
@@ -61,7 +61,6 @@ class Completed(XAPIAction):
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
             }
         )
-        return result
     
 
 class Scoreded(XAPIAction):
@@ -73,8 +72,8 @@ class Scoreded(XAPIAction):
             context=context
         )
 
-    def do(self, duration, attempt, session_id):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             success=str('true'),
             completion=str('true'),
             response="",
@@ -84,4 +83,3 @@ class Scoreded(XAPIAction):
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
             }
         )
-        return result

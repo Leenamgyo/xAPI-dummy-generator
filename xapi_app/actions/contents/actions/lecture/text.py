@@ -15,12 +15,11 @@ class Read(XAPIAction):
             context=context
         )
     
-    def do(self, attempt, session_id, duration=None):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             duration=iso8601.parse_sec_to_duration(random.randint(3,7)),
             extensions={
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt,
                 "https://w3id.org/xapi/cmi5/context/extensions/sessionid": session_id
             }
         )
-        return result, self.verb

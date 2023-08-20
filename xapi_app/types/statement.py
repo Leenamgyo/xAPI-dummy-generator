@@ -17,7 +17,7 @@ class XAPIStatement:
         self.version = version 
         self.actor = actor
         self.object = object
-        self.result = result
+        self.self.result =  result
         self.context = context
 
     def to_full_statement(self):

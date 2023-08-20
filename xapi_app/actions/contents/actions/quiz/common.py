@@ -15,8 +15,8 @@ class Initialized(XAPIAction):
             context=context
         )
         
-    def do(self, attempt, session_id, duration=None):
-        return None, self.verb
+    def start(self, **kwargs):
+        self.result = None
 
 class Suspended(XAPIAction):
     def __init__(self, actor, obj, context):
@@ -27,8 +27,8 @@ class Suspended(XAPIAction):
             context=context
         )
 
-    def do(self, duration, attempt, session_id):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             success=str('true'),
             completion=str('true'),
             duration=iso8601.parse_sec_to_duration(random.randint(1, 3)),
@@ -37,7 +37,6 @@ class Suspended(XAPIAction):
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
             }
         )
-        return result
 
 
 class Checked(XAPIAction):
@@ -49,8 +48,8 @@ class Checked(XAPIAction):
             context=context
         )
 
-    def do(self, duration, attempt, session_id):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             success=str('true'),
             completion=str('true'),
             response="",
@@ -61,8 +60,6 @@ class Checked(XAPIAction):
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
             }
         )
-        return result
-
 
 
 class Completed(XAPIAction):
@@ -74,8 +71,8 @@ class Completed(XAPIAction):
             context=context
         )
 
-    def do(self, duration, attempt, session_id):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             success=str('true'),
             completion=str('true'),
             duration=iso8601.parse_sec_to_duration(random.randint(5, 10)),
@@ -85,7 +82,6 @@ class Completed(XAPIAction):
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
             }
         )
-        return result
 
 
 class Answered(XAPIAction):
@@ -97,8 +93,8 @@ class Answered(XAPIAction):
             context=context
         )
 
-    def do(self, duration, attempt, session_id):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             success=str('true'),
             completion=str('true'),
             response="",
@@ -109,7 +105,6 @@ class Answered(XAPIAction):
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
             }
         )
-        return result
     
 
 class Scoreded(XAPIAction):
@@ -121,8 +116,8 @@ class Scoreded(XAPIAction):
             context=context
         )
 
-    def do(self, duration, attempt, session_id):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             success=str('true'),
             completion=str('true'),
             response="",
@@ -132,4 +127,3 @@ class Scoreded(XAPIAction):
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
             }
         )
-        return result

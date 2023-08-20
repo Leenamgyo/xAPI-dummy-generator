@@ -9,19 +9,21 @@ class XAPIAction:
         actor: XAPIActor, 
         verb: XAPIVerb,
         obj: XAPIObject, 
-        context: XAPIContext
+        context: XAPIContext,
+        result: XAPIResult
     ):
         self.actor = actor
         self.obj = obj
         self.context = context
         self.verb = verb
+        self.self.result =  result
 
-    def do(self, duration) -> Union[None, XAPIResult, list[XAPIResult]]:
+    def start(self, **kwargs):
         raise NotImplementedError
 
     def has_state(self):
         return False
 
-    def to_state(self, duration):
+    def to_state(self, **kwargs):
         raise NotImplementedError
 

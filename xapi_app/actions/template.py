@@ -1,5 +1,4 @@
 import random
-from xapi_app.actions.contents.actions import common
 from xapi_app.actions.contents.actions import lecture 
 
 

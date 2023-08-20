@@ -15,8 +15,8 @@ class Played(XAPIAction):
             context=context
         )
     
-    def do(self, session_id, duration=None, attempt=None):
-        result = XAPIResult(
+    def start(self, session_id, duration=None, attempt=None):
+        self.result =  XAPIResult(
             success="true",
             extensions={
                 "https://w3id.org/xapi/video/extensions/session-id": session_id,
@@ -24,7 +24,6 @@ class Played(XAPIAction):
                 "https://w3id.org/xapi/video/extensions/played-segments":""
             }
         )
-        return result
 
 class Seeked(XAPIAction):
     def __init__(self, actor, obj, context):
@@ -35,8 +34,8 @@ class Seeked(XAPIAction):
             context=context
         )
 
-    def do(self, duration, attempt, session_id):
-        result = XAPIResult(
+    def start(self, duration, attempt, session_id):
+        self.result =  XAPIResult(
             success="true",
             extensions={
                 "https://w3id.org/xapi/video/extensions/session-id": "",
@@ -44,7 +43,6 @@ class Seeked(XAPIAction):
                 "https://w3id.org/xapi/video/extensions/time-to": ""
             }
         )
-        return result
 class Paused(XAPIAction):
     def __init__(self, actor, obj, context):
         super().__init__(
@@ -54,8 +52,8 @@ class Paused(XAPIAction):
             context=context
         )
 
-    def do(self, duration, attempt, session_id):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             success="true",
             duration=duration,
             extensions={
@@ -65,7 +63,6 @@ class Paused(XAPIAction):
                 "https://w3id.org/xapi/video/extensions/progress":""
             }
         )
-        return result
     
 class Interacted(XAPIAction):
     def __init__(self, actor, obj, context):
@@ -76,8 +73,8 @@ class Interacted(XAPIAction):
             context=context
         )
 
-    def do(self, duration, attempt, session_id):
-        result = XAPIResult(
+    def start(self, duration, attempt, session_id):
+        self.result =  XAPIResult(
             success="true",
             extensions={
                 "https://w3id.org/xapi/video/extensions/session-id": session_id,
@@ -86,7 +83,6 @@ class Interacted(XAPIAction):
                 "https://w3id.org/xapi/video/extensions/volume": random.randint(1, 25),
             }
         )
-        return result
 
 class Completed(XAPIAction):
     def __init__(self, actor, obj, context):
@@ -97,8 +93,8 @@ class Completed(XAPIAction):
             context=context
         )
 
-    def do(self, duration):
-        result = XAPIResult(
+    def start(self, duration):
+        self.result =  XAPIResult(
             success="true",
             completion="true",
             duration=iso8601.parse_sec_to_duration(random.randint(3,7)),
@@ -111,4 +107,3 @@ class Completed(XAPIAction):
             }
         )
 
-        return result

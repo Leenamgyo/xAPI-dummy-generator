@@ -20,56 +20,50 @@ class Cmi5Scenario:
         self.session_id = session_id
 
     def run_complted_with_contents(self):
-        tasks = [
-            cmi5.Launched, 
-            cmi5.Initialized, 
-            ContentsFactory,
-            cmi5.Completed,
-        ]
-        
-        return self._run(tasks)
-
-    def _is_trigger_contents(self, task):
-        return issubclass(ContentsFactory, task)
-
-    def _run(self, tasks):
         actor = XAPIActor(**self.actor)
         lecture_object = XAPIObject(**self.lecture["object"])
         lecture_context = XAPIContext(**self.lecture["context"])
-        
-        for task in tasks:
-            # Contents일 경우
-            if self._is_trigger_contents(task):
-                for contents in self.contents:
-                    definition = contents["object"]["definition"]
-                    keys = []
-                    keys.append(definition['extensions']["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type"])
-                    if "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-type" in definition['extensions']:
-                        keys.append(definition['extensions']["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-type"])
-                    
-                    if "interactionType" in definition:
-                        keys.append(definition["interactionType"])
 
-                    template = factory.get_template(*keys)()
-                    contents_obj = XAPIObject(**contents["object"])
-                    contents_context = XAPIContext(**contents["context"])
-                    for task in template.actions():
-                        t = task(
-                            actor, 
-                            contents_obj, 
-                            contents_context
-                        )
-                        result, verb = t.do(attempt=self.attempt, session_id=self.session_id)
-                        yield self._result_model(
-                            t, actor, contents_obj, verb, result, contents_context)
-            else: 
-                # CMI 5일경우
-                t = task(actor, lecture_object, lecture_context)
-                result, verb = t.do(attempt=self.attempt)
-                yield self._result_model(
-                    t, actor, lecture_object, verb, result, lecture_context)
+        task_queue = []
+        task_queue.append(
+            cmi5.Launched(actor, lecture_object, lecture_context), 
+            cmi5.Initialized(actor, lecture_object, lecture_context),
+        )
+        for contents in self.contents:
+            keys =[] 
+            definition = contents["object"]["definition"]
+            keys.append(definition['extensions']["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type"])
+            
+            if "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-type" in definition['extensions']:
+                keys.append(definition['extensions']["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-type"])
+            
+            if "interactionType" in definition:
+                keys.append(definition["interactionType"])
+            
+            template = factory.get_template(*keys)()
+            contents_obj = XAPIObject(**contents["object"])
+            contents_context = XAPIContext(**contents["context"])
+            for task_class in template.actions():
+                task_queue.append(task_class(actor, contents_obj, contents_context))
 
-    def _result_model(self, task, actor, obj, verb, result, context):
+        task_queue.append(cmi5.Completed(actor, lecture_object, lecture_context))
+        return self._run(task_queue)
+
+    def _run(self, task_queue: list):
+        while task_queue:
+            task_instance = task_queue.pop()    
+            task_instance.start(attempt=self.attempt)
+            
+            yield self._result_model(
+                task_instance, 
+                task_instance.actor, 
+                task_instance.obj, 
+                task_instance.verb, 
+                task_instance.result, 
+                task_instance.context
+            )
+
+    def _result_model(self, task_instance, actor, obj, verb, result, context):
         state = None
         stmt = XAPIStatement(
             actor=actor,
@@ -79,7 +73,7 @@ class Cmi5Scenario:
             context=context
         )
         
-        if task.has_state():
-            state = XAPIState(**task.to_state())
+        if task_instance.has_state():
+            state = XAPIState(**task_instance.to_state())
 
         return stmt.to_full_statement(), state

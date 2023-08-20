@@ -15,8 +15,8 @@ class Initialized(XAPIAction):
             context=context
         )
         
-    def do(self, attempt, session_id, duration=None):
-        return None, self.verb
+    def start(self, **kwargs):
+        self.result = None
     
 
 class Completed(XAPIAction):
@@ -28,13 +28,12 @@ class Completed(XAPIAction):
             context=context
         )
 
-    def do(self, attempt, session_id, duration=None):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             success='true',
             completion='true',
             duration=iso8601.parse_sec_to_duration(random.randint(3,7)),
             extensions=None
         )
 
-        return result, self.verb
 

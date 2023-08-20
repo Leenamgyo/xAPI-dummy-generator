@@ -15,8 +15,8 @@ class Interacted(XAPIAction):
             context=context
         )
 
-    def do(self, attempt, session_id, duration=None):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             success="true",
             completion="true",
             duration=iso8601.parse_sec_to_duration(random.randint(3,5)),
@@ -25,7 +25,6 @@ class Interacted(XAPIAction):
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
             }
         )
-        return result
     
 class Answered(XAPIAction):
     def __init__(self, actor, obj, context):
@@ -36,8 +35,8 @@ class Answered(XAPIAction):
             context=context
         )
 
-    def do(self, attempt, session_id, duration=None):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             success="true",
             completion="true",
             duration=iso8601.parse_sec_to_duration(random.randint(3,5)),
@@ -47,5 +46,4 @@ class Answered(XAPIAction):
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
             }
         )
-        return result
     

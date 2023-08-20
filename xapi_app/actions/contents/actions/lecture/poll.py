@@ -15,8 +15,8 @@ class Answered(XAPIAction):
             context=context
         )
 
-    def do(self, duration, attempt, session_id):
-        result = XAPIResult(
+    def start(self, **kwargs):
+        self.result =  XAPIResult(
             success="true",
             completion="true",
             response=str(random.randint(1,4)),
@@ -25,4 +25,3 @@ class Answered(XAPIAction):
                 "https://w3id.org/xapi/cmi5/context/extensions/sessionid": session_id
             }
         )
-        return result
