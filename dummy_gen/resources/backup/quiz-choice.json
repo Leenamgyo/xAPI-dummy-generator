@@ -1,0 +1,363 @@
+
+    {
+      "objectType": "Activity",
+      "id": "http://example.com/quiz/questions/1",
+      "definition": {
+        "name": {
+          "en-US": "What is the capital of France?"
+        },
+        "description": {
+          "en-US": "Multiple Choice Question: Capital of France"
+        },
+        "interactionType": "choice",
+        "type": "choice",
+        "choices": [
+          {
+            "id": "a",
+            "description": {
+              "en-US": "London"
+            }
+          },
+          {
+            "id": "b",
+            "description": {
+              "en-US": "Paris"
+            }
+          },
+          {
+            "id": "c",
+            "description": {
+              "en-US": "Berlin"
+            }
+          },
+          {
+            "id": "d",
+            "description": {
+              "en-US": "Madrid"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objectType": "Activity",
+      "id": "http://example.com/quiz/questions/2",
+      "definition": {
+        "name": {
+          "en-US": "What is the largest planet in our solar system?"
+        },
+        "description": {
+          "en-US": "Multiple Choice Question: Largest Planet"
+        },
+        "interactionType": "choice",
+        "type": "choice",
+        "choices": [
+          {
+            "id": "a",
+            "description": {
+              "en-US": "Earth"
+            }
+          },
+          {
+            "id": "b",
+            "description": {
+              "en-US": "Mars"
+            }
+          },
+          {
+            "id": "c",
+            "description": {
+              "en-US": "Jupiter"
+            }
+          },
+          {
+            "id": "d",
+            "description": {
+              "en-US": "Venus"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objectType": "Activity",
+      "id": "http://example.com/quiz/questions/3",
+      "definition": {
+        "name": {
+          "en-US": "Which gas do plants primarily use for photosynthesis?"
+        },
+        "description": {
+          "en-US": "Multiple Choice Question: Gas for Photosynthesis"
+        },
+        "interactionType": "choice",
+        "type": "choice",
+        "choices": [
+          {
+            "id": "a",
+            "description": {
+              "en-US": "Oxygen"
+            }
+          },
+          {
+            "id": "b",
+            "description": {
+              "en-US": "Carbon Dioxide"
+            }
+          },
+          {
+            "id": "c",
+            "description": {
+              "en-US": "Nitrogen"
+            }
+          },
+          {
+            "id": "d",
+            "description": {
+              "en-US": "Hydrogen"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "objectType": "Activity",
+      "id": "http://example.com/quiz/questions/4",
+      "definition": {
+        "name": {
+          "en-US": "Who wrote the play 'Romeo and Juliet'?"
+        },
+        "description": {
+          "en-US": "Multiple Choice Question: Play Author"
+        },
+        "interactionType": "choice",
+        "type": "choice",
+        "choices": [
+          {
+            "id": "a",
+            "description": {
+              "en-US": "William Shakespeare"
+            }
+          },
+          {
+            "id": "b",
+            "description": {
+              "en-US": "Jane Austen"
+            }
+          },
+          {
+            "id": "c",
+            "description": {
+              "en-US": "Charles Dickens"
+            }
+          },
+          {
+            "id": "d",
+            "description": {
+              "en-US": "Mark Twain"
+            }
+          }
+        ]
+      }
+    },
+    [
+        {
+          "objectType": "Activity",
+          "id": "http://example.com/quiz/questions/1",
+          "definition": {
+            "name": {
+              "ko-KR": "한국의 수도는 무엇인가요?"
+            },
+            "description": {
+              "ko-KR": "객관식 문제: 한국의 수도"
+            },
+            "interactionType": "choice",
+            "type": "choice",
+            "choices": [
+              {
+                "id": "a",
+                "description": {
+                  "ko-KR": "서울"
+                }
+              },
+              {
+                "id": "b",
+                "description": {
+                  "ko-KR": "부산"
+                }
+              },
+              {
+                "id": "c",
+                "description": {
+                  "ko-KR": "대전"
+                }
+              },
+              {
+                "id": "d",
+                "description": {
+                  "ko-KR": "인천"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "objectType": "Activity",
+          "id": "http://example.com/quiz/questions/2",
+          "definition": {
+            "name": {
+              "ko-KR": "우리나라의 공용어는 무엇인가요?"
+            },
+            "description": {
+              "ko-KR": "객관식 문제: 공용어"
+            },
+            "interactionType": "choice",
+            "type": "choice",
+            "choices": [
+              {
+                "id": "a",
+                "description": {
+                  "ko-KR": "한국어"
+                }
+              },
+              {
+                "id": "b",
+                "description": {
+                  "ko-KR": "영어"
+                }
+              },
+              {
+                "id": "c",
+                "description": {
+                  "ko-KR": "중국어"
+                }
+              },
+              {
+                "id": "d",
+                "description": {
+                  "ko-KR": "일본어"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "objectType": "Activity",
+          "id": "http://example.com/quiz/questions/3",
+          "definition": {
+            "name": {
+              "ko-KR": "태양계에서 제일 큰 행성은 무엇일까요?"
+            },
+            "description": {
+              "ko-KR": "객관식 문제: 가장 큰 행성"
+            },
+            "interactionType": "choice",
+            "type": "choice",
+            "choices": [
+              {
+                "id": "a",
+                "description": {
+                  "ko-KR": "지구"
+                }
+              },
+              {
+                "id": "b",
+                "description": {
+                  "ko-KR": "화성"
+                }
+              },
+              {
+                "id": "c",
+                "description": {
+                  "ko-KR": "목성"
+                }
+              },
+              {
+                "id": "d",
+                "description": {
+                  "ko-KR": "금성"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "objectType": "Activity",
+          "id": "http://example.com/quiz/questions/4",
+          "definition": {
+            "name": {
+              "ko-KR": "반지의 제왕 시리즈의 작가는 누구일까요?"
+            },
+            "description": {
+              "ko-KR": "객관식 문제: 작가"
+            },
+            "interactionType": "choice",
+            "type": "choice",
+            "choices": [
+              {
+                "id": "a",
+                "description": {
+                  "ko-KR": "J.K. 롤링"
+                }
+              },
+              {
+                "id": "b",
+                "description": {
+                  "ko-KR": "J.R.R. 톨킨"
+                }
+              },
+              {
+                "id": "c",
+                "description": {
+                  "ko-KR": "조앤 K. 롤링"
+                }
+              },
+              {
+                "id": "d",
+                "description": {
+                  "ko-KR": "조지 R.R. 마틴"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "objectType": "Activity",
+          "id": "http://example.com/quiz/questions/5",
+          "definition": {
+            "name": {
+              "ko-KR": "금의 화학 기호는 무엇일까요?"
+            },
+            "description": {
+              "ko-KR": "객관식 문제: 화학 기호"
+            },
+            "interactionType": "choice",
+            "type": "choice",
+            "choices": [
+              {
+                "id": "a",
+                "description": {
+                  "ko-KR": "Ag"
+                }
+              },
+              {
+                "id": "b",
+                "description": {
+                  "ko-KR": "Au"
+                }
+              },
+              {
+                "id": "c",
+                "description": {
+                  "ko-KR": "Fe"
+                }
+              },
+              {
+                "id": "d",
+                "description": {
+                  "ko-KR": "Cu"
+                }
+              }
+            ]
+          }
+        }
+    ]      

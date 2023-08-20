@@ -1,0 +1,14 @@
+{
+    "https://class.whalespace.io/classes/class/id": ${class_id},
+    "https://class.whalespace.io/classes/class/name": "${class_name}",
+    "https://class.whalespace.io/classes/class/type": "${class_type}",
+    "https://class.whalespace.io/classes/class/chapters/chapter/id": ${chapter_id},
+    "https://class.whalespace.io/classes/class/chapters/chapter/name": "${chapter_name}",
+    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": ${lecture_id},
+    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "${lecture_name}",	
+    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "${lecture_type}",
+    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "${lecture_tag_subject}",
+    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "${lecture_tag}",
+    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "${lecture_start_date}",
+    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "${lecture_end_date}"
+}

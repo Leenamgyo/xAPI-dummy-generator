@@ -1,0 +1,4 @@
+{
+    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": ${content_id},
+    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": ${content_order}   
+}

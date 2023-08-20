@@ -1,0 +1,14 @@
+{
+    "id": "${object_id}",
+    "objectType": "Activity",
+    "definition": {
+        "name": {
+            "en-US": "${object_name}"
+        },
+        "description": {
+            "en-US": "${object_description}"
+        },
+        "type": "http://activitystrea.ms/schema/1.0/collection",
+        "extensions": ${object_extensions}
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "instructor": {
+        "objectType": "Group",
+        "account": {
+            "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+            "name": "학교1"
+        },
+        "member": [
+            {
+                "mbox": "mailto:999@class.whalespace.io",
+                "name": "웨일클래스 교수자1"
+            },
+            {
+                "mbox": "mailto:998@class.whalespace.io",
+                "name": "웨일클래스 교수자2"
+            }
+        ]
+    },
+    "team": {
+        "objectType": "Group",
+        "account": {
+            "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+            "name": "소속 기관"
+        }
+    },
+    "platform": "교육청별 웨일클래스 주소",
+    "contextActivities": {
+        "parent": [
+            {
+                "objectType": "Activity",
+                "id": "https://class.whalespace.io/data2/lectures/455106",
+                "definition": {
+                    "type": "http://activitystrea.ms/schema/1.0/read",
+                    "name": {
+                        "en-US": "클래스명"
+                    },
+                    "description": {
+                        "en-US": "null"
+                    }
+                }
+            }
+        ],
+        "category": [
+            {
+                "objectType": "Activity",
+                "id": "http://class.whalespace.io/xapi/profile/lecture"
+            }
+        ]
+    },
+    "extensions": {
+        
+    }
+}

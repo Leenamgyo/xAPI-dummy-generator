@@ -1,0 +1,605 @@
+[
+    {
+      "lecture_id": 1001,
+      "lecture_name": "수학 입문",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "수학",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-09-01T00:00:00Z",
+      "lecture_end_date": "2023-12-15T00:00:00Z"
+    },
+    {
+      "lecture_id": 1002,
+      "lecture_name": "영어 회화",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "영어",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-10-01T00:00:00Z",
+      "lecture_end_date": "2023-11-30T00:00:00Z"
+    },
+    {
+      "lecture_id": 1003,
+      "lecture_name": "세계 역사",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "역사",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-09-15T00:00:00Z",
+      "lecture_end_date": "2023-12-10T00:00:00Z"
+    },
+    {
+      "lecture_id": 1004,
+      "lecture_name": "프로그래밍 입문",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "컴퓨터 과학",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-10-15T00:00:00Z",
+      "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+      "lecture_id": 1005,
+      "lecture_name": "미술 감상",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "미술",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-09-01T00:00:00Z",
+      "lecture_end_date": "2023-11-15T00:00:00Z"
+    },
+    {
+      "lecture_id": 1006,
+      "lecture_name": "체육 및 피트니스",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "체육",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-09-01T00:00:00Z",
+      "lecture_end_date": "2023-11-30T00:00:00Z"
+    },
+    {
+      "lecture_id": 1007,
+      "lecture_name": "심리학 입문",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "심리학",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-09-15T00:00:00Z",
+      "lecture_end_date": "2023-12-15T00:00:00Z"
+    },
+    {
+      "lecture_id": 1008,
+      "lecture_name": "환경 과학",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "과학",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-10-01T00:00:00Z",
+      "lecture_end_date": "2023-12-10T00:00:00Z"
+    },
+    {
+      "lecture_id": 1009,
+      "lecture_name": "경영학",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "경영",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-09-15T00:00:00Z",
+      "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+      "lecture_id": 1010,
+      "lecture_name": "문학 입문",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "문학",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-09-01T00:00:00Z",
+      "lecture_end_date": "2023-11-15T00:00:00Z"
+    },
+    {
+      "lecture_id": 1011,
+      "lecture_name": "화학 입문",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "화학",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-09-01T00:00:00Z",
+      "lecture_end_date": "2023-11-30T00:00:00Z"
+    },
+    {
+      "lecture_id": 1012,
+      "lecture_name": "사회학",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "사회학",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-09-15T00:00:00Z",
+      "lecture_end_date": "2023-12-15T00:00:00Z"
+    },
+    {
+      "lecture_id": 1013,
+      "lecture_name": "외국어: 스페인어",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "언어",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-10-01T00:00:00Z",
+      "lecture_end_date": "2023-12-10T00:00:00Z"
+    },
+    {
+      "lecture_id": 1014,
+      "lecture_name": "물리학 입문",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "물리학",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-09-15T00:00:00Z",
+      "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+      "lecture_id": 1015,
+      "lecture_name": "건강과 웰니스",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "건강",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-09-01T00:00:00Z",
+      "lecture_end_date": "2023-11-15T00:00:00Z"
+    },
+    {
+      "lecture_id": 1016,
+      "lecture_name": "음악 감상",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "음악",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-09-01T00:00:00Z",
+      "lecture_end_date": "2023-11-30T00:00:00Z"
+    },
+    {
+      "lecture_id": 1017,
+      "lecture_name": "철학 입문",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "철학",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-09-15T00:00:00Z",
+      "lecture_end_date": "2023-12-15T00:00:00Z"
+    },
+    {
+      "lecture_id": 1018,
+      "lecture_name": "디지털 마케팅",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "마케팅",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-10-01T00:00:00Z",
+      "lecture_end_date": "2023-12-10T00:00:00Z"
+    },
+    {
+      "lecture_id": 1019,
+      "lecture_name": "경제학 입문",
+      "lecture_type": "lecture",
+      "lecture_tag_subject": "경제학",
+      "lecture_tag": "막학기",
+      "lecture_start_date": "2023-09-15T00:00:00Z",
+      "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 1020,
+        "lecture_name": "기술가정 입문",
+        "lecture_type": "lecture",
+        "lecture_tag_subject": "기술가정",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2001,
+        "lecture_name": "수학 퀴즈",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "수학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2002,
+        "lecture_name": "영어 퀴즈",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "영어",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2003,
+        "lecture_name": "과학 퀴즈",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "과학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2004,
+        "lecture_name": "역사 퀴즈",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "역사",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2005,
+        "lecture_name": "문학 퀴즈",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "문학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2006,
+        "lecture_name": "화학 퀴즈",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "exam",
+        "lecture_tag_subject": "화학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2007,
+        "lecture_name": "미술 퀴즈",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "exam",
+        "lecture_tag_subject": "미술",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2008,
+        "lecture_name": "체육 퀴즈",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "exam",
+        "lecture_tag_subject": "체육",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2009,
+        "lecture_name": "심리학 퀴즈",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "exam",
+        "lecture_tag_subject": "심리학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2010,
+        "lecture_name": "경제학 퀴즈",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "exam",
+        "lecture_tag_subject": "경제학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2011,
+        "lecture_name": "정치학 퀴즈",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "exam",
+        "lecture_tag_subject": "정치학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2012,
+        "lecture_name": "음악 퀴즈",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "음악",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2013,
+        "lecture_name": "스포츠 퀴즈",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "스포츠",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2014,
+        "lecture_name": "언어 퀴즈",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "언어",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2015,
+        "lecture_name": "생활 과학 퀴즈",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "생활 과학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+
+    {
+        "lecture_id": 3001,
+        "lecture_name": "수학 과제",
+        "lecture_type": "task",
+        "lecture_tag_subject": "수학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 3002,
+        "lecture_name": "영어 과제",
+        "lecture_type": "task",
+        "lecture_tag_subject": "영어",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 3003,
+        "lecture_name": "과학 과제",
+        "lecture_type": "task",
+        "lecture_tag_subject": "과학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 3004,
+        "lecture_name": "역사 과제",
+        "lecture_type": "task",
+        "lecture_tag_subject": "역사",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 3005,
+        "lecture_name": "문학 과제",
+        "lecture_type": "task",
+        "lecture_tag_subject": "문학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 3006,
+        "lecture_name": "화학 과제",
+        "lecture_type": "task",
+        "lecture_tag_subject": "화학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 3007,
+        "lecture_name": "미술 과제",
+        "lecture_type": "task",
+        "lecture_tag_subject": "미술",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 3008,
+        "lecture_name": "체육 과제",
+        "lecture_type": "task",
+        "lecture_tag_subject": "체육",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 3009,
+        "lecture_name": "심리학 과제",
+        "lecture_type": "task",
+        "lecture_tag_subject": "심리학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 3010,
+        "lecture_name": "경제학 과제",
+        "lecture_type": "task",
+        "lecture_tag_subject": "경제학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 3011,
+        "lecture_name": "정치학 과제",
+        "lecture_type": "task",
+        "lecture_tag_subject": "정치학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 3012,
+        "lecture_name": "음악 과제",
+        "lecture_type": "task",
+        "lecture_tag_subject": "음악",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 3013,
+        "lecture_name": "스포츠 과제",
+        "lecture_type": "task",
+        "lecture_tag_subject": "스포츠",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 3014,
+        "lecture_name": "언어 과제",
+        "lecture_type": "task",
+        "lecture_tag_subject": "언어",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 3015,
+        "lecture_name": "생활 과학 과제",
+        "lecture_type": "task",
+        "lecture_tag_subject": "생활 과학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+
+    {
+        "lecture_id": 4001,
+        "lecture_name": "수학 동료평가",
+        "lecture_type": "peer",
+        "lecture_tag_subject": "수학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 4002,
+        "lecture_name": "영어 동료평가",
+        "lecture_type": "peer",
+        "lecture_tag_subject": "영어",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 4003,
+        "lecture_name": "과학 동료평가",
+        "lecture_type": "peer",
+        "lecture_tag_subject": "과학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 4004,
+        "lecture_name": "역사 동료평가",
+        "lecture_type": "peer",
+        "lecture_tag_subject": "역사",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 4005,
+        "lecture_name": "문학 동료평가",
+        "lecture_type": "peer",
+        "lecture_tag_subject": "문학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 4006,
+        "lecture_name": "화학 동료평가",
+        "lecture_type": "peer",
+        "lecture_tag_subject": "화학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 4007,
+        "lecture_name": "미술 동료평가",
+        "lecture_type": "peer",
+        "lecture_tag_subject": "미술",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 4008,
+        "lecture_name": "체육 동료평가",
+        "lecture_type": "peer",
+        "lecture_tag_subject": "체육",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 4009,
+        "lecture_name": "심리학 동료평가",
+        "lecture_type": "peer",
+        "lecture_tag_subject": "심리학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 4010,
+        "lecture_name": "경제학 동료평가",
+        "lecture_type": "peer",
+        "lecture_tag_subject": "경제학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 4011,
+        "lecture_name": "정치학 동료평가",
+        "lecture_type": "peer",
+        "lecture_tag_subject": "정치학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 4012,
+        "lecture_name": "음악 동료평가",
+        "lecture_type": "peer",
+        "lecture_tag_subject": "음악",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 4013,
+        "lecture_name": "스포츠 동료평가",
+        "lecture_type": "peer",
+        "lecture_tag_subject": "스포츠",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 4014,
+        "lecture_name": "언어 동료평가",
+        "lecture_type": "peer",
+        "lecture_tag_subject": "언어",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 4015,
+        "lecture_name": "생활 과학 동료평가",
+        "lecture_type": "peer",
+        "lecture_tag_subject": "생활 과학",
+        "lecture_tag": "막학기",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    }
+]
+  

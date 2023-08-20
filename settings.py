@@ -1,0 +1,9 @@
+ATTEMPT_VALUE = 3
+
+# RESOURCE_PATH 
+RESOURCES_DIR = "resources"
+ACTOR_FILE_PATH = f"{RESOURCES_DIR}/actor/actor.json"
+
+OBJECT_CONTEXT_FILE_PATH = f"{RESOURCES_DIR}/object_context"
+LECTURE_PATH = f"{OBJECT_CONTEXT_FILE_PATH}/chapter_1/lecture_1"
+CONTENTS_PATH = f"{OBJECT_CONTEXT_FILE_PATH}/chapter_1/lecture_1"

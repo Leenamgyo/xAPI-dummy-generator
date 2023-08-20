@@ -1,0 +1,409 @@
+[
+    {
+      "content_name": "수학 문제 1",
+      "content_description": "3 + 5는?",
+      "correctResponsesPattern": "1",
+      "interactionType": "choice",
+      "score": 3,
+      "choices": [
+        {
+          "id": 1,
+          "content_description": "8"
+        },
+        {
+          "id": 2,
+          "content_description": "6"
+        },
+        {
+          "id": 3,
+          "content_description": "7"
+        },
+        {
+          "id": 4,
+          "content_description": "9"
+        }
+      ]
+    },
+    {
+      "content_name": "과학 문제 1",
+      "content_description": "물의 화학식은 무엇인가요?",
+      "correctResponsesPattern": "2",
+      "interactionType": "choice",
+      "score": 8,
+      "choices": [
+        {
+          "id": 1,
+          "content_description": "H2O"
+        },
+        {
+          "id": 2,
+          "content_description": "CO2"
+        },
+        {
+          "id": 3,
+          "content_description": "O2"
+        },
+        {
+          "id": 4,
+          "content_description": "N2"
+        }
+      ]
+    },
+    {
+      "content_name": "영어 문제 1",
+      "content_description": "다음 중 사과를 영어로 뭐라고 하나요?",
+      "correctResponsesPattern": "3",
+      "interactionType": "choice",
+      "score": 2,
+      "choices": [
+        {
+          "id": 1,
+          "content_description": "Banana"
+        },
+        {
+          "id": 2,
+          "content_description": "Orange"
+        },
+        {
+          "id": 3,
+          "content_description": "Apple"
+        },
+        {
+          "id": 4,
+          "content_description": "Grapes"
+        }
+      ]
+    },
+    {
+      "content_name": "역사 문제 1",
+      "content_description": "제2차 세계 대전이 끝난 연도는 언제인가요?",
+      "correctResponsesPattern": "1",
+      "interactionType": "choice",
+      "score": 7,
+      "choices": [
+        {
+          "id": 1,
+          "content_description": "1945년"
+        },
+        {
+          "id": 2,
+          "content_description": "1939년"
+        },
+        {
+          "id": 3,
+          "content_description": "1950년"
+        },
+        {
+          "id": 4,
+          "content_description": "1961년"
+        }
+      ]
+    },
+    {
+      "content_name": "문학 문제 1",
+      "content_description": "다음 중 김소월의 작품이 아닌 것은 무엇인가요?",
+      "correctResponsesPattern": "4",
+      "interactionType": "choice",
+      "score": 8,
+      "choices": [
+        {
+          "id": 1,
+          "content_description": "비나리"
+        },
+        {
+          "id": 2,
+          "content_description": "별똥빛"
+        },
+        {
+          "id": 3,
+          "content_description": "햇님"
+        },
+        {
+          "id": 4,
+          "content_description": "해피엔딩"
+        }
+      ]
+    },
+    {
+      "content_name": "체육 문제 1",
+      "content_description": "농구 경기에서 선수는 몇 명인가요?",
+      "correctResponsesPattern": "2",
+      "interactionType": "choice",
+      "score": 10,
+      "choices": [
+        {
+          "id": 1,
+          "content_description": "5명"
+        },
+        {
+          "id": 2,
+          "content_description": "10명"
+        },
+        {
+          "id": 3,
+          "content_description": "7명"
+        },
+        {
+          "id": 4,
+          "content_description": "6명"
+        }
+      ]
+    },
+    {
+      "content_name": "음악 문제 1",
+      "content_description": "바이올린은 몇 줄로 이루어져 있나요?",
+      "correctResponsesPattern": "1",
+      "interactionType": "choice",
+      "score": 2,
+      "choices": [
+        {
+          "id": 1,
+          "content_description": "4줄"
+        },
+        {
+          "id": 2,
+          "content_description": "6줄"
+        },
+        {
+          "id": 3,
+          "content_description": "8줄"
+        },
+        {
+          "id": 4,
+          "content_description": "5줄"
+        }
+      ]
+    },
+    {
+        "content_name": "영어 문제 1",
+        "content_description": "다음 중 사과를 영어로 뭐라고 하나요?",
+        "correctResponsesPattern": "3",
+        "interactionType": "choice",
+        "score": 3,
+        "choices": [
+        {
+            "id": 1,
+            "content_description": "Banana"
+        },
+        {
+            "id": 2,
+            "content_description": "Orange"
+        },
+        {
+            "id": 3,
+            "content_description": "Apple"
+        },
+        {
+            "id": 4,
+            "content_description": "Grapes"
+        }
+        ]
+    },
+    {
+        "content_name": "영어 문제 2",
+        "content_description": "다음 중 고양이를 영어로 뭐라고 하나요?",
+        "correctResponsesPattern": "2",
+        "interactionType": "choice",
+        "score": 10,
+        "choices": [
+        {
+            "id": 1,
+            "content_description": "Dog"
+        },
+        {
+            "id": 2,
+            "content_description": "Cat"
+        },
+        {
+            "id": 3,
+            "content_description": "Bird"
+        },
+        {
+            "id": 4,
+            "content_description": "Elephant"
+        }
+        ]
+    },
+    {
+        "content_name": "영어 문제 3",
+        "content_description": "다음 중 바다를 영어로 뭐라고 하나요?",
+        "correctResponsesPattern": "1",
+        "interactionType": "choice",
+        "score": 7,
+        "choices": [
+        {
+            "id": 1,
+            "content_description": "Sea"
+        },
+        {
+            "id": 2,
+            "content_description": "Lake"
+        },
+        {
+            "id": 3,
+            "content_description": "River"
+        },
+        {
+            "id": 4,
+            "content_description": "Mountain"
+        }
+        ]
+    },
+    {
+        "content_name": "영어 문제 4",
+        "content_description": "다음 중 비행기를 영어로 뭐라고 하나요?",
+        "correctResponsesPattern": "4",
+        "interactionType": "choice",
+        "score": 5,
+        "choices": [
+        {
+            "id": 1,
+            "content_description": "Train"
+        },
+        {
+            "id": 2,
+            "content_description": "Car"
+        },
+        {
+            "id": 3,
+            "content_description": "Bus"
+        },
+        {
+            "id": 4,
+            "content_description": "Airplane"
+        }
+        ]
+    },
+    {
+        "content_name": "영어 문제 5",
+        "content_description": "다음 중 책을 영어로 뭐라고 하나요?",
+        "correctResponsesPattern": "3",
+        "interactionType": "choice",
+        "score": 5,
+        "choices": [
+            {
+                "id": 1,
+                "content_description": "Pen"
+            },
+            {
+                "id": 2,
+                "content_description": "Pencil"
+            },
+            {
+                "id": 3,
+                "content_description": "Book"
+            },
+            {
+                "id": 4,
+                "content_description": "Desk"
+            }
+        ]
+    },
+        
+    {
+        "content_name": "수학 주관식 1",
+        "content_description": "7 곱하기 9는 무엇인가요?",
+        "interactionType": "fill-in",
+        "score": 8,
+        "correctResponsesPattern": ["63", "6 x 9"]
+    },
+    {
+        "content_name": "과학 주관식 1",
+        "content_description": "물의 화학식은 무엇인가요?",
+        "interactionType": "fill-in",
+        "score": 3,
+        "correctResponsesPattern": ["H2O", "Water"]
+    },
+    {
+        "content_name": "영어 주관식 1",
+        "content_description": "Apple을 한국어로 뭐라고 하나요?",
+        "interactionType": "fill-in",
+        "score": 6,
+        "correctResponsesPattern": ["사과", "apple"]
+    },
+    {
+        "content_name": "문학 주관식 1",
+        "content_description": "윤동주의 대표작은 무엇인가요?",
+        "interactionType": "fill-in",
+        "score": 9,
+        "correctResponsesPattern": ["하늘과 바람과 별과 시", "Sky and Wind and Stars and Poetry"]
+    },
+    {
+        "content_name": "체육 주관식 1",
+        "content_description": "축구 경기에서 골 넣기를 영어로 뭐라고 하나요?",
+        "interactionType": "fill-in",
+        "score": 4,
+        "correctResponsesPattern": ["goal", "scoring a goal"]
+    },
+    {
+        "content_name": "역사 주관식 1",
+        "content_description": "제1차 세계 대전이 발발한 연도는 언제인가요?",
+        "interactionType": "fill-in",
+        "score": 7,
+        "correctResponsesPattern": ["1914", "1914년"]
+    },
+    {
+        "content_name": "미술 주관식 1",
+        "content_description": "다윗의 다윗을 위한 조각을 누가 만들었나요?",
+        "interactionType": "fill-in",
+        "score": 5,
+        "correctResponsesPattern": ["미켈란젤로", "Michelangelo"]
+    },
+    {
+        "content_name": "경제 주관식 1",
+        "content_description": "수요와 공급이 균형을 이루는 시장 상태를 뭐라고 하나요?",
+        "interactionType": "fill-in",
+        "score": 2,
+        "correctResponsesPattern": ["시장 평형", "market equilibrium"]
+    },
+    {
+        "content_name": "심리학 주관식 1",
+        "content_description": "우울증의 대표적인 증상 중 하나는 무엇인가요?",
+        "interactionType": "fill-in",
+        "score": 10,
+        "correctResponsesPattern": ["무기력감", "lack of energy"]
+    },
+    {
+        "content_name": "정치 주관식 1",
+        "content_description": "한국의 대통령 임기는 몇 년인가요?",
+        "interactionType": "fill-in",
+        "score": 1,
+        "correctResponsesPattern": ["5", "5년"]
+    },
+
+    {
+        "content_name": "문학 서술형 1",
+        "content_description": "어떤 책을 가장 좋아하고 그 이유를 서술해보세요.",
+        "interactionType": "long-fill-in",
+        "score": 10,
+        "correctResponsesPattern": ""
+    },
+    {
+        "content_name": "과학 서술형 1",
+        "content_description": "인체에게 필요한 물질 중 하나인 단백질에 대해 설명해보세요.",
+        "interactionType": "long-fill-in",
+        "score": 8,
+        "correctResponsesPattern": ""
+    },
+    {
+        "content_name": "사회 서술형 1",
+        "content_description": "지금까지 받았던 가장 인상 깊은 교육 경험에 대해 적어보세요.",
+        "interactionType": "long-fill-in",
+        "score": 6,
+        "correctResponsesPattern": ""
+    },
+    {
+        "content_name": "예술 서술형 1",
+        "content_description": "당신이 가장 좋아하는 예술 작품을 선택하고 그 작품에 대한 감상을 써보세요.",
+        "interactionType": "long-fill-in",
+        "score": 9,
+        "correctResponsesPattern": ""
+    },
+    {
+        "content_name": "역사 서술형 1",
+        "content_description": "중요한 역사 사건 중 하나를 선택하고 그 사건의 영향을 서술해보세요.",
+        "interactionType": "long-fill-in",
+        "score": 7,
+        "correctResponsesPattern": ""
+    }     
+]

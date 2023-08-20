@@ -1,0 +1,14 @@
+# ChatGPT로 데이터 요청하면 example 같은 형식으로 받아 올 수 있기 때문에 
+# 사용 안함 
+
+# example
+{
+    "actor": {
+    "objectType": "Agent",
+    "name": "John Smith",
+    "account": {
+        "name": "john123",
+        "homepage": "https://example.com/accounts/john123"
+        }
+    }   
+},

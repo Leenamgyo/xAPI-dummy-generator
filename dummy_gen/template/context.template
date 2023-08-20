@@ -1,0 +1,11 @@
+{
+    "instructor": ${instructor},
+    "team": ${team},
+    "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+    "revision": "1.0",
+    "platform": "${platform}",
+    "contextActivities": ${contextActivities},
+    "extensions": ${extensions}
+}
+
+    

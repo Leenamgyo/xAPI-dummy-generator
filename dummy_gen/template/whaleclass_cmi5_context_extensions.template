@@ -1,0 +1,11 @@
+{
+    "https://class.whalespace.io/classes/class/period/startdate": "${class_startdate}",
+    "https://class.whalespace.io/classes/class/period/enddate": "${class_enddate}",
+    "https://class.whalespace.io/classes/class/certificate": "${class_certificate}",
+    "https://class.whalespace.io/classes/class/name": "${class_name}",
+    "https://class.whalespace.io/classes/class/id": "${class_id}",
+    "https://class.whalespace.io/classes/class/address": "${class_address}",
+    "https://class.whalespace.io/classes/class/type": "${class_type}",
+    "https://class.whalespace.io/classes/class/school-level": "${class_school_level}",
+    "https://class.whalespace.io/classes/class/subject-progress": ${class_subject_progress}
+}

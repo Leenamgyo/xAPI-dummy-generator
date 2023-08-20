@@ -1,0 +1,14 @@
+{
+    "class_id": 123,
+    "class_name": "행복한 클래스",
+    "class_type": "group",
+    "chapter_id": 123,
+    "chapter_name": "챕터 1",
+    "class_startdate": "2023-09-01",
+    "class_enddate": "2024-01-01",
+    "class_certificate": "true",
+    "class_address": "온라인 강의실",
+    "class_school_level": "초등학교",
+    "class_subject_progress": 0.9
+}
+  
