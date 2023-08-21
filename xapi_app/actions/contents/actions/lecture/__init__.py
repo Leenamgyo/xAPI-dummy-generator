@@ -5,7 +5,7 @@ from xapi_app.actions.contents.actions.lecture.url import Opened
 from xapi_app.actions.contents.actions.lecture.poll import Answered as PollAnswered
 from xapi_app.actions.contents.actions.lecture.common import Initialized, Completed
 
-from xapi_app.actions.contents.actions.lecture.moive import (
+from xapi_app.actions.contents.actions.lecture.movie import (
     Played as MoviePlayed,
     Paused as MoviePaused,
     Seeked as MovieSeeked,
@@ -18,4 +18,6 @@ from xapi_app.actions.contents.actions.lecture.exerc import (
     Interacted as ExercInteracted,
     Answered as ExercAnswered
 )
+
+
 

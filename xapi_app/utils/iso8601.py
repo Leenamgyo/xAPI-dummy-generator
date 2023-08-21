@@ -15,6 +15,7 @@
     Example:
         P3Y6M4DT12H30M5S
 """
+#TODO: 추후 제대로 만들 것 
 def parse_sec_to_duration(
         # period=None,
         # year=None,
@@ -27,12 +28,5 @@ def parse_sec_to_duration(
         second=None
     ):
     duration = ""
-
-    # if period:
-    #     duration += f"P{period}"
-    
-    # if year:
-    #     duration += "P"
-
     duration = f"{second}S"
     return duration

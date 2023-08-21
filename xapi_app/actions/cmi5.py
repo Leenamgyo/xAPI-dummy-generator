@@ -42,12 +42,12 @@ class Completed(XAPIAction):
 
     def start(self, **kwargs):
         self.result =  XAPIResult(
-            success=str(True),
-            completion=str(True),
+            success='true',
+            completion='true',
             duration=iso8601.parse_sec_to_duration(random.randint(3,7)),
-            score={},
+            score=kwargs["total_score"],
             extensions={
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt,
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"],
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/session_time": iso8601.parse_sec_to_duration(random.randint(1000, 3000))
             }
         )

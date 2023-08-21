@@ -10,7 +10,7 @@
         },
         "type": "http://activitystrea.ms/schema/1.0/collection",
         "interactionType": "${interactionType}",
-        "correctResponsesPattern": "${correctResponsesPattern}",
+        "correctResponsesPattern": ${correctResponsesPattern},
         "choices": ${choices},
         "extensions": ${object_extensions}
     }

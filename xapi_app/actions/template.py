@@ -1,5 +1,5 @@
 import random
-from xapi_app.actions.contents.actions import lecture 
+from xapi_app.actions.contents.actions import lecture, quiz
 
 
 class ContentsActionTemplate:
@@ -147,82 +147,82 @@ class LectureLiveTemplate(LectureActionTemplate):
         return items   
 
 
+# factory.regist(LectureTextTemplate, "lecture", "text")
+# factory.regist(LectureMovieTemplate, "lecture", "movie")
+# factory.regist(LectureMovieTemplate, "lecture", "image")
+# factory.regist(LectureExercTemplate, "lecture", "exerc")
+# factory.regist(LectureDocTemplate, "lecture", "doc")
+# factory.regist(LectureUrlTemplate, "lecture", "url")
+# factory.regist(LecturePollTemplate, "lecture", "poll")
+# factory.regist(LecturePollTemplate, "lecture", "live")
+
+
+class QuizChoiceTemplate(ContentsActionTemplate):
+    def __init__(self): 
+        super().__init__()
+    
+    def _initialize(self):
+        return quiz.ChoiceInitialized
+    
+    def _complated(self):
+        return quiz.ChoiceCompleted
+
+    def _add_actions(self):
+        items = list(
+            quiz.ChoiceAnswered,
+        )
+        return items   
+
+    def _hooks(self):
+        return [quiz.ChoiceChecked]
+
+
+class QuizFillinTemplate(ContentsActionTemplate):
+    def __init__(self): 
+        super().__init__()
+
+    def _initialize(self):
+        return quiz.FillInInitialized
+    
+    def _complated(self):
+        return quiz.FillInCompleted
+
+    def _hooks(self):
+        return [quiz.FillInChecked]
+    
+    def _add_actions(self):
+        items = list(
+            quiz.FillInCompleted
+        )
+        return items   
+
+class QuizLongFillinTemplate(ContentsActionTemplate):
+    def __init__(self): 
+        super().__init__()
+
+    def _initialize(self):
+        return quiz.LongFillInInitialized
+    
+    def _complated(self):
+        return quiz.LongFillInCompleted
+
+    def _hooks(self):
+        items = [
+            quiz.LongFillInChecked,
+            quiz.LongFillInScored
+        ]
+        return items
+                 
+    def _add_actions(self):
+        items = list(
+            quiz.LongFillInAnswered,
+        )
+        return items 
+        
 factory = ContentsFactory()
-factory.regist(LectureTextTemplate, "lecture", "text")
-factory.regist(LectureMovieTemplate, "lecture", "movie")
-factory.regist(LectureMovieTemplate, "lecture", "image")
-factory.regist(LectureExercTemplate, "lecture", "exerc")
-factory.regist(LectureDocTemplate, "lecture", "doc")
-factory.regist(LectureUrlTemplate, "lecture", "url")
-factory.regist(LecturePollTemplate, "lecture", "poll")
-factory.regist(LecturePollTemplate, "lecture", "live")
+factory.regist(QuizChoiceTemplate, "quiz", "choice")
+factory.regist(QuizFillinTemplate, "quiz", "fill-in")
+factory.regist(QuizLongFillinTemplate, "quiz", "long-fill-in")
 
-
-
-# from xapi_app.actions.template import ContentsActionTemplate, factory
-
-# class PeerTemplate(ContentsActionTemplate):
-#     def __init__(self): 
-#         super().__init__()
-
-#     def hooks(self):
-#         return [Read]
-
-
-# factory.regist(PeerTemplate, "peer")
-
-
-# from xapi_app.actions.template import ContentsActionTemplate, factory
-
-# class QuizChoiceTemplate(ContentsActionTemplate):
-#     def __init__(self): 
-#         super().__init__()
-
-#     def hooks(self):
-#         return [Read]
-
-# class QuizFillinTemplate(ContentsActionTemplate):
-#     def __init__(self): 
-#         super().__init__()
-
-#     def hooks(self):
-#         return [Read]
-
-# class QuizLongFillinTemplate(ContentsActionTemplate):
-#     def __init__(self): 
-#         super().__init__()
-
-#     def hooks(self):
-#         return [Read]
-    
-# factory.regist(QuizChoiceTemplate, "quiz", "choice")
-# factory.regist(QuizFillinTemplate, "quiz", "fill-in")
-# factory.regist(QuizLongFillinTemplate, "quiz", "long-fill-in")
-
-# from xapi_app.actions.template import ContentsActionTemplate, factory
-
-# class SurveyChoiceTemplate(ContentsActionTemplate):
-#     def __init__(self): 
-#         super().__init__()
-
-#     def hooks(self):
-#         return [Read]
-    
-  
-# class SurveyFillinTemplate(ContentsActionTemplate):
-#     def __init__(self): 
-#         super().__init__()
-
-#     def hooks(self):
-#         return [Read]
-
-# class SurveyLongFillinTemplate(ContentsActionTemplate):
-#     def __init__(self): 
-#         super().__init__()
-
-#     def hooks(self):
-#         return [Read]
-    
-# factory.regist(SurveyChoiceTemplate, "survey", "choice")
 # factory.regist(SurveyFillinTemplate, "survey", "fill-in")
 # factory.regist(SurveyLongFillinTemplate, "survey", "long-fiil-in")

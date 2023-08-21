@@ -18,8 +18,7 @@ def extra_content_data(content_info, object_extensions):
 
 def extra_data(lecture_info, object_extensions):
     if lecture_info["lecture_type"] == "quiz":
-        pass
-        # t_lecture["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/quiz-type"] = lecture["lecture_quiz_type"]
+        object_extensions["https://class.whalespace.io/classes/clss/chapters/chapter/lectures/lecture/quiz-type"] = lecture_info["lecture_quiz_type"]
     elif lecture_info["lecture_type"] == "task":
         pass
     elif lecture_info["lecture_type"] == "peer":

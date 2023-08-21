@@ -21,8 +21,8 @@ class Interacted(XAPIAction):
             completion="true",
             duration=iso8601.parse_sec_to_duration(random.randint(3,5)),
             extensions={
-                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": session_id,
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"],
+                "https://w3id.org/xapi/cmi5/context/extensions/sessionid ": kwargs["session_id"]
             }
         )
     
@@ -36,14 +36,24 @@ class Answered(XAPIAction):
         )
 
     def start(self, **kwargs):
+        score_max = 100
+        score_min = 0
+        score_raw = random.randint(20, 100)
+
         self.result =  XAPIResult(
             success="true",
             completion="true",
             duration=iso8601.parse_sec_to_duration(random.randint(3,5)),
-            score={},
+            score={
+                "max": score_max,
+                "min": score_min,
+                "raw": random.randint(20, 100),
+                "scaled": score_raw/score_max
+            },
             extensions={
-                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": session_id,
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"],
+                "https://w3id.org/xapi/cmi5/context/extensions/sessionid ": kwargs["session_id"]
             }
         )
     
+        return self.result.score

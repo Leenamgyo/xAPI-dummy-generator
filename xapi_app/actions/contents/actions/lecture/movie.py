@@ -15,11 +15,11 @@ class Played(XAPIAction):
             context=context
         )
     
-    def start(self, session_id, duration=None, attempt=None):
+    def start(self, **kwargs):
         self.result =  XAPIResult(
             success="true",
             extensions={
-                "https://w3id.org/xapi/video/extensions/session-id": session_id,
+                "https://w3id.org/xapi/video/extensions/session-id": kwargs["session_id"],
                 "https://w3id.org/xapi/video/extensions/time":"",
                 "https://w3id.org/xapi/video/extensions/played-segments":""
             }
@@ -34,7 +34,7 @@ class Seeked(XAPIAction):
             context=context
         )
 
-    def start(self, duration, attempt, session_id):
+    def start(self, **kwargs):
         self.result =  XAPIResult(
             success="true",
             extensions={
@@ -73,7 +73,7 @@ class Interacted(XAPIAction):
             context=context
         )
 
-    def start(self, duration, attempt, session_id):
+    def start(self, **kwargs):
         self.result =  XAPIResult(
             success="true",
             extensions={
@@ -93,7 +93,7 @@ class Completed(XAPIAction):
             context=context
         )
 
-    def start(self, duration):
+    def start(self, **kwargs):
         self.result =  XAPIResult(
             success="true",
             completion="true",

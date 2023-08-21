@@ -10,7 +10,6 @@ def store_json(file_path, data):
         raise FileNotFoundError
     
     
-
 def load_json(file_path):
     try:
         with open(file_path) as f:

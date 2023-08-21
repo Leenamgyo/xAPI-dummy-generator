@@ -2,300 +2,396 @@
     {
       "content_name": "수학 문제 1",
       "content_description": "3 + 5는?",
-      "correctResponsesPattern": "1",
+      "correctResponsesPattern": ["1"],
       "interactionType": "choice",
       "score": 3,
       "choices": [
         {
-          "id": 1,
-          "content_description": "8"
+          "id": "1",
+          "description": {
+            "en-US": "8"
+          } 
         },
         {
-          "id": 2,
-          "content_description": "6"
+          "id": "2",
+          "description": {
+            "en-US":"6" 
+          } 
         },
         {
-          "id": 3,
-          "content_description": "7"
+          "id": "3",
+          "description": {
+            "en-US":"7"
+          } 
         },
         {
-          "id": 4,
-          "content_description": "9"
+          "id": "4",
+          "description": {
+            "en-US":"9"
+          } 
         }
       ]
     },
     {
       "content_name": "과학 문제 1",
       "content_description": "물의 화학식은 무엇인가요?",
-      "correctResponsesPattern": "2",
+      "correctResponsesPattern": ["2"],
       "interactionType": "choice",
       "score": 8,
       "choices": [
         {
-          "id": 1,
-          "content_description": "H2O"
+          "id": "1",
+          "description": {
+            "en-US":"H2O"
+          } 
         },
         {
-          "id": 2,
-          "content_description": "CO2"
+          "id": "2",
+          "description": {
+            "en-US":"CO2"
+          }
         },
         {
-          "id": 3,
-          "content_description": "O2"
+          "id": "3",
+          "description": {
+            "en-US":"O2"
+          } 
         },
         {
-          "id": 4,
-          "content_description": "N2"
+          "id": "4",
+          "description": {
+            "en-US":"N2"
+          }
         }
       ]
     },
     {
       "content_name": "영어 문제 1",
       "content_description": "다음 중 사과를 영어로 뭐라고 하나요?",
-      "correctResponsesPattern": "3",
+      "correctResponsesPattern": ["3"],
       "interactionType": "choice",
       "score": 2,
       "choices": [
         {
-          "id": 1,
-          "content_description": "Banana"
+          "id": "1",
+          "description": {
+            "en-US":"Banana"
+          }
         },
         {
-          "id": 2,
-          "content_description": "Orange"
+          "id": "2",
+          "description": {
+            "en-US":"Orange"
+          } 
         },
         {
-          "id": 3,
-          "content_description": "Apple"
+          "id": "3",
+          "description": {
+            "en-US":"Apple"
+          } 
         },
         {
-          "id": 4,
-          "content_description": "Grapes"
+          "id": "4",
+          "description": {
+            "en-US":"Grapes"
+          } 
         }
       ]
     },
     {
       "content_name": "역사 문제 1",
       "content_description": "제2차 세계 대전이 끝난 연도는 언제인가요?",
-      "correctResponsesPattern": "1",
+      "correctResponsesPattern": ["1"],
       "interactionType": "choice",
       "score": 7,
       "choices": [
         {
-          "id": 1,
-          "content_description": "1945년"
+          "id": "1",
+          "description": {
+            "en-US":"1945년"
+          } 
         },
         {
-          "id": 2,
-          "content_description": "1939년"
+          "id": "2",
+          "description": {
+            "en-US":"1939년"
+          } 
         },
         {
-          "id": 3,
-          "content_description": "1950년"
+          "id": "3",
+          "description": {
+            "en-US":"1950년"
+          } 
         },
         {
-          "id": 4,
-          "content_description": "1961년"
+          "id": "4",
+          "description": {
+            "en-US":"1961년"
+          } 
         }
       ]
     },
     {
       "content_name": "문학 문제 1",
       "content_description": "다음 중 김소월의 작품이 아닌 것은 무엇인가요?",
-      "correctResponsesPattern": "4",
+      "correctResponsesPattern": ["4"],
       "interactionType": "choice",
       "score": 8,
       "choices": [
         {
-          "id": 1,
-          "content_description": "비나리"
+          "id": "1",
+          "description": {
+            "en-US":"비나리"
+          } 
         },
         {
-          "id": 2,
-          "content_description": "별똥빛"
+          "id": "2",
+          "description": {
+            "en-US":"별똥빛"
+          } 
         },
         {
-          "id": 3,
-          "content_description": "햇님"
+          "id": "3",
+          "description": {
+            "en-US":"햇님"
+          } 
         },
         {
-          "id": 4,
-          "content_description": "해피엔딩"
+          "id": "4",
+          "description": {
+            "en-US":"해피엔딩"
+          } 
         }
       ]
     },
     {
       "content_name": "체육 문제 1",
       "content_description": "농구 경기에서 선수는 몇 명인가요?",
-      "correctResponsesPattern": "2",
+      "correctResponsesPattern": ["2"],
       "interactionType": "choice",
       "score": 10,
       "choices": [
         {
-          "id": 1,
-          "content_description": "5명"
+          "id": "1",
+          "description": {
+            "en-US":"5명"
+          } 
         },
         {
-          "id": 2,
-          "content_description": "10명"
+          "id": "2",
+          "description": {
+            "en-US":"10명"
+          } 
         },
         {
-          "id": 3,
-          "content_description": "7명"
+          "id": "3",
+          "description": {
+            "en-US":"7명"
+          } 
         },
         {
-          "id": 4,
-          "content_description": "6명"
+          "id": "4",
+          "description": {
+            "en-US":"6명"
+          } 
         }
       ]
     },
     {
       "content_name": "음악 문제 1",
       "content_description": "바이올린은 몇 줄로 이루어져 있나요?",
-      "correctResponsesPattern": "1",
+      "correctResponsesPattern": ["1"],
       "interactionType": "choice",
       "score": 2,
       "choices": [
         {
-          "id": 1,
-          "content_description": "4줄"
+          "id": "1",
+          "description": {
+            "en-US":"4줄"
+          } 
         },
         {
-          "id": 2,
-          "content_description": "6줄"
+          "id": "2",
+          "description": {
+            "en-US":"6줄"
+          }
         },
         {
-          "id": 3,
-          "content_description": "8줄"
+          "id": "3",
+          "description": {
+            "en-US":"8줄"
+          } 
         },
         {
-          "id": 4,
-          "content_description": "5줄"
+          "id": "4",
+          "description": {
+            "en-US":"5줄"
+          } 
         }
       ]
     },
     {
         "content_name": "영어 문제 1",
         "content_description": "다음 중 사과를 영어로 뭐라고 하나요?",
-        "correctResponsesPattern": "3",
+        "correctResponsesPattern": ["3"],
         "interactionType": "choice",
         "score": 3,
         "choices": [
         {
-            "id": 1,
-            "content_description": "Banana"
+            "id": "1",
+            "description": {
+              "en-US":"Banana"
+            }
         },
         {
-            "id": 2,
-            "content_description": "Orange"
+            "id": "2",
+            "description": {
+              "en-US":"Orange"
+            }
         },
         {
-            "id": 3,
-            "content_description": "Apple"
+            "id": "3",
+            "description": {
+                "en-US":"Apple"
+              } 
         },
         {
-            "id": 4,
-            "content_description": "Grapes"
+            "id": "4",
+            "description": {
+              "en-US":"Grapes"
+            } 
         }
         ]
     },
     {
         "content_name": "영어 문제 2",
         "content_description": "다음 중 고양이를 영어로 뭐라고 하나요?",
-        "correctResponsesPattern": "2",
+        "correctResponsesPattern": ["2"],
         "interactionType": "choice",
         "score": 10,
         "choices": [
         {
-            "id": 1,
-            "content_description": "Dog"
+            "id": "1",
+            "description": {
+              "en-US":"Dog"
+            } 
         },
         {
-            "id": 2,
-            "content_description": "Cat"
+            "id": "2",
+            "description": {
+              "en-US":"Cat"
+            } 
         },
         {
-            "id": 3,
-            "content_description": "Bird"
+            "id": "3",
+            "description": {
+              "en-US":"Bird"
+            } 
         },
         {
-            "id": 4,
-            "content_description": "Elephant"
+            "id": "4",
+            "description": {
+              "en-US":"Elephant"
+             }
         }
         ]
     },
     {
         "content_name": "영어 문제 3",
         "content_description": "다음 중 바다를 영어로 뭐라고 하나요?",
-        "correctResponsesPattern": "1",
+        "correctResponsesPattern": ["1"],
         "interactionType": "choice",
         "score": 7,
         "choices": [
         {
-            "id": 1,
-            "content_description": "Sea"
+            "id": "1",
+            "description": {
+              "en-US":"Sea"
+            }  
         },
         {
-            "id": 2,
-            "content_description": "Lake"
+            "id": "2",
+            "description": {
+              "en-US":"Lake"
+             } 
         },
         {
-            "id": 3,
-            "content_description": "River"
+            "id": "3",
+            "description": {
+              "en-US":"River"
+            }
         },
         {
-            "id": 4,
-            "content_description": "Mountain"
+            "id": "4",
+            "description": {
+              "en-US":"Mountain"
+            } 
         }
         ]
     },
     {
         "content_name": "영어 문제 4",
         "content_description": "다음 중 비행기를 영어로 뭐라고 하나요?",
-        "correctResponsesPattern": "4",
+        "correctResponsesPattern": ["4"],
         "interactionType": "choice",
         "score": 5,
         "choices": [
         {
-            "id": 1,
-            "content_description": "Train"
+            "id": "1",
+            "description": {
+              "en-US":"Train"
+            } 
         },
         {
-            "id": 2,
-            "content_description": "Car"
+            "id": "2",
+            "description": {
+              "en-US": "Car"
+            }
         },
         {
-            "id": 3,
-            "content_description": "Bus"
+            "id": "3",
+            "description": {
+              "en-US": "Bus"
+            } 
         },
         {
-            "id": 4,
-            "content_description": "Airplane"
+            "id": "4",
+            "description": {
+              "en-US": "Airplane"
+            }
         }
         ]
     },
     {
         "content_name": "영어 문제 5",
         "content_description": "다음 중 책을 영어로 뭐라고 하나요?",
-        "correctResponsesPattern": "3",
+        "correctResponsesPattern": ["3"],
         "interactionType": "choice",
         "score": 5,
         "choices": [
             {
-                "id": 1,
-                "content_description": "Pen"
+                "id": "1",
+                "description": {
+                  "en-US":"Pen"
+                } 
             },
             {
-                "id": 2,
-                "content_description": "Pencil"
+                "id": "2",
+                "description": {
+                  "en-US": "Pencil"
+                }
             },
             {
-                "id": 3,
-                "content_description": "Book"
+                "id": "3",
+                "description": {
+                  "en-US": "Book"
+                }
             },
             {
-                "id": 4,
-                "content_description": "Desk"
+                "id": "4",
+                "description": {
+                    "en-US":"Desk"
+                }
             }
         ]
     },
@@ -376,34 +472,34 @@
         "content_description": "어떤 책을 가장 좋아하고 그 이유를 서술해보세요.",
         "interactionType": "long-fill-in",
         "score": 10,
-        "correctResponsesPattern": ""
+        "correctResponsesPattern": [""]
     },
     {
         "content_name": "과학 서술형 1",
         "content_description": "인체에게 필요한 물질 중 하나인 단백질에 대해 설명해보세요.",
         "interactionType": "long-fill-in",
         "score": 8,
-        "correctResponsesPattern": ""
+        "correctResponsesPattern": [""]
     },
     {
         "content_name": "사회 서술형 1",
         "content_description": "지금까지 받았던 가장 인상 깊은 교육 경험에 대해 적어보세요.",
         "interactionType": "long-fill-in",
         "score": 6,
-        "correctResponsesPattern": ""
+        "correctResponsesPattern": [""]
     },
     {
         "content_name": "예술 서술형 1",
         "content_description": "당신이 가장 좋아하는 예술 작품을 선택하고 그 작품에 대한 감상을 써보세요.",
         "interactionType": "long-fill-in",
         "score": 9,
-        "correctResponsesPattern": ""
+        "correctResponsesPattern": [""]
     },
     {
         "content_name": "역사 서술형 1",
         "content_description": "중요한 역사 사건 중 하나를 선택하고 그 사건의 영향을 서술해보세요.",
         "interactionType": "long-fill-in",
         "score": 7,
-        "correctResponsesPattern": ""
+        "correctResponsesPattern": [""]
     }     
 ]

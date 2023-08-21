@@ -1,7 +1,7 @@
 import uuid
 from xapi_app.actions import cmi5
 from xapi_app.types import XAPIStatement, XAPIActor, XAPIObject, XAPIContext, XAPIState
-from xapi_app.actions.template import ContentsFactory, factory
+from xapi_app.actions.template import factory
 
 
 class Cmi5Scenario: 
@@ -29,6 +29,7 @@ class Cmi5Scenario:
             cmi5.Launched(actor, lecture_object, lecture_context), 
             cmi5.Initialized(actor, lecture_object, lecture_context),
         )
+
         for contents in self.contents:
             keys =[] 
             definition = contents["object"]["definition"]
@@ -50,9 +51,26 @@ class Cmi5Scenario:
         return self._run(task_queue)
 
     def _run(self, task_queue: list):
+        total_score = {
+            "max": 0,
+            "min": 0,
+            "scaled": 0,
+            "raw": 0,
+        }
+
         while task_queue:
-            task_instance = task_queue.pop()    
-            task_instance.start(attempt=self.attempt)
+            # TODO: cmi5와 contents의 run을 분리할 것 
+            task_instance = task_queue.pop()
+            score = task_instance.start(
+                attempt=self.attempt,
+                session_id=self.session_id,
+                total_score=total_score
+            )
+
+            if score:
+                total_score["max"] = score["max"]
+                total_score["raw"] = score["raw"]
+                total_score["scaled"] = score["raw"] / score["max"]
             
             yield self._result_model(
                 task_instance, 
