@@ -7,6 +7,8 @@ from locust import HttpUser, TaskSet, task, between
 from xapi_app.scenario import Cmi5Scenario
 from xapi_app.utils import file
 
+from copy import deepcopy
+
 
 # TODO: Locust user의 instance 수와 actor을 매칭할 수 있으면 actor의 수대로 실행이 가능해서 attmpt 관리가 가능하다
 
@@ -35,6 +37,18 @@ class User(HttpUser):
         session_id = str(uuid.uuid4())
         attempt = random.randint(1, 3)
         object_extensions = self._get_object_extensions()
+        
+        origin_id = deepcopy(str(object_extensions[0]["object"]["definition"]["extensions"]["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id"]))
+        lecture_id = deepcopy(int(str(20000) + str(random.randint(1, 300))))
+        print(lecture_id)
+
+        object_extensions[0]["object"]["definition"]["extensions"]["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id"] = lecture_id
+        object_extensions[0]["object"]["id"] = object_extensions[0]["object"]["id"].replace(f"/lecture/{origin_id}", f"/lecture/{lecture_id}")
+
+        for contents in object_extensions[1]:
+            contents["object"]["definition"]["extensions"]["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id"] = lecture_id
+            contents["object"]["id"] = contents["object"]["id"].replace(f"/lecture/{origin_id}", f"/lecture/{lecture_id}")
+
         scenario = Cmi5Scenario(
             session_id=session_id,
             attempt=attempt,

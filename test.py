@@ -32,7 +32,6 @@ def _get_actor():
 def _get_object_extensions():
     return _object_extensions[random.randint(1, 100) % len(_object_extensions)] 
 
-
 session_id = str(uuid.uuid4())
 attempt = random.randint(1, 3)
 object_extensions = _get_object_extensions()

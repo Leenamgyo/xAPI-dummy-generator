@@ -1,4 +1,5 @@
 import uuid
+from copy import deepcopy
 import random
 from xapi_app.actions import cmi5
 from xapi_app.types import XAPIStatement, XAPIActor, XAPIObject, XAPIContext, XAPIState
@@ -22,11 +23,7 @@ class Cmi5Scenario:
 
     def run_complted_with_contents(self):
         actor = XAPIActor(**self.actor)
-        origin_id = self.lecture["object"]["definition"]["extensions"]["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id"]
-        lecture_id = int(str(origin_id) + str(random.randint(1, 100)))
 
-        self.lecture["object"]["definition"]["extensions"]["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id"] = lecture_id    
-        self.lecture["object"]["id"] = self.lecture["object"]["id"].replace(f"/lecture/{origin_id}", f"/lecture/{lecture_id}")
         lecture_object = XAPIObject(**self.lecture["object"])
         lecture_context = XAPIContext(**self.lecture["context"])
 
@@ -35,8 +32,6 @@ class Cmi5Scenario:
         task_queue.append(cmi5.Initialized(actor, lecture_object, lecture_context)) 
 
         for contents in self.contents:
-            contents["object"]["definition"]["extensions"]["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id"] = lecture_id    
-            contents["object"]["id"] = contents["object"]["id"].replace(f"/lecture/{origin_id}", f"/lecture/{lecture_id}")
             keys =[] 
             definition = contents["object"]["definition"]
             keys.append(definition['extensions']["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type"])
