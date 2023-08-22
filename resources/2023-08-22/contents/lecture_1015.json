@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/10152353",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/1015946",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc2ec\ub9ac\ud559 \uc785\ubb38"
+                    "en-US": "\ud30c\uc774\uc36c \uae30\ucd08"
                 },
                 "description": {
-                    "en-US": "\uc2ec\ub9ac\ud559\uacfc \uc778\uac04 \ud589\ub3d9\uc758 \uae30\ubcf8 \uac1c\ub150\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                    "en-US": "\ud30c\uc774\uc36c \ud504\ub85c\uadf8\ub798\ubc0d \uc5b8\uc5b4\uc758 \uae30\ucd08\ub97c \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10152353,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1015946,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -85,18 +85,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/10152440",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/10151662",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ubb38\ud559 \ubd84\uc11d"
+                    "en-US": "\uae30\ud6c4 \ubcc0\ud654 \uc0ac\uc2e4\uacfc \ud574\uacb0\ucc45"
                 },
                 "description": {
-                    "en-US": "\ubb38\ud559 \uc791\ud488\uc744 \ubd84\uc11d\ud558\uace0 \ud574\uc11d\ud569\ub2c8\ub2e4."
+                    "en-US": "\uae30\ud6c4 \ubcc0\ud654\ub97c \uc774\ud574\ud558\uace0 \ub300\uc751 \ubc29\ubc95\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10152440,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10151662,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -169,18 +169,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/10151316",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/1015982",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc790\ub8cc \uad6c\uc870\uc640 \uc54c\uace0\ub9ac\uc998"
+                    "en-US": "Video Editing Techniques"
                 },
                 "description": {
-                    "en-US": "\uc77c\ubc18\uc801\uc778 \uc790\ub8cc \uad6c\uc870\uc640 \uc54c\uace0\ub9ac\uc998\uc744 \uc774\ud574\ud569\ub2c8\ub2e4."
+                    "en-US": "Learn various video editing techniques."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10151316,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1015982,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -253,18 +253,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/10152806",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/1015617",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Guide to Astrophotography"
+                    "en-US": "Introduction to Microbiology"
                 },
                 "description": {
-                    "en-US": "Capturing stunning photos of celestial objects."
+                    "en-US": "Basic concepts in microbiology and microbial life."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10152806,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1015617,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -337,18 +337,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/1015686",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/10152869",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc6f9 \uac1c\ubc1c \uae30\ucd08"
+                    "en-US": "\uc2ec\ub9ac\ud559 \uc785\ubb38"
                 },
                 "description": {
-                    "en-US": "HTML, CSS \ubc0f JavaScript \uc18c\uac1c\uc785\ub2c8\ub2e4."
+                    "en-US": "\uc2ec\ub9ac\ud559\uacfc \uc778\uac04 \ud589\ub3d9\uc758 \uae30\ubcf8 \uac1c\ub150\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1015686,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10152869,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 5,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -421,18 +421,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/1015339",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/10151670",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uac1d\uccb4 \uc9c0\ud5a5 \ud504\ub85c\uadf8\ub798\ubc0d \uc6d0\ub9ac"
+                    "en-US": "Digital Illustration"
                 },
                 "description": {
-                    "en-US": "\uac1d\uccb4 \uc9c0\ud5a5 \ud504\ub85c\uadf8\ub798\ubc0d\uc758 \uae30\ubcf8 \uc6d0\ub9ac\ub97c \ud0d0\uad6c\ud569\ub2c8\ub2e4."
+                    "en-US": "Creating digital art using illustration software."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1015339,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10151670,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 6,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -505,7 +505,7 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/10152041",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/10151834",
             "objectType": "Activity",
             "definition": {
                 "name": {
@@ -516,7 +516,7 @@
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10152041,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10151834,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 7,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -589,18 +589,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/1015136",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/1015130",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Digital Illustration"
+                    "en-US": "\ubbf8\uc0dd\ubb3c\ud559 \uc785\ubb38"
                 },
                 "description": {
-                    "en-US": "Creating digital art using illustration software."
+                    "en-US": "\ubbf8\uc0dd\ubb3c\ud559\uacfc \ubbf8\uc0dd\ubb3c \uc0dd\uba85\uc758 \uae30\ubcf8 \uac1c\ub150\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1015136,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1015130,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 8,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -673,18 +673,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/101521",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/10152898",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ucd08\ubcf4\uc790\ub97c \uc704\ud55c \uc694\ub9ac \uc548\ub0b4\uc11c"
+                    "en-US": "Guide to Astrophotography"
                 },
                 "description": {
-                    "en-US": "\ucd08\ubcf4\uc790\ub97c \uc704\ud55c \uc694\ub9ac \ud301\uacfc \uc26c\uc6b4 \ub808\uc2dc\ud53c\uc785\ub2c8\ub2e4."
+                    "en-US": "Capturing stunning photos of celestial objects."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 101521,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10152898,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 9,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -757,18 +757,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/10152188",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1015/contents/10151369",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ube44\ub514\uc624 \ud3b8\uc9d1 \uae30\ubc95"
+                    "en-US": "Beginners Guide to Cooking"
                 },
                 "description": {
-                    "en-US": "\ub2e4\uc591\ud55c \ube44\ub514\uc624 \ud3b8\uc9d1 \uae30\uc220\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                    "en-US": "Cooking tips and easy recipes for beginners."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10152188,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10151369,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 10,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

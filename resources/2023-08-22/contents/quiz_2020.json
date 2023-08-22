@@ -1,11 +1,11 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/2020995",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/20202187",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc5ed\uc0ac \uc11c\uc220\ud615 1"
+                    "en-US": "\uacfc\ud559 \uc11c\uc220\ud615 1"
                 },
                 "description": {
                     "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
@@ -13,10 +13,10 @@
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "interactionType": "long-fill-in",
                 "correctResponsesPattern": [
-                    ""
+                    "\ub2e8\ubc31\uc9c8\uc740 \uc138\ud3ec \uad6c\uc870\uc640 \uae30\ub2a5\uc5d0 \uc911\uc694\ud558\uba70, \ud6a8\uc18c, \ud56d\uccb4 \ub4f1 \ub2e4\uc591\ud55c \uc5ed\ud560\uc744 \uc218\ud589\ud558\uba70 \uc601\uc591\uc18c \ubc0f \uc870\uc9c1 \uad6c\uc131 \uc694\uc18c\ub85c \uae30\ub2a5\ud569\ub2c8\ub2e4."
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2020995,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20202187,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -90,48 +90,23 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/20201589",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/2020676",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc601\uc5b4 \ubb38\uc81c 5"
+                    "en-US": "\uc5ed\uc0ac \uc8fc\uad00\uc2dd 1"
                 },
                 "description": {
-                    "en-US": "\uc11c\uc220"
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "choice",
+                "interactionType": "fill-in",
                 "correctResponsesPattern": [
-                    "3"
-                ],
-                "choices": [
-                    {
-                        "id": "1",
-                        "description": {
-                            "en-US": "Pen"
-                        }
-                    },
-                    {
-                        "id": "2",
-                        "description": {
-                            "en-US": "Pencil"
-                        }
-                    },
-                    {
-                        "id": "3",
-                        "description": {
-                            "en-US": "Book"
-                        }
-                    },
-                    {
-                        "id": "4",
-                        "description": {
-                            "en-US": "Desk"
-                        }
-                    }
+                    "1914",
+                    "1914\ub144"
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20201589,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2020676,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -205,48 +180,23 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/2020602",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/20201286",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uacfc\ud559 \ubb38\uc81c 1"
+                    "en-US": "\uc601\uc5b4 \uc8fc\uad00\uc2dd 1"
                 },
                 "description": {
-                    "en-US": "\uc11c\uc220"
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "choice",
+                "interactionType": "fill-in",
                 "correctResponsesPattern": [
-                    "2"
-                ],
-                "choices": [
-                    {
-                        "id": "1",
-                        "description": {
-                            "en-US": "H2O"
-                        }
-                    },
-                    {
-                        "id": "2",
-                        "description": {
-                            "en-US": "CO2"
-                        }
-                    },
-                    {
-                        "id": "3",
-                        "description": {
-                            "en-US": "O2"
-                        }
-                    },
-                    {
-                        "id": "4",
-                        "description": {
-                            "en-US": "N2"
-                        }
-                    }
+                    "\uc0ac\uacfc",
+                    "apple"
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2020602,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20201286,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -320,48 +270,22 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/20201382",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/2020352",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Art Quiz 3"
+                    "en-US": "ChatGPT's Favorite Topics 3"
                 },
                 "description": {
-                    "en-US": "\uc11c\uc220"
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "choice",
+                "interactionType": "long-fill-in",
                 "correctResponsesPattern": [
-                    "1"
-                ],
-                "choices": [
-                    {
-                        "id": "1",
-                        "description": {
-                            "en-US": "Blue and Yellow"
-                        }
-                    },
-                    {
-                        "id": "2",
-                        "description": {
-                            "en-US": "Red and Green"
-                        }
-                    },
-                    {
-                        "id": "3",
-                        "description": {
-                            "en-US": "Black and White"
-                        }
-                    },
-                    {
-                        "id": "4",
-                        "description": {
-                            "en-US": "Orange and Purple"
-                        }
-                    }
+                    "\uc778\uacf5 \uc9c0\ub2a5\uacfc \uba38\uc2e0 \ub7ec\ub2dd\uc758 \ubc1c\uc804\uc740 \uc5ec\ub7ec \ubd84\uc57c\uc5d0\uc11c \ud604\uc2e4 \uc138\uacc4\uc758 \ubb38\uc81c\ub97c \ud574\uacb0\ud558\ub294 \ub370 \ud070 \uae30\uc5ec\ub97c \ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uc608\ub97c \ub4e4\uc5b4 \uc758\ub8cc \ubd84\uc57c\uc5d0\uc11c\ub294 \uc778\uacf5 \uc9c0\ub2a5\uc744 \ud65c\uc6a9\ud558\uc5ec \uc9c8\ubcd1 \uc9c4\ub2e8\uacfc \uc608\uce21\uc744 \uac1c\uc120\ud558\uace0 \uc57d\ubb3c \uac1c\ubc1c\uc744 \uac00\uc18d\ud654\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4. \ub610\ud55c \uad50\ud1b5 \ubd84\uc57c\uc5d0\uc11c\ub294 \uc790\uc728 \uc8fc\ud589 \ucc28\ub7c9\uc774 \uad50\ud1b5 \uc548\uc804\uc131\uc744 \ud5a5\uc0c1\uc2dc\ud0a4\uba70 \ud658\uacbd \ubb38\uc81c\uc5d0 \ub300\ud55c \ub300\uc548\uc744 \uc81c\uc2dc\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uba38\uc2e0 \ub7ec\ub2dd\uc740 \uae08\uc735 \ubd84\uc57c\uc5d0\uc11c\ub3c4 \ubd80\uc815 \uac70\ub798 \ud0d0\uc9c0\uc640 \uc2e0\uc6a9 \ud3c9\uac00\ub97c \uac1c\uc120\ud558\uba70 \uacbd\uc81c \uc608\uce21\uc744 \uc218\ud589\ud558\ub294 \ub370 \uc0ac\uc6a9\ub418\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uc774\ub7ec\ud55c \uae30\uc220\uc758 \ubc1c\uc804\uc740 \ub2e4\uc591\ud55c \ubd84\uc57c\uc5d0\uc11c \ud601\uc2e0\uacfc \ud6a8\uc728\uc131\uc744 \ucd09\uc9c4\ud558\uba70 \ub354 \ub098\uc740 \ubbf8\ub798\ub97c \ubaa8\uc0c9\ud558\uac8c \ub418\ub294 \ub370 \uae30\uc5ec\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4."
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20201382,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2020352,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -435,11 +359,11 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/2020191",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/20202659",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Literature Open-ended 3"
+                    "en-US": "\ubbf8\uc220 \uc8fc\uad00\uc2dd 1"
                 },
                 "description": {
                     "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
@@ -447,11 +371,11 @@
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "interactionType": "fill-in",
                 "correctResponsesPattern": [
-                    "\uace0\uc804 \ub85c\ub9e8\uc2a4",
-                    "Classical Romance"
+                    "\ubbf8\ucf08\ub780\uc824\ub85c",
+                    "Michelangelo"
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2020191,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20202659,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 5,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -525,22 +449,23 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/202042",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/2020338",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc0ac\ud68c \uc11c\uc220\ud615 1"
+                    "en-US": "\uc218\ud559 \uc8fc\uad00\uc2dd 1"
                 },
                 "description": {
                     "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "long-fill-in",
+                "interactionType": "fill-in",
                 "correctResponsesPattern": [
-                    "\ucc3d\uc758\uc801 \ubb38\uc81c \ud574\uacb0 \uac15\uc870\ud558\ub294 \uc218\uc5c5. \uc790\uc720\ub85c\uc6b4 \uc0ac\uace0\uc640 \ud611\ub825\uc744 \ud1b5\ud574 \uc0c8\ub85c\uc6b4 \uc544\uc774\ub514\uc5b4 \ubc1c\uc804\uc2dc\ud0a4\ub294 \uacfc\uc815\uc774 \uc778\uc0c1\uae4a\uc5c8\uc74c."
+                    "63",
+                    "6 x 9"
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 202042,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2020338,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 6,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -614,22 +539,48 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/2020765",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/20202393",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "ChatGPT's Favorite Topics 3"
+                    "en-US": "\uc601\uc5b4 \ubb38\uc81c 5"
                 },
                 "description": {
-                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
+                    "en-US": "\uc11c\uc220"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "long-fill-in",
+                "interactionType": "choice",
                 "correctResponsesPattern": [
-                    ""
+                    "3"
+                ],
+                "choices": [
+                    {
+                        "id": "1",
+                        "description": {
+                            "en-US": "Pen"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "description": {
+                            "en-US": "Pencil"
+                        }
+                    },
+                    {
+                        "id": "3",
+                        "description": {
+                            "en-US": "Book"
+                        }
+                    },
+                    {
+                        "id": "4",
+                        "description": {
+                            "en-US": "Desk"
+                        }
+                    }
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2020765,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20202393,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 7,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -703,48 +654,23 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/20201432",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/20202269",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc601\uc5b4 \ubb38\uc81c 4"
+                    "en-US": "Literature Open-ended 1"
                 },
                 "description": {
-                    "en-US": "\uc11c\uc220"
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "choice",
+                "interactionType": "fill-in",
                 "correctResponsesPattern": [
-                    "4"
-                ],
-                "choices": [
-                    {
-                        "id": "1",
-                        "description": {
-                            "en-US": "Train"
-                        }
-                    },
-                    {
-                        "id": "2",
-                        "description": {
-                            "en-US": "Car"
-                        }
-                    },
-                    {
-                        "id": "3",
-                        "description": {
-                            "en-US": "Bus"
-                        }
-                    },
-                    {
-                        "id": "4",
-                        "description": {
-                            "en-US": "Airplane"
-                        }
-                    }
+                    "\ud558\ub298\uacfc \ubc14\ub78c\uacfc \ubcc4\uacfc \uc2dc",
+                    "Sky and Wind and Stars and Poetry"
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20201432,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20202269,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 8,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -818,11 +744,11 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/20202432",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/20201336",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Literature Open-ended 1"
+                    "en-US": "\ubb38\ud559 \uc8fc\uad00\uc2dd 1"
                 },
                 "description": {
                     "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
@@ -834,7 +760,7 @@
                     "Sky and Wind and Stars and Poetry"
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20202432,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20201336,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 9,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -908,23 +834,22 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/2020126",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2020/contents/20201911",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc5ed\uc0ac \uc8fc\uad00\uc2dd 1"
+                    "en-US": "History Essay 1"
                 },
                 "description": {
                     "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "fill-in",
+                "interactionType": "long-fill-in",
                 "correctResponsesPattern": [
-                    "1914",
-                    "1914\ub144"
+                    ""
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2020126,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20201911,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 10,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

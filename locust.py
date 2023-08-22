@@ -38,16 +38,16 @@ class User(HttpUser):
         attempt = random.randint(1, 3)
         object_extensions = self._get_object_extensions()
         
-        origin_id = deepcopy(str(object_extensions[0]["object"]["definition"]["extensions"]["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id"]))
-        lecture_id = deepcopy(int(str(20000) + str(random.randint(1, 300))))
-        print(lecture_id)
+        # origin_id = deepcopy(str(object_extensions[0]["object"]["definition"]["extensions"]["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id"]))
+        # lecture_id = deepcopy(int(str(20000) + str(random.randint(1, 300))))
+        # print(lecture_id)
 
-        object_extensions[0]["object"]["definition"]["extensions"]["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id"] = lecture_id
-        object_extensions[0]["object"]["id"] = object_extensions[0]["object"]["id"].replace(f"/lecture/{origin_id}", f"/lecture/{lecture_id}")
+        # object_extensions[0]["object"]["definition"]["extensions"]["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id"] = lecture_id
+        # object_extensions[0]["object"]["id"] = object_extensions[0]["object"]["id"].replace(f"/lecture/{origin_id}", f"/lecture/{lecture_id}")
 
-        for contents in object_extensions[1]:
-            contents["object"]["definition"]["extensions"]["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id"] = lecture_id
-            contents["object"]["id"] = contents["object"]["id"].replace(f"/lecture/{origin_id}", f"/lecture/{lecture_id}")
+        # for contents in object_extensions[1]:
+        #     contents["object"]["definition"]["extensions"]["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id"] = lecture_id
+        #     contents["object"]["id"] = contents["object"]["id"].replace(f"/lecture/{origin_id}", f"/lecture/{lecture_id}")
 
         scenario = Cmi5Scenario(
             session_id=session_id,
