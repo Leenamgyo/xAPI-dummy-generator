@@ -3,6 +3,7 @@ import json
 from datetime import date
 import random
 import utils
+from copy import deepcopy
 import urllib3
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -36,7 +37,7 @@ def main():
 
     result_lecture_contents = list()
     for lecture_info in lecture_infos:
-        lecture_one_multiple_content = []
+
         lecture_info = utils.dicts.update_not_duplicated_key(lecture_info, class_info)
         lecture_info["object_id"] = f"{OBJECT_ID_PREFIX}/{lecture_info['lecture_id']}"
         lecture_info["object_name"] = lecture_info["lecture_name"]
@@ -49,12 +50,13 @@ def main():
 
         context_extensions: str = utils.files.load_template_subs("dummy_gen/template/whaleclass_cmi5_context_extensions.template", **lecture_info)
         context_extensions: dict = json.loads(context_extensions)
-        lecture_info["context_extensions"] = context_extensions
+        lecture_context = deepcopy(context_info)
+        lecture_context["extensions"] = context_extensions
 
         xapi_object = utils.files.load_template_subs("dummy_gen/template/default_object.template", **lecture_info)   
         xapi_object: dict = json.loads(xapi_object)
 
-        xapi_context = utils.files.load_template_subs("dummy_gen/template/context.template", **context_info)   
+        xapi_context = utils.files.load_template_subs("dummy_gen/template/context.template", **lecture_context)   
         xapi_context: dict = json.loads(xapi_context)
         result_lecture = dict({"object":xapi_object, "context": xapi_context})
         

@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/10052145",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/1005723",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc138\uacc4 \uc5ed\uc0ac \uc18c\uac1c"
+                    "en-US": "\uc790\ub8cc \uad6c\uc870\uc640 \uc54c\uace0\ub9ac\uc998"
                 },
                 "description": {
-                    "en-US": "\uc138\uacc4 \uc5ed\uc0ac\uc758 \uc8fc\uc694 \uc0ac\uac74\uc744 \ud0d0\uad6c\ud569\ub2c8\ub2e4."
+                    "en-US": "\uc77c\ubc18\uc801\uc778 \uc790\ub8cc \uad6c\uc870\uc640 \uc54c\uace0\ub9ac\uc998\uc744 \uc774\ud574\ud569\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10052145,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1005723,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -85,18 +85,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/10052024",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/1005958",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uae30\ud6c4 \ubcc0\ud654 \uc0ac\uc2e4\uacfc \ud574\uacb0\ucc45"
+                    "en-US": "\uc694\uac00 \uae30\ucd08"
                 },
                 "description": {
-                    "en-US": "\uae30\ud6c4 \ubcc0\ud654\ub97c \uc774\ud574\ud558\uace0 \ub300\uc751 \ubc29\ubc95\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                    "en-US": "\uae30\ubcf8 \uc694\uac00 \ud3ec\uc988\uc640 \uc774\uc644 \uae30\uc220\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10052024,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1005958,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -169,18 +169,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/1005645",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/1005286",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Introduction to Machine Learning"
+                    "en-US": "\uac1d\uccb4 \uc9c0\ud5a5 \ud504\ub85c\uadf8\ub798\ubc0d \uc6d0\ub9ac"
                 },
                 "description": {
-                    "en-US": "Basic concepts and applications of machine learning."
+                    "en-US": "\uac1d\uccb4 \uc9c0\ud5a5 \ud504\ub85c\uadf8\ub798\ubc0d\uc758 \uae30\ubcf8 \uc6d0\ub9ac\ub97c \ud0d0\uad6c\ud569\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1005645,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1005286,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -253,18 +253,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/10051926",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/10052641",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ub514\uc9c0\ud138 \uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158"
+                    "en-US": "Literary Analysis"
                 },
                 "description": {
-                    "en-US": "\uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158 \uc18c\ud504\ud2b8\uc6e8\uc5b4\ub97c \uc0ac\uc6a9\ud558\uc5ec \ub514\uc9c0\ud138 \uc544\ud2b8\ub97c \ub9cc\ub4ed\ub2c8\ub2e4."
+                    "en-US": "Analyzing and interpreting works of literature."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10051926,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10052641,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -337,18 +337,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/10051227",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/1005299",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Art of Storytelling"
+                    "en-US": "\uc9d1\uc5d0\uc11c \ud560 \uc218 \uc788\ub294 \ubb3c\ub9ac \uc2e4\ud5d8"
                 },
                 "description": {
-                    "en-US": "Crafting compelling stories through writing and presentation."
+                    "en-US": "\uac00\uc815\uc6a9 \ubb3c\ud488\uc744 \uc0ac\uc6a9\ud558\uc5ec \ubb3c\ub9ac \uc2e4\ud5d8\uc744 \uc218\ud589\ud569\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10051227,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1005299,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 5,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -421,18 +421,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/10051447",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/1005246",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc2ec\ub9ac\ud559 \uc785\ubb38"
+                    "en-US": "\uc6d0\uc608 \ucd08\ubcf4\uc790\ub97c \uc704\ud55c \uc548\ub0b4\uc11c"
                 },
                 "description": {
-                    "en-US": "\uc2ec\ub9ac\ud559\uacfc \uc778\uac04 \ud589\ub3d9\uc758 \uae30\ubcf8 \uac1c\ub150\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                    "en-US": "\uc815\uc6d0 \uac00\uafb8\uae30\uc640 \uc2dd\ubb3c \uad00\ub9ac\uc5d0 \ub300\ud55c \ud301\uc785\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10051447,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1005246,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 6,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -505,18 +505,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/10052106",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/1005950",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Data Structures and Algorithms"
+                    "en-US": "Web Development Basics"
                 },
                 "description": {
-                    "en-US": "Understanding common data structures and algorithms."
+                    "en-US": "Introduction to HTML, CSS, and JavaScript."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10052106,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1005950,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 7,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -589,18 +589,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/10051271",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/1005397",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc6d0\uc608 \ucd08\ubcf4\uc790\ub97c \uc704\ud55c \uc548\ub0b4\uc11c"
+                    "en-US": "Beginners Guide to Gardening"
                 },
                 "description": {
-                    "en-US": "\uc815\uc6d0 \uac00\uafb8\uae30\uc640 \uc2dd\ubb3c \uad00\ub9ac\uc5d0 \ub300\ud55c \ud301\uc785\ub2c8\ub2e4."
+                    "en-US": "Tips for starting your own garden and plant care."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10051271,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1005397,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 8,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -673,18 +673,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/10051149",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/1005510",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ucd08\ubcf4\uc790\ub97c \uc704\ud55c \uc694\ub9ac \uc548\ub0b4\uc11c"
+                    "en-US": "Live Q&A Session: Space Exploration"
                 },
                 "description": {
-                    "en-US": "\ucd08\ubcf4\uc790\ub97c \uc704\ud55c \uc694\ub9ac \ud301\uacfc \uc26c\uc6b4 \ub808\uc2dc\ud53c\uc785\ub2c8\ub2e4."
+                    "en-US": "Interactive session discussing recent space exploration developments."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10051149,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1005510,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 9,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -757,18 +757,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/10051816",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/1005237",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Video Editing Techniques"
+                    "en-US": "Object-Oriented Programming Principles"
                 },
                 "description": {
-                    "en-US": "Learn various video editing techniques."
+                    "en-US": "Exploring the principles of OOP."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10051816,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1005237,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 10,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

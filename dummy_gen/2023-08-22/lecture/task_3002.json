@@ -77,6 +77,16 @@
                 }
             ]
         },
-        "extensions": {}
+        "extensions": {
+            "https://class.whalespace.io/classes/class/period/startdate": "2023-09-01",
+            "https://class.whalespace.io/classes/class/period/enddate": "2024-01-01",
+            "https://class.whalespace.io/classes/class/certificate": "true",
+            "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+            "https://class.whalespace.io/classes/class/id": "123",
+            "https://class.whalespace.io/classes/class/address": "\uc628\ub77c\uc778 \uac15\uc758\uc2e4",
+            "https://class.whalespace.io/classes/class/type": "group",
+            "https://class.whalespace.io/classes/class/school-level": "\ucd08\ub4f1\ud559\uad50",
+            "https://class.whalespace.io/classes/class/subject-progress": 0.9
+        }
     }
 }
