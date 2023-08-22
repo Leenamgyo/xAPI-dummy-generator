@@ -17,11 +17,11 @@ class Answered(XAPIAction):
 
     def start(self, **kwargs):
         self.result =  XAPIResult(
-            success="true",
-            completion="true",
+            success=True,
+            completion=True,
             response=str(random.randint(1,4)),
             duration=iso8601.parse_sec_to_duration(random.randint(3, 5)),
             extensions={
-                "https://w3id.org/xapi/cmi5/context/extensions/sessionid ": kwargs["session_id"]
+                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": kwargs["session_id"]
             }
         )

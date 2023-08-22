@@ -3,13 +3,16 @@ import json
 from datetime import date
 import random
 import utils
+import urllib3
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 OBJECT_ID_PREFIX = "https://class.whalespace.io/bubblecon-guide/lecture"
 DIR_PATH = f"dummy_gen/{str(date.today())}"
 
 def find_contents(lecture):
     contents = utils.files.load_json_file(f"dummy_gen/whaleclass/{lecture['lecture_type']}_contents.json")
-    selected = random.sample(contents, 4)
+    selected = random.sample(contents, 10)
     return selected
 
 

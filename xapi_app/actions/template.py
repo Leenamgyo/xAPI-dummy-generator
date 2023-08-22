@@ -168,9 +168,7 @@ class QuizChoiceTemplate(ContentsActionTemplate):
         return quiz.ChoiceCompleted
 
     def _add_actions(self):
-        items = list(
-            quiz.ChoiceAnswered,
-        )
+        items = [quiz.ChoiceAnswered]
         return items   
 
     def _hooks(self):
@@ -191,9 +189,7 @@ class QuizFillinTemplate(ContentsActionTemplate):
         return [quiz.FillInChecked]
     
     def _add_actions(self):
-        items = list(
-            quiz.FillInCompleted
-        )
+        items = [quiz.FillInCompleted]
         return items   
 
 class QuizLongFillinTemplate(ContentsActionTemplate):
@@ -207,16 +203,11 @@ class QuizLongFillinTemplate(ContentsActionTemplate):
         return quiz.LongFillInCompleted
 
     def _hooks(self):
-        items = [
-            quiz.LongFillInChecked,
-            quiz.LongFillInScored
-        ]
+        items = [quiz.LongFillInChecked, quiz.LongFillInScored]
         return items
                  
     def _add_actions(self):
-        items = list(
-            quiz.LongFillInAnswered,
-        )
+        items = [quiz.LongFillInAnswered]
         return items 
         
 factory = ContentsFactory()

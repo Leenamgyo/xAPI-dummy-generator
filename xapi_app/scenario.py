@@ -1,4 +1,5 @@
 import uuid
+import random
 from xapi_app.actions import cmi5
 from xapi_app.types import XAPIStatement, XAPIActor, XAPIObject, XAPIContext, XAPIState
 from xapi_app.actions.template import factory
@@ -21,16 +22,21 @@ class Cmi5Scenario:
 
     def run_complted_with_contents(self):
         actor = XAPIActor(**self.actor)
+        origin_id = self.lecture["object"]["definition"]["extensions"]["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id"]
+        lecture_id = int(str(origin_id) + str(random.randint(1, 100)))
+
+        self.lecture["object"]["definition"]["extensions"]["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id"] = lecture_id    
+        self.lecture["object"]["id"] = self.lecture["object"]["id"].replace(f"/lecture/{origin_id}", f"/lecture/{lecture_id}")
         lecture_object = XAPIObject(**self.lecture["object"])
         lecture_context = XAPIContext(**self.lecture["context"])
 
         task_queue = []
-        task_queue.append(
-            cmi5.Launched(actor, lecture_object, lecture_context), 
-            cmi5.Initialized(actor, lecture_object, lecture_context),
-        )
+        task_queue.append(cmi5.Launched(actor, lecture_object, lecture_context))
+        task_queue.append(cmi5.Initialized(actor, lecture_object, lecture_context)) 
 
         for contents in self.contents:
+            contents["object"]["definition"]["extensions"]["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id"] = lecture_id    
+            contents["object"]["id"] = contents["object"]["id"].replace(f"/lecture/{origin_id}", f"/lecture/{lecture_id}")
             keys =[] 
             definition = contents["object"]["definition"]
             keys.append(definition['extensions']["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type"])
@@ -51,47 +57,27 @@ class Cmi5Scenario:
         return self._run(task_queue)
 
     def _run(self, task_queue: list):
-        total_score = {
-            "max": 0,
-            "min": 0,
-            "scaled": 0,
-            "raw": 0,
-        }
-
         while task_queue:
             # TODO: cmi5와 contents의 run을 분리할 것 
-            task_instance = task_queue.pop()
+            task_instance = task_queue.pop(0)
             score = task_instance.start(
                 attempt=self.attempt,
-                session_id=self.session_id,
-                total_score=total_score
+                session_id=self.session_id
             )
-
-            if score:
-                total_score["max"] = score["max"]
-                total_score["raw"] = score["raw"]
-                total_score["scaled"] = score["raw"] / score["max"]
             
-            yield self._result_model(
-                task_instance, 
-                task_instance.actor, 
-                task_instance.obj, 
-                task_instance.verb, 
-                task_instance.result, 
-                task_instance.context
-            )
+            yield self._result_model(task_instance)
 
-    def _result_model(self, task_instance, actor, obj, verb, result, context):
+    def _result_model(self, task_instance):
         state = None
         stmt = XAPIStatement(
-            actor=actor,
-            object=obj,
-            verb=verb,
-            result=result,
-            context=context
+            actor=task_instance.actor,
+            object=task_instance.obj,
+            verb=task_instance.verb,
+            result=task_instance.result,
+            context=task_instance.context
         )
         
         if task_instance.has_state():
-            state = XAPIState(**task_instance.to_state())
+            state = XAPIState(*task_instance.to_state())
 
         return stmt.to_full_statement(), state

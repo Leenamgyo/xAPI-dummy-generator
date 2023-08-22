@@ -329,7 +329,166 @@
         "lecture_start_date": "2023-09-15T00:00:00Z",
         "lecture_end_date": "2023-12-31T00:00:00Z"
     },
-
+    {
+        "lecture_id": 2016,
+        "lecture_name": "English Vocabulary Quiz",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "영어",
+        "lecture_tag": "end-of-semester",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2017,
+        "lecture_name": "Grammar Quiz 1",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "exam",
+        "lecture_tag_subject": "영어",
+        "lecture_tag": "end-of-semester",
+        "lecture_start_date": "2023-09-18T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2018,
+        "lecture_name": "Listening Comprehension 1",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "영어",
+        "lecture_tag": "end-of-semester",
+        "lecture_start_date": "2023-09-21T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },    
+    {
+        "lecture_id": 2019,
+        "lecture_name": "Introduction to Programming Concepts",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "정보",
+        "lecture_tag": "end-of-semester",
+        "lecture_start_date": "2023-09-21T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
+    {
+        "lecture_id": 2020,
+        "lecture_name": "Data Structures and Algorithms Quiz",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "exam",
+        "lecture_tag_subject": "정보",
+        "lecture_tag": "midterm",
+        "lecture_start_date": "2023-10-05T00:00:00Z",
+        "lecture_end_date": "2023-11-15T00:00:00Z"
+    },
+    {
+        "lecture_id": 2020,
+        "lecture_name": "Data Structures and Algorithms Quiz",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "exam",
+        "lecture_tag_subject": "정보",
+        "lecture_tag": "midterm",
+        "lecture_start_date": "2023-10-05T00:00:00Z",
+        "lecture_end_date": "2023-11-15T00:00:00Z"
+    },
+    {
+        "lecture_id": 2021,
+        "lecture_name": "Introduction to Art History",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "미술",
+        "lecture_tag": "beginning-of-semester",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-11-30T00:00:00Z"
+    },
+    {
+        "lecture_id": 2022,
+        "lecture_name": "Famous Artists and Their Works",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "미술",
+        "lecture_tag": "midterm",
+        "lecture_start_date": "2023-10-10T00:00:00Z",
+        "lecture_end_date": "2023-11-20T00:00:00Z"
+    },
+    {
+        "lecture_id": 2023,
+        "lecture_name": "Modern Art Movements",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "exam",
+        "lecture_tag_subject": "미술",
+        "lecture_tag": "end-of-semester",
+        "lecture_start_date": "2023-11-01T00:00:00Z",
+        "lecture_end_date": "2023-12-15T00:00:00Z"
+    },
+    {
+        "lecture_id": 2024,
+        "lecture_name": "Music History: Baroque Period",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "음악",
+        "lecture_tag": "beginning-of-semester",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-11-30T00:00:00Z"
+    },
+    {
+        "lecture_id": 2025,
+        "lecture_name": "Introduction to Jazz",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "음악",
+        "lecture_tag": "midterm",
+        "lecture_start_date": "2023-10-10T00:00:00Z",
+        "lecture_end_date": "2023-11-20T00:00:00Z"
+    },    
+    {
+        "lecture_id": 2026,
+        "lecture_name": "Rock and Roll Legends",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "exam",
+        "lecture_tag_subject": "음악",
+        "lecture_tag": "end-of-semester",
+        "lecture_start_date": "2023-11-01T00:00:00Z",
+        "lecture_end_date": "2023-12-15T00:00:00Z"
+    },
+    {
+        "lecture_id": 2027,
+        "lecture_name": "Introduction to World Geography",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "여행",
+        "lecture_tag": "beginning-of-semester",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-11-30T00:00:00Z"
+    },
+    {
+        "lecture_id": 2028,
+        "lecture_name": "Cultural Exploration: Europe",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "여행",
+        "lecture_tag": "midterm",
+        "lecture_start_date": "2023-10-10T00:00:00Z",
+        "lecture_end_date": "2023-11-20T00:00:00Z"
+    },
+    {
+        "lecture_id": 2029,
+        "lecture_name": "Adventures in Nature: National Parks",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "exam",
+        "lecture_tag_subject": "여행",
+        "lecture_tag": "end-of-semester",
+        "lecture_start_date": "2023-11-01T00:00:00Z",
+        "lecture_end_date": "2023-12-15T00:00:00Z"
+    },
+    {
+        "lecture_id": 2030,
+        "lecture_name": "Vocabulary Challenge 1",
+        "lecture_type": "quiz",
+        "lecture_quiz_type": "self-study",
+        "lecture_tag_subject": "영어",
+        "lecture_tag": "end-of-semester",
+        "lecture_start_date": "2023-09-15T00:00:00Z",
+        "lecture_end_date": "2023-12-31T00:00:00Z"
+    },
     {
         "lecture_id": 3001,
         "lecture_name": "수학 과제",
