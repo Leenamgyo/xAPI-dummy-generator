@@ -1,5 +1,5 @@
 import random
-from xapi_app.actions.contents.actions import lecture, quiz
+from xapi_app.actions.contents.actions import lecture, quiz, task
 
 
 class ContentsActionTemplate:
@@ -214,6 +214,30 @@ factory = ContentsFactory()
 factory.regist(QuizChoiceTemplate, "quiz", "choice")
 factory.regist(QuizFillinTemplate, "quiz", "fill-in")
 factory.regist(QuizLongFillinTemplate, "quiz", "long-fill-in")
+
+
+class TaskActionTemplate(ContentsActionTemplate):
+    def __init__(self): 
+        super().__init__()
+
+    def _initialize(self):
+        return task.TaskInitialized
+    
+    def _complated(self):
+        return task.TaskComplted
+
+    def _hooks(self):
+        items = [task.TaskScored]
+        return items
+                 
+    def _add_actions(self):
+        items = [task.TaskSubmitted]
+        return items 
+        
+factory = ContentsFactory()
+factory.regist(TaskActionTemplate, "task")
+
+
 
 # factory.regist(SurveyFillinTemplate, "survey", "fill-in")
 # factory.regist(SurveyLongFillinTemplate, "survey", "long-fiil-in")

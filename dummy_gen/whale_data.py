@@ -12,10 +12,11 @@ OBJECT_ID_PREFIX = "https://class.whalespace.io/bubblecon-guide/lecture"
 DIR_PATH = f"dummy_gen/{str(date.today())}"
 
 def find_contents(lecture):
-    contents = utils.files.load_json_file(f"dummy_gen/whaleclass/{lecture['lecture_type']}_contents.json")
-    selected = random.sample(contents, 10)
+    selected = None
+    if lecture['lecture_type'] == "quiz":
+        contents = utils.files.load_json_file(f"dummy_gen/whaleclass/{lecture['lecture_type']}_contents.json")
+        selected = random.sample(contents, 10)
     return selected
-
 
 def extra_content_data(content_info, object_extensions):
     return object_extensions
@@ -62,37 +63,37 @@ def main():
         
         content_infos = find_contents(lecture_info)
         result_contents = []
-        for index, content_info in enumerate(content_infos):
-            content_object_extensions = None
-            xapi_content_object = None
-            xapi_content_context = None
+        # for index, content_info in enumerate(content_infos):
+        #     content_object_extensions = None
+        #     xapi_content_object = None
+        #     xapi_content_context = None
 
-            content_info["content_order"] = index+1
-            content_info["content_id"] = int(f"{lecture_info['lecture_id']}{random.randint(1, 3000)}")
+        #     content_info["content_order"] = index+1
+        #     content_info["content_id"] = int(f"{lecture_info['lecture_id']}{random.randint(1, 3000)}")
             
-            content_object_extensions = utils.files.load_template_subs("dummy_gen/template/whaleclass_content_object_extensions.template", **content_info)
-            content_object_extensions: dict = json.loads(content_object_extensions)
-            content_object_extensions = utils.dicts.update_not_duplicated_key(content_object_extensions, object_definition_extensions)
-            content_object_extensions = extra_content_data(content_info, content_object_extensions)
+        #     content_object_extensions = utils.files.load_template_subs("dummy_gen/template/whaleclass_content_object_extensions.template", **content_info)
+        #     content_object_extensions: dict = json.loads(content_object_extensions)
+        #     content_object_extensions = utils.dicts.update_not_duplicated_key(content_object_extensions, object_definition_extensions)
+        #     content_object_extensions = extra_content_data(content_info, content_object_extensions)
 
-            content_info["object_id"] = lecture_info["object_id"] + "/contents/" + str(content_info["content_id"])
-            content_info["object_name"] = content_info["content_name"]
-            content_info["object_description"] = content_info["content_description"]
-            content_info["object_extensions"] = content_object_extensions
+        #     content_info["object_id"] = lecture_info["object_id"] + "/contents/" + str(content_info["content_id"])
+        #     content_info["object_name"] = content_info["content_name"]
+        #     content_info["object_description"] = content_info["content_description"]
+        #     content_info["object_extensions"] = content_object_extensions
 
-            if "interactionType" in content_info and content_info["interactionType"] == "choice":
-                xapi_content_object = utils.files.load_template_subs("dummy_gen/template/choice_object.template", **content_info)
-            elif "interactionType" in content_info and content_info["interactionType"] == "fill-in":
-                xapi_content_object = utils.files.load_template_subs("dummy_gen/template/fill_in_object.template", **content_info)
-            elif "interactionType" in content_info and content_info["interactionType"] == "long-fill-in":
-                xapi_content_object = utils.files.load_template_subs("dummy_gen/template/long_fill_in_object.template", **content_info)
-            else:
-                xapi_content_object = utils.files.load_template_subs("dummy_gen/template/default_object.template", **content_info)
-            xapi_content_object : dict = json.loads(xapi_content_object)
+        #     if "interactionType" in content_info and content_info["interactionType"] == "choice":
+        #         xapi_content_object = utils.files.load_template_subs("dummy_gen/template/choice_object.template", **content_info)
+        #     elif "interactionType" in content_info and content_info["interactionType"] == "fill-in":
+        #         xapi_content_object = utils.files.load_template_subs("dummy_gen/template/fill_in_object.template", **content_info)
+        #     elif "interactionType" in content_info and content_info["interactionType"] == "long-fill-in":
+        #         xapi_content_object = utils.files.load_template_subs("dummy_gen/template/long_fill_in_object.template", **content_info)
+        #     else:
+        #         xapi_content_object = utils.files.load_template_subs("dummy_gen/template/default_object.template", **content_info)
+        #     xapi_content_object : dict = json.loads(xapi_content_object)
 
-            xapi_content_context = utils.files.load_template_subs("dummy_gen/template/context.template", **context_info)   
-            xapi_content_context: dict = json.loads(xapi_content_context)
-            result_contents.append({"object": xapi_content_object, "context": xapi_content_context})
+        #     xapi_content_context = utils.files.load_template_subs("dummy_gen/template/context.template", **context_info)   
+        #     xapi_content_context: dict = json.loads(xapi_content_context)
+        #     result_contents.append({"object": xapi_content_object, "context": xapi_content_context})
 
         result_lecture_contents.append([lecture_info, result_lecture,result_contents])
         

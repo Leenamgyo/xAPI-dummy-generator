@@ -126,6 +126,7 @@ class Scoreded(XAPIAction):
             "attempt": attempt,
             "total_time": total_time,
             "avg_attempt_times": total_time / attempt,
+            "instructor_score": random.randint(30, 100),
             "is_assessed": "true"
         }
             
