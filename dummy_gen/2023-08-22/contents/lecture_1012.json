@@ -1,0 +1,842 @@
+[
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/10122133",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "Introduction to Machine Learning"
+                },
+                "description": {
+                    "en-US": "Basic concepts and applications of machine learning."
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10122133,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 1012,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "lecture",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "\ub9c9\ud559\uae30",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-15T00:00:00Z"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/1012517",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "Literary Analysis"
+                },
+                "description": {
+                    "en-US": "Analyzing and interpreting works of literature."
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1012517,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 1012,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "lecture",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "\ub9c9\ud559\uae30",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-15T00:00:00Z"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/10122149",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "Physics Experiments at Home"
+                },
+                "description": {
+                    "en-US": "Performing physics experiments using household items."
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10122149,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 1012,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "lecture",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "\ub9c9\ud559\uae30",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-15T00:00:00Z"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/10122078",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "Digital Illustration"
+                },
+                "description": {
+                    "en-US": "Creating digital art using illustration software."
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10122078,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 1012,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "lecture",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "\ub9c9\ud559\uae30",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-15T00:00:00Z"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/1012470",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "\uc2ec\ub9ac\ud559 \uc785\ubb38"
+                },
+                "description": {
+                    "en-US": "\uc2ec\ub9ac\ud559\uacfc \uc778\uac04 \ud589\ub3d9\uc758 \uae30\ubcf8 \uac1c\ub150\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1012470,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 5,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 1012,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "lecture",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "\ub9c9\ud559\uae30",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-15T00:00:00Z"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/10121036",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "Climate Change Facts and Solutions"
+                },
+                "description": {
+                    "en-US": "Understanding climate change and ways to address it."
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10121036,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 6,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 1012,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "lecture",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "\ub9c9\ud559\uae30",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-15T00:00:00Z"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/101234",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "\ucd08\ubcf4\uc790\ub97c \uc704\ud55c \uc694\ub9ac \uc548\ub0b4\uc11c"
+                },
+                "description": {
+                    "en-US": "\ucd08\ubcf4\uc790\ub97c \uc704\ud55c \uc694\ub9ac \ud301\uacfc \uc26c\uc6b4 \ub808\uc2dc\ud53c\uc785\ub2c8\ub2e4."
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 101234,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 7,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 1012,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "lecture",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "\ub9c9\ud559\uae30",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-15T00:00:00Z"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/10121332",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "\uc138\uacc4 \uc5ed\uc0ac \uc18c\uac1c"
+                },
+                "description": {
+                    "en-US": "\uc138\uacc4 \uc5ed\uc0ac\uc758 \uc8fc\uc694 \uc0ac\uac74\uc744 \ud0d0\uad6c\ud569\ub2c8\ub2e4."
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10121332,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 8,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 1012,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "lecture",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "\ub9c9\ud559\uae30",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-15T00:00:00Z"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/1012389",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "\uc544\uc2a4\ud2b8\ub85c \ud3ec\ud1a0\uadf8\ub798\ud53c \uc548\ub0b4"
+                },
+                "description": {
+                    "en-US": "\ucc9c\uccb4 \uc0ac\uc9c4\uc744 \uba4b\uc9c0\uac8c \ucc0d\ub294 \ubc29\ubc95\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1012389,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 9,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 1012,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "lecture",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "\ub9c9\ud559\uae30",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-15T00:00:00Z"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/1012753",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "\uae30\ud6c4 \ubcc0\ud654 \uc0ac\uc2e4\uacfc \ud574\uacb0\ucc45"
+                },
+                "description": {
+                    "en-US": "\uae30\ud6c4 \ubcc0\ud654\ub97c \uc774\ud574\ud558\uace0 \ub300\uc751 \ubc29\ubc95\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1012753,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 10,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 1012,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "lecture",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc0ac\ud68c\ud559",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "\ub9c9\ud559\uae30",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-15T00:00:00Z"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    }
+]

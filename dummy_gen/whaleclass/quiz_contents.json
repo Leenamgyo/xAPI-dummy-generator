@@ -330,6 +330,81 @@
         ]
     },
     {
+      "content_name": "Art Quiz 1",
+      "content_description": "Leonardo da Vinci의 대표작 중 하나는 무엇일까요?",
+      "correctResponsesPattern": ["3"],
+      "interactionType": "choice",
+      "score": 5,
+      "choices": [
+          {
+              "id": "1",
+              "description": { "en-US": "The Persistence of Memory" }
+          },
+          {
+              "id": "2",
+              "description": { "en-US": "The Starry Night" }
+          },
+          {
+              "id": "3",
+              "description": { "en-US": "Mona Lisa" }
+          },
+          {
+              "id": "4",
+              "description": { "en-US": "The Scream" }
+          }
+      ]
+    },
+    {
+      "content_name": "Art Quiz 2",
+      "content_description": "René Magritte의 작품 중 '망상의 성배'는 어떤 물체를 가리키나요?",
+      "correctResponsesPattern": ["2"],
+      "interactionType": "choice",
+      "score": 5,
+      "choices": [
+          {
+              "id": "1",
+              "description": { "en-US": "Clock" }
+          },
+          {
+              "id": "2",
+              "description": { "en-US": "Apple" }
+          },
+          {
+              "id": "3",
+              "description": { "en-US": "Umbrella" }
+          },
+          {
+              "id": "4",
+              "description": { "en-US": "Shoe" }
+          }
+      ]
+    },
+    {
+      "content_name": "Art Quiz 3",
+      "content_description": "반고흐의 작품 '별이 빛나는 밤에'에서 주로 어떤 색상이 사용되었나요?",
+      "correctResponsesPattern": ["1"],
+      "interactionType": "choice",
+      "score": 5,
+      "choices": [
+          {
+              "id": "1",
+              "description": { "en-US": "Blue and Yellow" }
+          },
+          {
+              "id": "2",
+              "description": { "en-US": "Red and Green" }
+          },
+          {
+              "id": "3",
+              "description": { "en-US": "Black and White" }
+          },
+          {
+              "id": "4",
+              "description": { "en-US": "Orange and Purple" }
+          }
+      ]
+    },
+    {
         "content_name": "영어 문제 4",
         "content_description": "다음 중 비행기를 영어로 뭐라고 하나요?",
         "correctResponsesPattern": ["4"],
@@ -395,7 +470,6 @@
             }
         ]
     },
-        
     {
         "content_name": "수학 주관식 1",
         "content_description": "7 곱하기 9는 무엇인가요?",
@@ -424,6 +498,43 @@
         "score": 9,
         "correctResponsesPattern": ["하늘과 바람과 별과 시", "Sky and Wind and Stars and Poetry"]
     },
+    {
+      "content_name": "Literature Open-ended 1",
+      "content_description": "윤동주의 대표작은 무엇인가요?",
+      "interactionType": "fill-in",
+      "score": 9,
+      "correctResponsesPattern": ["하늘과 바람과 별과 시", "Sky and Wind and Stars and Poetry"]
+    },
+    {
+      "content_name": "Literature Open-ended 2",
+      "content_description": "프랑스 작가 앙투안 드 생텍쥐페리의 작품 '어린왕자'는 어떤 이야기를 다루나요?",
+      "interactionType": "fill-in",
+      "score": 9,
+      "correctResponsesPattern": ["인간 본성과 인간 관계에 대한 사색"]
+    },
+    {
+      "content_name": "Literature Open-ended 3",
+      "content_description": "샤를로트 브론테의 소설 '제인 에어'는 어떤 장르에 속하는 작품인가요?",
+      "interactionType": "fill-in",
+      "score": 9,
+      "correctResponsesPattern": ["고전 로맨스", "Classical Romance"]
+    },
+    {
+      "content_name": "Literature Open-ended 4",
+      "content_description": "조지 오웰의 소설 '1984'는 어떤 주제를 다루고 있나요?",
+      "interactionType": "fill-in",
+      "score": 9,
+      "correctResponsesPattern": ["국가 감시와 개인의 자유", "State Surveillance and Individual Freedom"]
+    },
+    {
+      "content_name": "Literature Open-ended 5",
+      "content_description": "베르나르 베르베르의 소설 '물의 역사'에서 주인공이 물을 찾아 여행하는 동안 물을 통해 전달하려는 메시지는 무엇인가요?",
+      "interactionType": "fill-in",
+      "score": 9,
+      "correctResponsesPattern": ["삶의 가치와 자유의 중요성", "The Value of Life and the Importance of Freedom"]
+    },
+  
+  
     {
         "content_name": "체육 주관식 1",
         "content_description": "축구 경기에서 골 넣기를 영어로 뭐라고 하나요?",
@@ -466,34 +577,33 @@
         "score": 1,
         "correctResponsesPattern": ["5", "5년"]
     },
-
     {
         "content_name": "문학 서술형 1",
         "content_description": "어떤 책을 가장 좋아하고 그 이유를 서술해보세요.",
         "interactionType": "long-fill-in",
         "score": 10,
-        "correctResponsesPattern": [""]
+        "correctResponsesPattern": ["미래 예측: 진화하는 기술 - 기술의 혁명적 발전에 대한 흥미로운 안내서."]
     },
     {
         "content_name": "과학 서술형 1",
         "content_description": "인체에게 필요한 물질 중 하나인 단백질에 대해 설명해보세요.",
         "interactionType": "long-fill-in",
         "score": 8,
-        "correctResponsesPattern": [""]
+        "correctResponsesPattern": ["단백질은 세포 구조와 기능에 중요하며, 효소, 항체 등 다양한 역할을 수행하며 영양소 및 조직 구성 요소로 기능합니다."]
     },
     {
         "content_name": "사회 서술형 1",
         "content_description": "지금까지 받았던 가장 인상 깊은 교육 경험에 대해 적어보세요.",
         "interactionType": "long-fill-in",
         "score": 6,
-        "correctResponsesPattern": [""]
+        "correctResponsesPattern": ["창의적 문제 해결 강조하는 수업. 자유로운 사고와 협력을 통해 새로운 아이디어 발전시키는 과정이 인상깊었음."]
     },
     {
         "content_name": "예술 서술형 1",
         "content_description": "당신이 가장 좋아하는 예술 작품을 선택하고 그 작품에 대한 감상을 써보세요.",
         "interactionType": "long-fill-in",
         "score": 9,
-        "correctResponsesPattern": [""]
+        "correctResponsesPattern": ["반 고흐의 별이 빛나는 밤 - 강렬한 색채와 회전하는 별들, 내면의 감정이 느껴져 마음을 채움."]
     },
     {
         "content_name": "역사 서술형 1",
@@ -501,5 +611,62 @@
         "interactionType": "long-fill-in",
         "score": 7,
         "correctResponsesPattern": [""]
-    }     
+    },
+    {
+      "content_name": "History Essay 1",
+      "content_description": "중세 유럽에서의 십자군의 영향을 설명해보세요.",
+      "interactionType": "long-fill-in",
+      "score": 7,
+      "correctResponsesPattern": [""]
+   },
+   {
+    "content_name": "History Essay 2",
+    "content_description": "아메리카 대륙의 콜럼버스 발견이 지구촌에 어떤 변화를 가져왔나요?",
+    "interactionType": "long-fill-in",
+    "score": 7,
+    "correctResponsesPattern": [""]
+  },
+  {
+    "content_name": "History Essay 3",
+    "content_description": "인더스트리얼 혁명이 사회와 경제에 미친 영향을 상세하게 서술해보세요.",
+    "interactionType": "long-fill-in",
+    "score": 7,
+    "correctResponsesPattern": [""]
+  },
+  {
+    "content_name": "ChatGPT's Favorite Topics 1",
+    "content_description": "최신 기술 동향 중 하나를 선택하고, 해당 기술이 어떻게 사회와 경제에 영향을 미치고 있는지 서술해보세요.",
+    "interactionType": "long-fill-in",
+    "score": 7,
+    "correctResponsesPattern": [""]
+  },
+  {
+    "content_name": "ChatGPT's Favorite Topics 2",
+    "content_description": "과학 분야에서 최근에 이루어진 중요한 발견 중 하나를 선택하여 그 발견이 어떻게 우리의 이해를 바꾸었는지 서술해보세요.",
+    "interactionType": "long-fill-in",
+    "score": 7,
+    "correctResponsesPattern": [""]
+  },
+  {
+    "content_name": "ChatGPT's Favorite Topics 3",
+    "content_description": "인공 지능과 머신 러닝의 발전이 어떻게 현실 세계의 문제 해결에 기여하고 있는지 설명해보세요.",
+    "interactionType": "long-fill-in",
+    "score": 7,
+    "correctResponsesPattern": [""]
+  },
+  {
+    "content_name": "ChatGPT's Favorite Topics 3",
+    "content_description": "인공 지능과 머신 러닝의 발전이 어떻게 현실 세계의 문제 해결에 기여하고 있는지 설명해보세요.",
+    "interactionType": "long-fill-in",
+    "score": 7,
+    "correctResponsesPattern": [
+        "인공 지능과 머신 러닝의 발전은 여러 분야에서 현실 세계의 문제를 해결하는 데 큰 기여를 하고 있습니다. 예를 들어 의료 분야에서는 인공 지능을 활용하여 질병 진단과 예측을 개선하고 약물 개발을 가속화하고 있습니다. 또한 교통 분야에서는 자율 주행 차량이 교통 안전성을 향상시키며 환경 문제에 대한 대안을 제시하고 있습니다. 머신 러닝은 금융 분야에서도 부정 거래 탐지와 신용 평가를 개선하며 경제 예측을 수행하는 데 사용되고 있습니다. 이러한 기술의 발전은 다양한 분야에서 혁신과 효율성을 촉진하며 더 나은 미래를 모색하게 되는 데 기여하고 있습니다."
+    ]
+  }
+
+
+
+
+
+       
 ]

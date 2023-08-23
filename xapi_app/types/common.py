@@ -6,7 +6,9 @@ class XAPIObjectBase:
         return dict_
 
     def result_json(self) -> json:
-        raise NotImplementedError
+        return json.dumps(
+            self.result_dict()
+        )
     
     def validate(self):
         pass

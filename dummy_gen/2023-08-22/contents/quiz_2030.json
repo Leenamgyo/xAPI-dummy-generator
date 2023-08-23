@@ -1,0 +1,948 @@
+[
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2030/contents/20301447",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "History Essay 2"
+                },
+                "description": {
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "interactionType": "long-fill-in",
+                "correctResponsesPattern": [
+                    ""
+                ],
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20301447,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2030,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Vocabulary Challenge 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/clss/chapters/chapter/lectures/lecture/quiz-type": "self-study"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2030/contents/2030691",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "\ubb38\ud559 \uc8fc\uad00\uc2dd 1"
+                },
+                "description": {
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "interactionType": "fill-in",
+                "correctResponsesPattern": [
+                    "\ud558\ub298\uacfc \ubc14\ub78c\uacfc \ubcc4\uacfc \uc2dc",
+                    "Sky and Wind and Stars and Poetry"
+                ],
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2030691,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2030,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Vocabulary Challenge 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/clss/chapters/chapter/lectures/lecture/quiz-type": "self-study"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2030/contents/2030218",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "History Essay 1"
+                },
+                "description": {
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "interactionType": "long-fill-in",
+                "correctResponsesPattern": [
+                    ""
+                ],
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2030218,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2030,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Vocabulary Challenge 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/clss/chapters/chapter/lectures/lecture/quiz-type": "self-study"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2030/contents/2030889",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "\uc5ed\uc0ac \ubb38\uc81c 1"
+                },
+                "description": {
+                    "en-US": "\uc11c\uc220"
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "interactionType": "choice",
+                "correctResponsesPattern": [
+                    "1"
+                ],
+                "choices": [
+                    {
+                        "id": "1",
+                        "description": {
+                            "en-US": "1945\ub144"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "description": {
+                            "en-US": "1939\ub144"
+                        }
+                    },
+                    {
+                        "id": "3",
+                        "description": {
+                            "en-US": "1950\ub144"
+                        }
+                    },
+                    {
+                        "id": "4",
+                        "description": {
+                            "en-US": "1961\ub144"
+                        }
+                    }
+                ],
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2030889,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2030,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Vocabulary Challenge 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/clss/chapters/chapter/lectures/lecture/quiz-type": "self-study"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2030/contents/2030156",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "\uc601\uc5b4 \ubb38\uc81c 4"
+                },
+                "description": {
+                    "en-US": "\uc11c\uc220"
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "interactionType": "choice",
+                "correctResponsesPattern": [
+                    "4"
+                ],
+                "choices": [
+                    {
+                        "id": "1",
+                        "description": {
+                            "en-US": "Train"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "description": {
+                            "en-US": "Car"
+                        }
+                    },
+                    {
+                        "id": "3",
+                        "description": {
+                            "en-US": "Bus"
+                        }
+                    },
+                    {
+                        "id": "4",
+                        "description": {
+                            "en-US": "Airplane"
+                        }
+                    }
+                ],
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2030156,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 5,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2030,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Vocabulary Challenge 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/clss/chapters/chapter/lectures/lecture/quiz-type": "self-study"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2030/contents/20301837",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "\uc5ed\uc0ac \uc8fc\uad00\uc2dd 1"
+                },
+                "description": {
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "interactionType": "fill-in",
+                "correctResponsesPattern": [
+                    "1914",
+                    "1914\ub144"
+                ],
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20301837,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 6,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2030,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Vocabulary Challenge 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/clss/chapters/chapter/lectures/lecture/quiz-type": "self-study"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2030/contents/20302093",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "History Essay 3"
+                },
+                "description": {
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "interactionType": "long-fill-in",
+                "correctResponsesPattern": [
+                    ""
+                ],
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20302093,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 7,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2030,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Vocabulary Challenge 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/clss/chapters/chapter/lectures/lecture/quiz-type": "self-study"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2030/contents/2030214",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "\uc218\ud559 \uc8fc\uad00\uc2dd 1"
+                },
+                "description": {
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "interactionType": "fill-in",
+                "correctResponsesPattern": [
+                    "63",
+                    "6 x 9"
+                ],
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2030214,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 8,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2030,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Vocabulary Challenge 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/clss/chapters/chapter/lectures/lecture/quiz-type": "self-study"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2030/contents/20302669",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "\ubb38\ud559 \uc11c\uc220\ud615 1"
+                },
+                "description": {
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "interactionType": "long-fill-in",
+                "correctResponsesPattern": [
+                    "\ubbf8\ub798 \uc608\uce21: \uc9c4\ud654\ud558\ub294 \uae30\uc220 - \uae30\uc220\uc758 \ud601\uba85\uc801 \ubc1c\uc804\uc5d0 \ub300\ud55c \ud765\ubbf8\ub85c\uc6b4 \uc548\ub0b4\uc11c."
+                ],
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20302669,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 9,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2030,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Vocabulary Challenge 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/clss/chapters/chapter/lectures/lecture/quiz-type": "self-study"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2030/contents/2030118",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "Literature Open-ended 1"
+                },
+                "description": {
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "interactionType": "fill-in",
+                "correctResponsesPattern": [
+                    "\ud558\ub298\uacfc \ubc14\ub78c\uacfc \ubcc4\uacfc \uc2dc",
+                    "Sky and Wind and Stars and Poetry"
+                ],
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2030118,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 10,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2030,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Vocabulary Challenge 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/clss/chapters/chapter/lectures/lecture/quiz-type": "self-study"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    }
+]
