@@ -130,7 +130,6 @@ class Completed(XAPIAction):
         attempt = self.result.extensions["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt"]
         
         body = {
-            "complete_timestamp": iso8601.timestamp_now_str(),
             "attempt": attempt,
             "total_time": total_time,
             "avg_attempt_times": total_time / attempt,
