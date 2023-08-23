@@ -34,4 +34,4 @@ def parse_sec_to_duration(
 
 
 def timestamp_now_str():
-    return datetime.utcnow().isoformat()
+    return datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S%z")
