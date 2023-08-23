@@ -225,10 +225,6 @@ class TaskActionTemplate(ContentsActionTemplate):
     
     def _complated(self):
         return task.TaskComplted
-
-    def _hooks(self):
-        items = [task.TaskScored]
-        return items
                  
     def _add_actions(self):
         items = [task.TaskSubmitted]
