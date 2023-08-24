@@ -61,8 +61,8 @@ class User(HttpUser):
         for full_statement, state in scenario.run_complted_with_contents():
             if state:
                 if 'is_assessed' in state.get_body():
-                    # if state.get_body()["is_assessed"] == "false":
-                    #     is_assessed = "false"
+                    if state.get_body()["is_assessed"] == "false":
+                        is_assessed = "false"
                     if state.get_body()["is_assessed"] == "true":
                         is_assessed = "true"
                     state.get_body()["is_assessed"] = is_assessed   
@@ -74,7 +74,7 @@ class User(HttpUser):
                         state.get_body()["instructor_score"] = instructor_score
 
                 self._state_api_request("POST", "/xAPI/activities/state", params=state.get_params(), body=state.get_body())
-            self._api_request("POST", "/xAPI/statements", full_statement)
+            # self._api_request("POST", "/xAPI/statements", full_statement)
 
     def on_start(self):
         """on_start is called when a Locust start before any task is scheduled"""
