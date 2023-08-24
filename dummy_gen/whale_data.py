@@ -6,8 +6,6 @@ import utils
 from copy import deepcopy
 import urllib3
 
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-
 OBJECT_ID_PREFIX = "https://class.whalespace.io/bubblecon-guide/lecture"
 DIR_PATH = f"dummy_gen/{str(date.today())}"
 

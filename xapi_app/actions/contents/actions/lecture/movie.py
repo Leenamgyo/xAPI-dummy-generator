@@ -55,12 +55,12 @@ class Paused(XAPIAction):
     def start(self, **kwargs):
         self.result =  XAPIResult(
             success=True,
-            duration=duration,
+            duration=iso8601.parse_sec_to_duration(5),
             extensions={
                 "https://w3id.org/xapi/video/extensions/session-id":"",
                 "https://w3id.org/xapi/video/extensions/time":"",
                 "https://w3id.org/xapi/video/extensions/played-segments":"",
-                "https://w3id.org/xapi/video/extensions/progress":""
+                "https://w3id.org/xapi/video/extensions/progress": 0.123
             }
         )
     
@@ -77,7 +77,7 @@ class Interacted(XAPIAction):
         self.result =  XAPIResult(
             success=True,
             extensions={
-                "https://w3id.org/xapi/video/extensions/session-id": session_id,
+                "https://w3id.org/xapi/video/extensions/session-id": kwargs["session_id"],
                 "https://w3id.org/xapi/video/extensions/full-screen":"false",
                 "https://w3id.org/xapi/video/extensions/speed":"1",
                 "https://w3id.org/xapi/video/extensions/volume": random.randint(1, 25),
@@ -102,8 +102,32 @@ class Completed(XAPIAction):
             extensions={
                 "https://w3id.org/xapi/video/extensions/session-id": "",
                 "https://w3id.org/xapi/video/extensions/time": "",
-                "https://w3id.org/xapi/video/extensions/progress": "",
+                "https://w3id.org/xapi/video/extensions/progress": 0.123,
                 "https://w3id.org/xapi/video/extensions/played-segments": ""
             }
         )
+
+    def has_state(self):
+        return True
+    
+    def to_state(self):
+        agent_id = self.actor.account["homePage"][self.actor.account["homePage"].rindex("/") + 1 :]
+
+        params = {
+            "agent": self.actor.result_json(),
+            "activityId": self.obj.id,
+            "stateId": f"{self.obj.id}/{agent_id}",
+        }
+        
+        total_time = random.randrange(1, 1000)
+        attempt = random.randint(1, 3)
+        
+        body = {
+            "attempt": attempt,
+            "total_time": total_time,
+            "avg_attempt_times": total_time / attempt,
+            "instructor_score": random.randint(30, 100)
+        }
+            
+        return params, body
 

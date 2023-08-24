@@ -108,9 +108,7 @@ class LectureDocTemplate(LectureActionTemplate):
         super().__init__()
 
     def _add_actions(self):
-        items = list(
-            lecture.Donwloaded
-        )
+        items = [lecture.Donwloaded]
         return items
 
 class LectureUrlTemplate(LectureActionTemplate):
@@ -118,9 +116,8 @@ class LectureUrlTemplate(LectureActionTemplate):
         super().__init__()
 
     def _add_actions(self):
-        items = list(
-            lecture.Opened
-        )
+        items = [lecture.Opened]
+        
         return items   
 
 # TODO: 시도횟수에 대한 것이 필요할 것 
@@ -129,9 +126,7 @@ class LecturePollTemplate(LectureActionTemplate):
         super().__init__()
 
     def _add_actions(self):
-        items = list(
-            lecture.PollAnswered
-        )
+        items = [lecture.PollAnswered]
         return items   
 
 
@@ -141,9 +136,7 @@ class LectureLiveTemplate(LectureActionTemplate):
         super().__init__()
 
     def _add_actions(self):
-        items = list(
-            lecture.PollAnswered
-        )
+        items = [lecture.PollAnswered]
         return items   
 
 
@@ -224,12 +217,12 @@ factory.regist(QuizFillinTemplate, "quiz", "fill-in")
 factory.regist(QuizLongFillinTemplate, "quiz", "long-fill-in")
 factory.regist(LectureTextTemplate, "lecture", "text")
 factory.regist(LectureMovieTemplate, "lecture", "movie")
-factory.regist(LectureMovieTemplate, "lecture", "image")
+factory.regist(LectureImageTemplate, "lecture", "image")
 factory.regist(LectureExercTemplate, "lecture", "exerc")
 factory.regist(LectureDocTemplate, "lecture", "doc")
 factory.regist(LectureUrlTemplate, "lecture", "url")
 factory.regist(LecturePollTemplate, "lecture", "poll")
-factory.regist(LecturePollTemplate, "lecture", "live")
+factory.regist(LectureLiveTemplate, "lecture", "live")
 
 
 # factory.regist(SurveyFillinTemplate, "survey", "fill-in")

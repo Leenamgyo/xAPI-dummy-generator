@@ -8,40 +8,40 @@
     },
     "object": {
         "objectType": "Activity",
-        "id": "https://class.whalespace.io/bubblecon-guide/lecture/1013/contents/10132087",
+        "id": "https://class.whalespace.io/bubblecon-guide/lecture/1009/contents/1009720",
         "definition": {
             "name": {
-                "en-US": "Introduction to Machine Learning"
+                "en-US": "Climate Change Facts and Solutions"
             },
             "description": {
-                "en-US": "Basic concepts and applications of machine learning."
+                "en-US": "Understanding climate change and ways to address it."
             },
             "type": "http://activitystrea.ms/schema/1.0/collection",
             "extensions": {
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10132087,
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1009720,
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                 "https://class.whalespace.io/classes/class/id": 123,
                 "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
                 "https://class.whalespace.io/classes/class/type": "group",
                 "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
                 "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 1013,
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "\uc678\uad6d\uc5b4: \uc2a4\ud398\uc778\uc5b4",
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 1009,
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "\uacbd\uc601\ud559",
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "lecture",
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc5b8\uc5b4",
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uacbd\uc601",
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "\ub9c9\ud559\uae30",
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-10-01T00:00:00Z",
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-10T00:00:00Z",
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-type": "text"
             }
         }
     },
     "actor": {
-        "name": "spiderman789",
+        "name": "emily890",
         "objectType": "Agent",
         "account": {
-            "name": "Peter Parker",
-            "homePage": "https://example.com/accounts/spiderman789"
+            "name": "Emily Davis",
+            "homePage": "https://example.com/accounts/emily890"
         }
     },
     "context": {
@@ -69,7 +69,7 @@
                 "name": "\uc18c\uc18d \uae30\uad00"
             }
         },
-        "registration": "32205b03-ae0c-4873-b54d-83065b64a2c7",
+        "registration": "21850cbf-adc1-4e5e-bca2-b1960a3ca70f",
         "revision": "1.0",
         "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
         "contextActivities": {
@@ -100,8 +100,8 @@
     "result": {
         "duration": "PT7S",
         "extensions": {
-            "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": 2,
-            "https://w3id.org/xapi/cmi5/context/extensions/sessionid": "a5319bb7-983c-43ac-8e4b-12696a4af534"
+            "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": 3,
+            "https://w3id.org/xapi/cmi5/context/extensions/sessionid": "be23e803-26f8-4529-ac02-b92afc904f5e"
         }
     }
 }
