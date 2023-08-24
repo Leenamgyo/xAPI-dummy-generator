@@ -13,9 +13,9 @@ def set_actor():
 
 def set_object_extensions():
     list_ = []
-    lecture_path = "resources/2023-08-22/task_not_scored/lecture"
-    content_path = "resources/2023-08-22/task_not_scored/contents"
-    listdir_ = [name for name in os.listdir(lecture_path) if 'task' in name]
+    lecture_path = "resources/2023-08-22/lecture_/lecture"
+    content_path = "resources/2023-08-22/lecture_/contents"
+    listdir_ = [name for name in os.listdir(lecture_path) if 'lecture' in name]
     for lecture_name in listdir_:
         lecture = file.load_json(lecture_path+"/"+lecture_name)
         contents = file.load_json(content_path+"/"+lecture_name)
@@ -52,9 +52,9 @@ for full_statement, state in scenario.run_complted_with_contents():
     
     if state:
         if 'is_assessed'in state.get_body():
-            if state.get_body()["is_assessed"] == "false":
-                is_assessed = "false"
-            elif state.get_body()["is_assessed"] == "true":
+            # if state.get_body()["is_assessed"] == "false":
+            #     is_assessed = "false"
+            if state.get_body()["is_assessed"] == "true":
                 is_assessed = "true"
             state.get_body()["is_assessed"] = is_assessed    
 

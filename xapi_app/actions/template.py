@@ -70,12 +70,12 @@ class LectureMovieTemplate(LectureActionTemplate):
         super().__init__()
 
     def _add_actions(self):
-        items = list(
+        items = [
             lecture.MoviePlayed,
             lecture.MoviePaused,
             lecture.MovieInteracted,
             lecture.MovieSeeked,
-        )
+        ]
         return items
     
     def _complated(self):
@@ -147,15 +147,6 @@ class LectureLiveTemplate(LectureActionTemplate):
         return items   
 
 
-# factory.regist(LectureTextTemplate, "lecture", "text")
-# factory.regist(LectureMovieTemplate, "lecture", "movie")
-# factory.regist(LectureMovieTemplate, "lecture", "image")
-# factory.regist(LectureExercTemplate, "lecture", "exerc")
-# factory.regist(LectureDocTemplate, "lecture", "doc")
-# factory.regist(LectureUrlTemplate, "lecture", "url")
-# factory.regist(LecturePollTemplate, "lecture", "poll")
-# factory.regist(LecturePollTemplate, "lecture", "live")
-
 
 class QuizChoiceTemplate(ContentsActionTemplate):
     def __init__(self): 
@@ -210,10 +201,6 @@ class QuizLongFillinTemplate(ContentsActionTemplate):
         items = [quiz.LongFillInAnswered]
         return items 
         
-factory = ContentsFactory()
-factory.regist(QuizChoiceTemplate, "quiz", "choice")
-factory.regist(QuizFillinTemplate, "quiz", "fill-in")
-factory.regist(QuizLongFillinTemplate, "quiz", "long-fill-in")
 
 
 class TaskActionTemplate(ContentsActionTemplate):
@@ -232,7 +219,17 @@ class TaskActionTemplate(ContentsActionTemplate):
         
 factory = ContentsFactory()
 factory.regist(TaskActionTemplate, "task")
-
+factory.regist(QuizChoiceTemplate, "quiz", "choice")
+factory.regist(QuizFillinTemplate, "quiz", "fill-in")
+factory.regist(QuizLongFillinTemplate, "quiz", "long-fill-in")
+factory.regist(LectureTextTemplate, "lecture", "text")
+factory.regist(LectureMovieTemplate, "lecture", "movie")
+factory.regist(LectureMovieTemplate, "lecture", "image")
+factory.regist(LectureExercTemplate, "lecture", "exerc")
+factory.regist(LectureDocTemplate, "lecture", "doc")
+factory.regist(LectureUrlTemplate, "lecture", "url")
+factory.regist(LecturePollTemplate, "lecture", "poll")
+factory.regist(LecturePollTemplate, "lecture", "live")
 
 
 # factory.regist(SurveyFillinTemplate, "survey", "fill-in")
