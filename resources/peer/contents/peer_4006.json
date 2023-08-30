@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/4006/contents/4006211",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/4006/contents/40062939",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ub3d9\ub8cc\ud3c9\uac00 9"
+                    "en-US": "\ub3d9\ub8cc\ud3c9\uac00 4"
                 },
                 "description": {
-                    "en-US": "\uc790\uc720 \uc8fc\uc81c\ub85c \uae00\uc744 \uc4f0\uc138\uc694."
+                    "en-US": "\uc8fc\uc5b4\uc9c4 \ub3d9\ub8cc\ud3c9\uac00 \uc8fc\uc81c\uc5d0 \ub300\ud55c \ud504\ub85c\uc81d\ud2b8 \uacc4\ud68d\uc11c\ub97c \uc791\uc131\ud558\uc138\uc694."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 4006211,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 40062939,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

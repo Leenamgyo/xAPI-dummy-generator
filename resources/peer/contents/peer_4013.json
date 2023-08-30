@@ -1,7 +1,7 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/4013/contents/40131838",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/4013/contents/40131614",
             "objectType": "Activity",
             "definition": {
                 "name": {
@@ -12,7 +12,7 @@
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 40131838,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 40131614,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
