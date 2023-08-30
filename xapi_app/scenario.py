@@ -25,10 +25,9 @@ class Cmi5Scenario:
         lecture_context = XAPIContext(**self.lecture["context"])
 
         task_queue = []
-        task_queue.append(
-            cmi5.Launched(actor, lecture_object, lecture_context), 
-            cmi5.Initialized(actor, lecture_object, lecture_context),
-        )
+        task_queue.append(cmi5.Launched(actor, lecture_object, lecture_context)), 
+        task_queue.append(cmi5.Initialized(actor, lecture_object, lecture_context))
+    
 
         for contents in self.contents:
             keys =[] 

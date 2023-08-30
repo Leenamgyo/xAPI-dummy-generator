@@ -1,5 +1,5 @@
 import random
-from xapi_app.actions.contents.actions import lecture, quiz
+from xapi_app.actions.contents.actions import lecture, quiz, peer
 
 
 class ContentsActionTemplate:
@@ -226,3 +226,39 @@ factory.regist(QuizLongFillinTemplate, "quiz", "long-fill-in")
 
 # factory.regist(SurveyFillinTemplate, "survey", "fill-in")
 # factory.regist(SurveyLongFillinTemplate, "survey", "long-fiil-in")
+
+
+class PeerActionTemplate(ContentsActionTemplate):
+    def __init__(self): 
+        super().__init__()
+
+    def _initialize(self):
+        return peer.SubmitInitialized
+    
+    def _complated(self):
+        return peer.SubmitCompleted
+                 
+    def _add_actions(self):
+        items = [peer.SubmitSubmitted]
+        return items 
+        
+factory = ContentsFactory()
+factory.regist(PeerActionTemplate, "peer")
+
+# class PeerActionTemplate(ContentsActionTemplate):
+#     def __init__(self): 
+#         super().__init__()
+
+#     def _initialize(self):
+#         return peer.SubmitInitialized
+    
+#     def _complated(self):
+#         return peer.SubmitCompleted
+                 
+#     def _add_actions(self):
+#         items = [peer.SubmitSubmitted]
+#         return items 
+        
+# factory = ContentsFactory()
+# factory.regist(PeerActionTemplate, "peer")
+
