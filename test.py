@@ -8,12 +8,12 @@ from xapi_app.utils import file
 
 
 def set_actor():
-    return file.load_json("resources/2023-08-22/actors.json")
+    return file.load_json("resources/peer/actors.json")
 
 def set_object_extensions():
     list_ = []
-    lecture_path = "resources/2023-08-22/lecture"
-    content_path = "resources/2023-08-22/contents"
+    lecture_path = "resources/peer/lecture"
+    content_path = "resources/peer/contents"
     listdir_ = [name for name in os.listdir(lecture_path) if 'quiz' in name]
     for lecture_name in listdir_:
         lecture = file.load_json(lecture_path+"/"+lecture_name)
