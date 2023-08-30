@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1003/contents/10031276",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1003/contents/10032051",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc9d1\uc5d0\uc11c \ud560 \uc218 \uc788\ub294 \ubb3c\ub9ac \uc2e4\ud5d8"
+                    "en-US": "\uc6d0\uc608 \ucd08\ubcf4\uc790\ub97c \uc704\ud55c \uc548\ub0b4\uc11c"
                 },
                 "description": {
-                    "en-US": "\uac00\uc815\uc6a9 \ubb3c\ud488\uc744 \uc0ac\uc6a9\ud558\uc5ec \ubb3c\ub9ac \uc2e4\ud5d8\uc744 \uc218\ud589\ud569\ub2c8\ub2e4."
+                    "en-US": "\uc815\uc6d0 \uac00\uafb8\uae30\uc640 \uc2dd\ubb3c \uad00\ub9ac\uc5d0 \ub300\ud55c \ud301\uc785\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10031276,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10032051,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -85,18 +85,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1003/contents/10031992",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1003/contents/10031831",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ubb38\ud559 \ubd84\uc11d"
+                    "en-US": "Introduction to Psychology"
                 },
                 "description": {
-                    "en-US": "\ubb38\ud559 \uc791\ud488\uc744 \ubd84\uc11d\ud558\uace0 \ud574\uc11d\ud569\ub2c8\ub2e4."
+                    "en-US": "Basic concepts in psychology and human behavior."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10031992,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10031831,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -169,18 +169,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1003/contents/10031822",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1003/contents/1003292",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ub514\uc9c0\ud138 \uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158"
+                    "en-US": "\uac1d\uccb4 \uc9c0\ud5a5 \ud504\ub85c\uadf8\ub798\ubc0d \uc6d0\ub9ac"
                 },
                 "description": {
-                    "en-US": "\uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158 \uc18c\ud504\ud2b8\uc6e8\uc5b4\ub97c \uc0ac\uc6a9\ud558\uc5ec \ub514\uc9c0\ud138 \uc544\ud2b8\ub97c \ub9cc\ub4ed\ub2c8\ub2e4."
+                    "en-US": "\uac1d\uccb4 \uc9c0\ud5a5 \ud504\ub85c\uadf8\ub798\ubc0d\uc758 \uae30\ubcf8 \uc6d0\ub9ac\ub97c \ud0d0\uad6c\ud569\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10031822,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1003292,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -253,18 +253,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1003/contents/10032163",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1003/contents/10031418",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uba38\uc2e0 \ub7ec\ub2dd \uc785\ubb38"
+                    "en-US": "\uae30\ud6c4 \ubcc0\ud654 \uc0ac\uc2e4\uacfc \ud574\uacb0\ucc45"
                 },
                 "description": {
-                    "en-US": "\uba38\uc2e0 \ub7ec\ub2dd\uc758 \uae30\ubcf8 \uac1c\ub150\uacfc \uc751\uc6a9\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                    "en-US": "\uae30\ud6c4 \ubcc0\ud654\ub97c \uc774\ud574\ud558\uace0 \ub300\uc751 \ubc29\ubc95\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10032163,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10031418,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

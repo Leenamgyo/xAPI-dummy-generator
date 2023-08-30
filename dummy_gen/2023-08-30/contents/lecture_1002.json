@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1002/contents/10021292",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1002/contents/10021437",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc774\uc57c\uae30 \ud480\uae30\uc758 \uae30\uc220"
+                    "en-US": "\ud30c\uc774\uc36c \uae30\ucd08"
                 },
                 "description": {
-                    "en-US": "\uae00\uc4f0\uae30\uc640 \ud504\ub808\uc820\ud14c\uc774\uc158\uc744 \ud1b5\ud574 \ub9e4\ub825\uc801\uc778 \uc774\uc57c\uae30\ub97c \ub9cc\ub4ed\ub2c8\ub2e4."
+                    "en-US": "\ud30c\uc774\uc36c \ud504\ub85c\uadf8\ub798\ubc0d \uc5b8\uc5b4\uc758 \uae30\ucd08\ub97c \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10021292,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10021437,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -85,18 +85,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1002/contents/10022967",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1002/contents/10022349",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc694\uac00 \uae30\ucd08"
+                    "en-US": "Python Fundamentals"
                 },
                 "description": {
-                    "en-US": "\uae30\ubcf8 \uc694\uac00 \ud3ec\uc988\uc640 \uc774\uc644 \uae30\uc220\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                    "en-US": "Learn the basics of Python programming language."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10022967,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10022349,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -169,18 +169,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1002/contents/10021031",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1002/contents/1002552",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Literary Analysis"
+                    "en-US": "\uae30\ud6c4 \ubcc0\ud654 \uc0ac\uc2e4\uacfc \ud574\uacb0\ucc45"
                 },
                 "description": {
-                    "en-US": "Analyzing and interpreting works of literature."
+                    "en-US": "\uae30\ud6c4 \ubcc0\ud654\ub97c \uc774\ud574\ud558\uace0 \ub300\uc751 \ubc29\ubc95\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10021031,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1002552,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -253,18 +253,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1002/contents/10022854",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1002/contents/10022970",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Introduction to Psychology"
+                    "en-US": "\uc2ec\ub9ac\ud559 \uc785\ubb38"
                 },
                 "description": {
-                    "en-US": "Basic concepts in psychology and human behavior."
+                    "en-US": "\uc2ec\ub9ac\ud559\uacfc \uc778\uac04 \ud589\ub3d9\uc758 \uae30\ubcf8 \uac1c\ub150\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10022854,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10022970,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

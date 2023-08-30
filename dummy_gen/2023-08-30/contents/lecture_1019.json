@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1019/contents/10192530",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1019/contents/10191281",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Python Fundamentals"
+                    "en-US": "Physics Experiments at Home"
                 },
                 "description": {
-                    "en-US": "Learn the basics of Python programming language."
+                    "en-US": "Performing physics experiments using household items."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10192530,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10191281,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -85,18 +85,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1019/contents/101978",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1019/contents/10192793",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Beginners Guide to Cooking"
+                    "en-US": "Beginners Guide to Gardening"
                 },
                 "description": {
-                    "en-US": "Cooking tips and easy recipes for beginners."
+                    "en-US": "Tips for starting your own garden and plant care."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 101978,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10192793,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -169,18 +169,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1019/contents/10191014",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1019/contents/1019370",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc2ec\ub9ac\ud559 \uc785\ubb38"
+                    "en-US": "Object-Oriented Programming Principles"
                 },
                 "description": {
-                    "en-US": "\uc2ec\ub9ac\ud559\uacfc \uc778\uac04 \ud589\ub3d9\uc758 \uae30\ubcf8 \uac1c\ub150\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                    "en-US": "Exploring the principles of OOP."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10191014,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1019370,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -253,18 +253,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1019/contents/1019385",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1019/contents/10192409",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Data Structures and Algorithms"
+                    "en-US": "\ud504\ub85c\uadf8\ub798\ubc0d \uc785\ubb38"
                 },
                 "description": {
-                    "en-US": "Understanding common data structures and algorithms."
+                    "en-US": "\ud504\ub85c\uadf8\ub798\ubc0d\uacfc \ucf54\ub529\uc758 \uae30\ubcf8 \uac1c\ub150\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1019385,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10192409,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

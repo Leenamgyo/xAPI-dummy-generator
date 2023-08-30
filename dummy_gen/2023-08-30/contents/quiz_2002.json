@@ -1,48 +1,23 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2002/contents/20021028",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2002/contents/20022849",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc601\uc5b4 \ubb38\uc81c 5"
+                    "en-US": "\uacfc\ud559 \uc8fc\uad00\uc2dd 1"
                 },
                 "description": {
-                    "en-US": "\uc11c\uc220"
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "choice",
+                "interactionType": "fill-in",
                 "correctResponsesPattern": [
-                    "3"
-                ],
-                "choices": [
-                    {
-                        "id": "1",
-                        "description": {
-                            "en-US": "Pen"
-                        }
-                    },
-                    {
-                        "id": "2",
-                        "description": {
-                            "en-US": "Pencil"
-                        }
-                    },
-                    {
-                        "id": "3",
-                        "description": {
-                            "en-US": "Book"
-                        }
-                    },
-                    {
-                        "id": "4",
-                        "description": {
-                            "en-US": "Desk"
-                        }
-                    }
+                    "H2O",
+                    "Water"
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20021028,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20022849,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -116,11 +91,11 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2002/contents/2002426",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2002/contents/20021259",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc601\uc5b4 \ubb38\uc81c 2"
+                    "en-US": "\uc601\uc5b4 \ubb38\uc81c 1"
                 },
                 "description": {
                     "en-US": "\uc11c\uc220"
@@ -128,36 +103,36 @@
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "interactionType": "choice",
                 "correctResponsesPattern": [
-                    "2"
+                    "3"
                 ],
                 "choices": [
                     {
                         "id": "1",
                         "description": {
-                            "en-US": "Dog"
+                            "en-US": "Banana"
                         }
                     },
                     {
                         "id": "2",
                         "description": {
-                            "en-US": "Cat"
+                            "en-US": "Orange"
                         }
                     },
                     {
                         "id": "3",
                         "description": {
-                            "en-US": "Bird"
+                            "en-US": "Apple"
                         }
                     },
                     {
                         "id": "4",
                         "description": {
-                            "en-US": "Elephant"
+                            "en-US": "Grapes"
                         }
                     }
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2002426,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20021259,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -231,11 +206,11 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2002/contents/2002384",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2002/contents/20021833",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uacbd\uc81c \uc8fc\uad00\uc2dd 1"
+                    "en-US": "\ubb38\ud559 \uc8fc\uad00\uc2dd 1"
                 },
                 "description": {
                     "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
@@ -243,11 +218,11 @@
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "interactionType": "fill-in",
                 "correctResponsesPattern": [
-                    "\uc2dc\uc7a5 \ud3c9\ud615",
-                    "market equilibrium"
+                    "\ud558\ub298\uacfc \ubc14\ub78c\uacfc \ubcc4\uacfc \uc2dc",
+                    "Sky and Wind and Stars and Poetry"
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2002384,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20021833,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -321,11 +296,11 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2002/contents/2002863",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2002/contents/20022617",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc601\uc5b4 \ubb38\uc81c 1"
+                    "en-US": "\ubb38\ud559 \ubb38\uc81c 1"
                 },
                 "description": {
                     "en-US": "\uc11c\uc220"
@@ -333,36 +308,36 @@
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "interactionType": "choice",
                 "correctResponsesPattern": [
-                    "3"
+                    "4"
                 ],
                 "choices": [
                     {
                         "id": "1",
                         "description": {
-                            "en-US": "Banana"
+                            "en-US": "\ube44\ub098\ub9ac"
                         }
                     },
                     {
                         "id": "2",
                         "description": {
-                            "en-US": "Orange"
+                            "en-US": "\ubcc4\ub625\ube5b"
                         }
                     },
                     {
                         "id": "3",
                         "description": {
-                            "en-US": "Apple"
+                            "en-US": "\ud587\ub2d8"
                         }
                     },
                     {
                         "id": "4",
                         "description": {
-                            "en-US": "Grapes"
+                            "en-US": "\ud574\ud53c\uc5d4\ub529"
                         }
                     }
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2002863,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20022617,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

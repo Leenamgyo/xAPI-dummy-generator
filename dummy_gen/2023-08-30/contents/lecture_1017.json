@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1017/contents/10172936",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1017/contents/10172203",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ub514\uc9c0\ud138 \uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158"
+                    "en-US": "Guide to Astrophotography"
                 },
                 "description": {
-                    "en-US": "\uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158 \uc18c\ud504\ud2b8\uc6e8\uc5b4\ub97c \uc0ac\uc6a9\ud558\uc5ec \ub514\uc9c0\ud138 \uc544\ud2b8\ub97c \ub9cc\ub4ed\ub2c8\ub2e4."
+                    "en-US": "Capturing stunning photos of celestial objects."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10172936,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10172203,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -85,18 +85,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1017/contents/10171807",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1017/contents/10172583",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Yoga Fundamentals"
+                    "en-US": "\ubbf8\uc0dd\ubb3c\ud559 \uc785\ubb38"
                 },
                 "description": {
-                    "en-US": "Basic yoga poses and relaxation techniques."
+                    "en-US": "\ubbf8\uc0dd\ubb3c\ud559\uacfc \ubbf8\uc0dd\ubb3c \uc0dd\uba85\uc758 \uae30\ubcf8 \uac1c\ub150\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10171807,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10172583,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -169,18 +169,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1017/contents/1017274",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1017/contents/1017228",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Climate Change Facts and Solutions"
+                    "en-US": "Web Development Basics"
                 },
                 "description": {
-                    "en-US": "Understanding climate change and ways to address it."
+                    "en-US": "Introduction to HTML, CSS, and JavaScript."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1017274,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1017228,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -253,18 +253,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1017/contents/10172816",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1017/contents/10172284",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Physics Experiments at Home"
+                    "en-US": "\ub514\uc9c0\ud138 \uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158"
                 },
                 "description": {
-                    "en-US": "Performing physics experiments using household items."
+                    "en-US": "\uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158 \uc18c\ud504\ud2b8\uc6e8\uc5b4\ub97c \uc0ac\uc6a9\ud558\uc5ec \ub514\uc9c0\ud138 \uc544\ud2b8\ub97c \ub9cc\ub4ed\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10172816,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10172284,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

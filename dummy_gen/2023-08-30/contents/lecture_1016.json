@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1016/contents/10161178",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1016/contents/10162376",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc544\uc2a4\ud2b8\ub85c \ud3ec\ud1a0\uadf8\ub798\ud53c \uc548\ub0b4"
+                    "en-US": "Data Structures and Algorithms"
                 },
                 "description": {
-                    "en-US": "\ucc9c\uccb4 \uc0ac\uc9c4\uc744 \uba4b\uc9c0\uac8c \ucc0d\ub294 \ubc29\ubc95\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                    "en-US": "Understanding common data structures and algorithms."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10161178,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10162376,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -85,18 +85,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1016/contents/10162117",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1016/contents/1016534",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ub77c\uc774\ube0c \uc9c8\uc758\uc751\ub2f5 \uc138\uc158: \uc6b0\uc8fc \ud0d0\uc0ac"
+                    "en-US": "\uc790\ub8cc \uad6c\uc870\uc640 \uc54c\uace0\ub9ac\uc998"
                 },
                 "description": {
-                    "en-US": "\ucd5c\uadfc \uc6b0\uc8fc \ud0d0\uc0ac \uac1c\ubc1c\uc5d0 \ub300\ud574 \ub17c\uc758\ud558\ub294 \uc778\ud130\ub799\ud2f0\ube0c \uc138\uc158\uc785\ub2c8\ub2e4."
+                    "en-US": "\uc77c\ubc18\uc801\uc778 \uc790\ub8cc \uad6c\uc870\uc640 \uc54c\uace0\ub9ac\uc998\uc744 \uc774\ud574\ud569\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10162117,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1016534,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -169,18 +169,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1016/contents/10161058",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1016/contents/10161079",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Guide to Astrophotography"
+                    "en-US": "\uba38\uc2e0 \ub7ec\ub2dd \uc785\ubb38"
                 },
                 "description": {
-                    "en-US": "Capturing stunning photos of celestial objects."
+                    "en-US": "\uba38\uc2e0 \ub7ec\ub2dd\uc758 \uae30\ubcf8 \uac1c\ub150\uacfc \uc751\uc6a9\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10161058,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10161079,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -253,18 +253,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1016/contents/1016764",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1016/contents/10161137",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ub514\uc9c0\ud138 \uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158"
+                    "en-US": "Introduction to World History"
                 },
                 "description": {
-                    "en-US": "\uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158 \uc18c\ud504\ud2b8\uc6e8\uc5b4\ub97c \uc0ac\uc6a9\ud558\uc5ec \ub514\uc9c0\ud138 \uc544\ud2b8\ub97c \ub9cc\ub4ed\ub2c8\ub2e4."
+                    "en-US": "Exploring key events in world history."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1016764,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10161137,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

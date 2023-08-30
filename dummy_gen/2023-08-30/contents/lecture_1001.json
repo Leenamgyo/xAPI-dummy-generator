@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1001/contents/10012107",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1001/contents/1001957",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Introduction to Microbiology"
+                    "en-US": "\uc2ec\ub9ac\ud559 \uc785\ubb38"
                 },
                 "description": {
-                    "en-US": "Basic concepts in microbiology and microbial life."
+                    "en-US": "\uc2ec\ub9ac\ud559\uacfc \uc778\uac04 \ud589\ub3d9\uc758 \uae30\ubcf8 \uac1c\ub150\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10012107,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1001957,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -85,18 +85,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1001/contents/1001990",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1001/contents/10011187",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Physics Experiments at Home"
+                    "en-US": "\ub514\uc9c0\ud138 \uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158"
                 },
                 "description": {
-                    "en-US": "Performing physics experiments using household items."
+                    "en-US": "\uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158 \uc18c\ud504\ud2b8\uc6e8\uc5b4\ub97c \uc0ac\uc6a9\ud558\uc5ec \ub514\uc9c0\ud138 \uc544\ud2b8\ub97c \ub9cc\ub4ed\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1001990,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10011187,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -169,18 +169,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1001/contents/10011936",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1001/contents/10011111",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ub77c\uc774\ube0c \uc9c8\uc758\uc751\ub2f5 \uc138\uc158: \uc6b0\uc8fc \ud0d0\uc0ac"
+                    "en-US": "Climate Change Facts and Solutions"
                 },
                 "description": {
-                    "en-US": "\ucd5c\uadfc \uc6b0\uc8fc \ud0d0\uc0ac \uac1c\ubc1c\uc5d0 \ub300\ud574 \ub17c\uc758\ud558\ub294 \uc778\ud130\ub799\ud2f0\ube0c \uc138\uc158\uc785\ub2c8\ub2e4."
+                    "en-US": "Understanding climate change and ways to address it."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10011936,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10011111,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -253,18 +253,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1001/contents/1001253",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1001/contents/10012545",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ub514\uc9c0\ud138 \uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158"
+                    "en-US": "\uc6d0\uc608 \ucd08\ubcf4\uc790\ub97c \uc704\ud55c \uc548\ub0b4\uc11c"
                 },
                 "description": {
-                    "en-US": "\uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158 \uc18c\ud504\ud2b8\uc6e8\uc5b4\ub97c \uc0ac\uc6a9\ud558\uc5ec \ub514\uc9c0\ud138 \uc544\ud2b8\ub97c \ub9cc\ub4ed\ub2c8\ub2e4."
+                    "en-US": "\uc815\uc6d0 \uac00\uafb8\uae30\uc640 \uc2dd\ubb3c \uad00\ub9ac\uc5d0 \ub300\ud55c \ud301\uc785\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1001253,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10012545,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1020/contents/1020584",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1020/contents/10201661",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc790\ub8cc \uad6c\uc870\uc640 \uc54c\uace0\ub9ac\uc998"
+                    "en-US": "Climate Change Facts and Solutions"
                 },
                 "description": {
-                    "en-US": "\uc77c\ubc18\uc801\uc778 \uc790\ub8cc \uad6c\uc870\uc640 \uc54c\uace0\ub9ac\uc998\uc744 \uc774\ud574\ud569\ub2c8\ub2e4."
+                    "en-US": "Understanding climate change and ways to address it."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1020584,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10201661,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -85,18 +85,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1020/contents/10202912",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1020/contents/10204",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ud30c\uc774\uc36c \uae30\ucd08"
+                    "en-US": "Yoga Fundamentals"
                 },
                 "description": {
-                    "en-US": "\ud30c\uc774\uc36c \ud504\ub85c\uadf8\ub798\ubc0d \uc5b8\uc5b4\uc758 \uae30\ucd08\ub97c \ubc30\uc6c1\ub2c8\ub2e4."
+                    "en-US": "Basic yoga poses and relaxation techniques."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10202912,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10204,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -169,18 +169,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1020/contents/10201585",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1020/contents/10202411",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Introduction to Psychology"
+                    "en-US": "\uc2ec\ub9ac\ud559 \uc785\ubb38"
                 },
                 "description": {
-                    "en-US": "Basic concepts in psychology and human behavior."
+                    "en-US": "\uc2ec\ub9ac\ud559\uacfc \uc778\uac04 \ud589\ub3d9\uc758 \uae30\ubcf8 \uac1c\ub150\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10201585,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10202411,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -253,18 +253,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1020/contents/1020235",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1020/contents/10201170",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Climate Change Facts and Solutions"
+                    "en-US": "\ub514\uc9c0\ud138 \uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158"
                 },
                 "description": {
-                    "en-US": "Understanding climate change and ways to address it."
+                    "en-US": "\uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158 \uc18c\ud504\ud2b8\uc6e8\uc5b4\ub97c \uc0ac\uc6a9\ud558\uc5ec \ub514\uc9c0\ud138 \uc544\ud2b8\ub97c \ub9cc\ub4ed\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1020235,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10201170,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

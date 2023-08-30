@@ -1,23 +1,22 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2010/contents/20102833",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2010/contents/2010512",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc218\ud559 \uc8fc\uad00\uc2dd 1"
+                    "en-US": "\ubb38\ud559 \uc11c\uc220\ud615 1"
                 },
                 "description": {
                     "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "fill-in",
+                "interactionType": "long-fill-in",
                 "correctResponsesPattern": [
-                    "63",
-                    "6 x 9"
+                    ""
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20102833,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2010512,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -91,11 +90,11 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2010/contents/2010181",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2010/contents/20101933",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc5ed\uc0ac \uc8fc\uad00\uc2dd 1"
+                    "en-US": "\uccb4\uc721 \uc8fc\uad00\uc2dd 1"
                 },
                 "description": {
                     "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
@@ -103,11 +102,11 @@
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "interactionType": "fill-in",
                 "correctResponsesPattern": [
-                    "1914",
-                    "1914\ub144"
+                    "goal",
+                    "scoring a goal"
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2010181,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20101933,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -181,23 +180,48 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2010/contents/2010836",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2010/contents/2010579",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uacbd\uc81c \uc8fc\uad00\uc2dd 1"
+                    "en-US": "\uc601\uc5b4 \ubb38\uc81c 3"
                 },
                 "description": {
-                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
+                    "en-US": "\uc11c\uc220"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "fill-in",
+                "interactionType": "choice",
                 "correctResponsesPattern": [
-                    "\uc2dc\uc7a5 \ud3c9\ud615",
-                    "market equilibrium"
+                    "1"
+                ],
+                "choices": [
+                    {
+                        "id": "1",
+                        "description": {
+                            "en-US": "Sea"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "description": {
+                            "en-US": "Lake"
+                        }
+                    },
+                    {
+                        "id": "3",
+                        "description": {
+                            "en-US": "River"
+                        }
+                    },
+                    {
+                        "id": "4",
+                        "description": {
+                            "en-US": "Mountain"
+                        }
+                    }
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2010836,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2010579,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -271,48 +295,23 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2010/contents/2010772",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2010/contents/20102210",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uacfc\ud559 \ubb38\uc81c 1"
+                    "en-US": "\uc218\ud559 \uc8fc\uad00\uc2dd 1"
                 },
                 "description": {
-                    "en-US": "\uc11c\uc220"
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "choice",
+                "interactionType": "fill-in",
                 "correctResponsesPattern": [
-                    "2"
-                ],
-                "choices": [
-                    {
-                        "id": "1",
-                        "description": {
-                            "en-US": "H2O"
-                        }
-                    },
-                    {
-                        "id": "2",
-                        "description": {
-                            "en-US": "CO2"
-                        }
-                    },
-                    {
-                        "id": "3",
-                        "description": {
-                            "en-US": "O2"
-                        }
-                    },
-                    {
-                        "id": "4",
-                        "description": {
-                            "en-US": "N2"
-                        }
-                    }
+                    "63",
+                    "6 x 9"
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2010772,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20102210,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

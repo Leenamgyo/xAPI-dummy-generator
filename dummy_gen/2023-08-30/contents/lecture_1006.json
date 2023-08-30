@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1006/contents/10062182",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1006/contents/1006691",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc790\ub8cc \uad6c\uc870\uc640 \uc54c\uace0\ub9ac\uc998"
+                    "en-US": "\uac1d\uccb4 \uc9c0\ud5a5 \ud504\ub85c\uadf8\ub798\ubc0d \uc6d0\ub9ac"
                 },
                 "description": {
-                    "en-US": "\uc77c\ubc18\uc801\uc778 \uc790\ub8cc \uad6c\uc870\uc640 \uc54c\uace0\ub9ac\uc998\uc744 \uc774\ud574\ud569\ub2c8\ub2e4."
+                    "en-US": "\uac1d\uccb4 \uc9c0\ud5a5 \ud504\ub85c\uadf8\ub798\ubc0d\uc758 \uae30\ubcf8 \uc6d0\ub9ac\ub97c \ud0d0\uad6c\ud569\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10062182,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1006691,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -85,18 +85,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1006/contents/1006659",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1006/contents/1006367",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ucd08\ubcf4\uc790\ub97c \uc704\ud55c \uc694\ub9ac \uc548\ub0b4\uc11c"
+                    "en-US": "\ud504\ub85c\uadf8\ub798\ubc0d \uc785\ubb38"
                 },
                 "description": {
-                    "en-US": "\ucd08\ubcf4\uc790\ub97c \uc704\ud55c \uc694\ub9ac \ud301\uacfc \uc26c\uc6b4 \ub808\uc2dc\ud53c\uc785\ub2c8\ub2e4."
+                    "en-US": "\ud504\ub85c\uadf8\ub798\ubc0d\uacfc \ucf54\ub529\uc758 \uae30\ubcf8 \uac1c\ub150\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1006659,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1006367,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -169,18 +169,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1006/contents/10062420",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1006/contents/10061797",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc6f9 \uac1c\ubc1c \uae30\ucd08"
+                    "en-US": "\ube44\ub514\uc624 \ud3b8\uc9d1 \uae30\ubc95"
                 },
                 "description": {
-                    "en-US": "HTML, CSS \ubc0f JavaScript \uc18c\uac1c\uc785\ub2c8\ub2e4."
+                    "en-US": "\ub2e4\uc591\ud55c \ube44\ub514\uc624 \ud3b8\uc9d1 \uae30\uc220\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10062420,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10061797,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -253,18 +253,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1006/contents/10062853",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1006/contents/10061573",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uba38\uc2e0 \ub7ec\ub2dd \uc785\ubb38"
+                    "en-US": "Python Fundamentals"
                 },
                 "description": {
-                    "en-US": "\uba38\uc2e0 \ub7ec\ub2dd\uc758 \uae30\ubcf8 \uac1c\ub150\uacfc \uc751\uc6a9\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                    "en-US": "Learn the basics of Python programming language."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10062853,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10061573,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

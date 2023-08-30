@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1010/contents/10101573",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1010/contents/101090",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Data Structures and Algorithms"
+                    "en-US": "\ub77c\uc774\ube0c \uc9c8\uc758\uc751\ub2f5 \uc138\uc158: \uc6b0\uc8fc \ud0d0\uc0ac"
                 },
                 "description": {
-                    "en-US": "Understanding common data structures and algorithms."
+                    "en-US": "\ucd5c\uadfc \uc6b0\uc8fc \ud0d0\uc0ac \uac1c\ubc1c\uc5d0 \ub300\ud574 \ub17c\uc758\ud558\ub294 \uc778\ud130\ub799\ud2f0\ube0c \uc138\uc158\uc785\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10101573,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 101090,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -85,18 +85,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1010/contents/10101926",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1010/contents/10101221",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ud504\ub85c\uadf8\ub798\ubc0d \uc785\ubb38"
+                    "en-US": "\uc790\ub8cc \uad6c\uc870\uc640 \uc54c\uace0\ub9ac\uc998"
                 },
                 "description": {
-                    "en-US": "\ud504\ub85c\uadf8\ub798\ubc0d\uacfc \ucf54\ub529\uc758 \uae30\ubcf8 \uac1c\ub150\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                    "en-US": "\uc77c\ubc18\uc801\uc778 \uc790\ub8cc \uad6c\uc870\uc640 \uc54c\uace0\ub9ac\uc998\uc744 \uc774\ud574\ud569\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10101926,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10101221,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -169,18 +169,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1010/contents/10102230",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1010/contents/10101206",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ubbf8\uc0dd\ubb3c\ud559 \uc785\ubb38"
+                    "en-US": "Climate Change Facts and Solutions"
                 },
                 "description": {
-                    "en-US": "\ubbf8\uc0dd\ubb3c\ud559\uacfc \ubbf8\uc0dd\ubb3c \uc0dd\uba85\uc758 \uae30\ubcf8 \uac1c\ub150\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                    "en-US": "Understanding climate change and ways to address it."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10102230,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10101206,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -253,18 +253,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1010/contents/1010360",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1010/contents/10102586",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Introduction to World History"
+                    "en-US": "Python Fundamentals"
                 },
                 "description": {
-                    "en-US": "Exploring key events in world history."
+                    "en-US": "Learn the basics of Python programming language."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1010360,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10102586,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

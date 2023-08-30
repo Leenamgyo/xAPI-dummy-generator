@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/10122257",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/1012245",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ub77c\uc774\ube0c \uc9c8\uc758\uc751\ub2f5 \uc138\uc158: \uc6b0\uc8fc \ud0d0\uc0ac"
+                    "en-US": "\ud30c\uc774\uc36c \uae30\ucd08"
                 },
                 "description": {
-                    "en-US": "\ucd5c\uadfc \uc6b0\uc8fc \ud0d0\uc0ac \uac1c\ubc1c\uc5d0 \ub300\ud574 \ub17c\uc758\ud558\ub294 \uc778\ud130\ub799\ud2f0\ube0c \uc138\uc158\uc785\ub2c8\ub2e4."
+                    "en-US": "\ud30c\uc774\uc36c \ud504\ub85c\uadf8\ub798\ubc0d \uc5b8\uc5b4\uc758 \uae30\ucd08\ub97c \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10122257,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1012245,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -85,18 +85,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/10122471",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/10122636",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc2ec\ub9ac\ud559 \uc785\ubb38"
+                    "en-US": "\ube44\ub514\uc624 \ud3b8\uc9d1 \uae30\ubc95"
                 },
                 "description": {
-                    "en-US": "\uc2ec\ub9ac\ud559\uacfc \uc778\uac04 \ud589\ub3d9\uc758 \uae30\ubcf8 \uac1c\ub150\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                    "en-US": "\ub2e4\uc591\ud55c \ube44\ub514\uc624 \ud3b8\uc9d1 \uae30\uc220\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10122471,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10122636,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -169,18 +169,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/10122434",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/10121817",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Digital Illustration"
+                    "en-US": "Introduction to Programming"
                 },
                 "description": {
-                    "en-US": "Creating digital art using illustration software."
+                    "en-US": "Basic concepts of programming and coding."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10122434,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10121817,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -253,18 +253,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/1012323",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1012/contents/101281",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Yoga Fundamentals"
+                    "en-US": "Live Q&A Session: Space Exploration"
                 },
                 "description": {
-                    "en-US": "Basic yoga poses and relaxation techniques."
+                    "en-US": "Interactive session discussing recent space exploration developments."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1012323,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 101281,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

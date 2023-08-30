@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1011/contents/1011166",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1011/contents/10112255",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Object-Oriented Programming Principles"
+                    "en-US": "Climate Change Facts and Solutions"
                 },
                 "description": {
-                    "en-US": "Exploring the principles of OOP."
+                    "en-US": "Understanding climate change and ways to address it."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1011166,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10112255,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -85,18 +85,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1011/contents/10111947",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1011/contents/1011246",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ub77c\uc774\ube0c \uc9c8\uc758\uc751\ub2f5 \uc138\uc158: \uc6b0\uc8fc \ud0d0\uc0ac"
+                    "en-US": "\ub514\uc9c0\ud138 \uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158"
                 },
                 "description": {
-                    "en-US": "\ucd5c\uadfc \uc6b0\uc8fc \ud0d0\uc0ac \uac1c\ubc1c\uc5d0 \ub300\ud574 \ub17c\uc758\ud558\ub294 \uc778\ud130\ub799\ud2f0\ube0c \uc138\uc158\uc785\ub2c8\ub2e4."
+                    "en-US": "\uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158 \uc18c\ud504\ud2b8\uc6e8\uc5b4\ub97c \uc0ac\uc6a9\ud558\uc5ec \ub514\uc9c0\ud138 \uc544\ud2b8\ub97c \ub9cc\ub4ed\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10111947,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1011246,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -169,18 +169,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1011/contents/10111611",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1011/contents/101168",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Web Development Basics"
+                    "en-US": "Guide to Astrophotography"
                 },
                 "description": {
-                    "en-US": "Introduction to HTML, CSS, and JavaScript."
+                    "en-US": "Capturing stunning photos of celestial objects."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10111611,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 101168,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -253,18 +253,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1011/contents/10112535",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1011/contents/10111920",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Introduction to World History"
+                    "en-US": "\uc544\uc2a4\ud2b8\ub85c \ud3ec\ud1a0\uadf8\ub798\ud53c \uc548\ub0b4"
                 },
                 "description": {
-                    "en-US": "Exploring key events in world history."
+                    "en-US": "\ucc9c\uccb4 \uc0ac\uc9c4\uc744 \uba4b\uc9c0\uac8c \ucc0d\ub294 \ubc29\ubc95\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10112535,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10111920,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

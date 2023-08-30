@@ -1,23 +1,22 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2012/contents/20122812",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2012/contents/20122694",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ubbf8\uc220 \uc8fc\uad00\uc2dd 1"
+                    "en-US": "\uc608\uc220 \uc11c\uc220\ud615 1"
                 },
                 "description": {
                     "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "fill-in",
+                "interactionType": "long-fill-in",
                 "correctResponsesPattern": [
-                    "\ubbf8\ucf08\ub780\uc824\ub85c",
-                    "Michelangelo"
+                    ""
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20122812,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20122694,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -91,48 +90,23 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2012/contents/20122173",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2012/contents/2012833",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc601\uc5b4 \ubb38\uc81c 4"
+                    "en-US": "\uc2ec\ub9ac\ud559 \uc8fc\uad00\uc2dd 1"
                 },
                 "description": {
-                    "en-US": "\uc11c\uc220"
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "choice",
+                "interactionType": "fill-in",
                 "correctResponsesPattern": [
-                    "4"
-                ],
-                "choices": [
-                    {
-                        "id": "1",
-                        "description": {
-                            "en-US": "Train"
-                        }
-                    },
-                    {
-                        "id": "2",
-                        "description": {
-                            "en-US": "Car"
-                        }
-                    },
-                    {
-                        "id": "3",
-                        "description": {
-                            "en-US": "Bus"
-                        }
-                    },
-                    {
-                        "id": "4",
-                        "description": {
-                            "en-US": "Airplane"
-                        }
-                    }
+                    "\ubb34\uae30\ub825\uac10",
+                    "lack of energy"
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20122173,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2012833,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -206,48 +180,23 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2012/contents/2012182",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2012/contents/2012513",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uacfc\ud559 \ubb38\uc81c 1"
+                    "en-US": "\ubbf8\uc220 \uc8fc\uad00\uc2dd 1"
                 },
                 "description": {
-                    "en-US": "\uc11c\uc220"
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "choice",
+                "interactionType": "fill-in",
                 "correctResponsesPattern": [
-                    "2"
-                ],
-                "choices": [
-                    {
-                        "id": "1",
-                        "description": {
-                            "en-US": "H2O"
-                        }
-                    },
-                    {
-                        "id": "2",
-                        "description": {
-                            "en-US": "CO2"
-                        }
-                    },
-                    {
-                        "id": "3",
-                        "description": {
-                            "en-US": "O2"
-                        }
-                    },
-                    {
-                        "id": "4",
-                        "description": {
-                            "en-US": "N2"
-                        }
-                    }
+                    "\ubbf8\ucf08\ub780\uc824\ub85c",
+                    "Michelangelo"
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2012182,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2012513,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -321,22 +270,48 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2012/contents/20122314",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2012/contents/2012712",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ubb38\ud559 \uc11c\uc220\ud615 1"
+                    "en-US": "\uc5ed\uc0ac \ubb38\uc81c 1"
                 },
                 "description": {
-                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
+                    "en-US": "\uc11c\uc220"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "long-fill-in",
+                "interactionType": "choice",
                 "correctResponsesPattern": [
-                    ""
+                    "1"
+                ],
+                "choices": [
+                    {
+                        "id": "1",
+                        "description": {
+                            "en-US": "1945\ub144"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "description": {
+                            "en-US": "1939\ub144"
+                        }
+                    },
+                    {
+                        "id": "3",
+                        "description": {
+                            "en-US": "1950\ub144"
+                        }
+                    },
+                    {
+                        "id": "4",
+                        "description": {
+                            "en-US": "1961\ub144"
+                        }
+                    }
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20122314,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2012712,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/1005289",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/10052431",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc790\ub8cc \uad6c\uc870\uc640 \uc54c\uace0\ub9ac\uc998"
+                    "en-US": "Beginners Guide to Gardening"
                 },
                 "description": {
-                    "en-US": "\uc77c\ubc18\uc801\uc778 \uc790\ub8cc \uad6c\uc870\uc640 \uc54c\uace0\ub9ac\uc998\uc744 \uc774\ud574\ud569\ub2c8\ub2e4."
+                    "en-US": "Tips for starting your own garden and plant care."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1005289,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10052431,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -85,18 +85,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/10052259",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/1005936",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc138\uacc4 \uc5ed\uc0ac \uc18c\uac1c"
+                    "en-US": "Live Q&A Session: Space Exploration"
                 },
                 "description": {
-                    "en-US": "\uc138\uacc4 \uc5ed\uc0ac\uc758 \uc8fc\uc694 \uc0ac\uac74\uc744 \ud0d0\uad6c\ud569\ub2c8\ub2e4."
+                    "en-US": "Interactive session discussing recent space exploration developments."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10052259,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1005936,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -169,18 +169,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/10052781",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/10051977",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Climate Change Facts and Solutions"
+                    "en-US": "Python Fundamentals"
                 },
                 "description": {
-                    "en-US": "Understanding climate change and ways to address it."
+                    "en-US": "Learn the basics of Python programming language."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10052781,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10051977,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -253,18 +253,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/10052033",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1005/contents/10051230",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Guide to Astrophotography"
+                    "en-US": "\ub77c\uc774\ube0c \uc9c8\uc758\uc751\ub2f5 \uc138\uc158: \uc6b0\uc8fc \ud0d0\uc0ac"
                 },
                 "description": {
-                    "en-US": "Capturing stunning photos of celestial objects."
+                    "en-US": "\ucd5c\uadfc \uc6b0\uc8fc \ud0d0\uc0ac \uac1c\ubc1c\uc5d0 \ub300\ud574 \ub17c\uc758\ud558\ub294 \uc778\ud130\ub799\ud2f0\ube0c \uc138\uc158\uc785\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10052033,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10051230,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

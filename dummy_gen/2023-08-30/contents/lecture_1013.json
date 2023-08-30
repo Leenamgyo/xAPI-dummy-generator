@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1013/contents/10132556",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1013/contents/1013834",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc544\uc2a4\ud2b8\ub85c \ud3ec\ud1a0\uadf8\ub798\ud53c \uc548\ub0b4"
+                    "en-US": "\uba38\uc2e0 \ub7ec\ub2dd \uc785\ubb38"
                 },
                 "description": {
-                    "en-US": "\ucc9c\uccb4 \uc0ac\uc9c4\uc744 \uba4b\uc9c0\uac8c \ucc0d\ub294 \ubc29\ubc95\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                    "en-US": "\uba38\uc2e0 \ub7ec\ub2dd\uc758 \uae30\ubcf8 \uac1c\ub150\uacfc \uc751\uc6a9\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10132556,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1013834,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -85,18 +85,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1013/contents/10131855",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1013/contents/10132795",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Introduction to Programming"
+                    "en-US": "Literary Analysis"
                 },
                 "description": {
-                    "en-US": "Basic concepts of programming and coding."
+                    "en-US": "Analyzing and interpreting works of literature."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10131855,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10132795,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -169,18 +169,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1013/contents/10131691",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1013/contents/1013440",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ud504\ub85c\uadf8\ub798\ubc0d \uc785\ubb38"
+                    "en-US": "Introduction to Microbiology"
                 },
                 "description": {
-                    "en-US": "\ud504\ub85c\uadf8\ub798\ubc0d\uacfc \ucf54\ub529\uc758 \uae30\ubcf8 \uac1c\ub150\uc744 \ubc30\uc6c1\ub2c8\ub2e4."
+                    "en-US": "Basic concepts in microbiology and microbial life."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10131691,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1013440,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -253,7 +253,7 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1013/contents/10132297",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1013/contents/10131893",
             "objectType": "Activity",
             "definition": {
                 "name": {
@@ -264,7 +264,7 @@
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10132297,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10131893,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",

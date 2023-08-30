@@ -1,18 +1,18 @@
 [
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1008/contents/1008310",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1008/contents/10081814",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Digital Illustration"
+                    "en-US": "Object-Oriented Programming Principles"
                 },
                 "description": {
-                    "en-US": "Creating digital art using illustration software."
+                    "en-US": "Exploring the principles of OOP."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1008310,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10081814,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -85,18 +85,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1008/contents/100848",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1008/contents/1008105",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Beginners Guide to Cooking"
+                    "en-US": "\uc138\uacc4 \uc5ed\uc0ac \uc18c\uac1c"
                 },
                 "description": {
-                    "en-US": "Cooking tips and easy recipes for beginners."
+                    "en-US": "\uc138\uacc4 \uc5ed\uc0ac\uc758 \uc8fc\uc694 \uc0ac\uac74\uc744 \ud0d0\uad6c\ud569\ub2c8\ub2e4."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 100848,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1008105,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -169,18 +169,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1008/contents/1008123",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1008/contents/1008661",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ub514\uc9c0\ud138 \uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158"
+                    "en-US": "Digital Illustration"
                 },
                 "description": {
-                    "en-US": "\uc77c\ub7ec\uc2a4\ud2b8\ub808\uc774\uc158 \uc18c\ud504\ud2b8\uc6e8\uc5b4\ub97c \uc0ac\uc6a9\ud558\uc5ec \ub514\uc9c0\ud138 \uc544\ud2b8\ub97c \ub9cc\ub4ed\ub2c8\ub2e4."
+                    "en-US": "Creating digital art using illustration software."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1008123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1008661,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
@@ -253,18 +253,18 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1008/contents/10082292",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/1008/contents/1008136",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Beginners Guide to Gardening"
+                    "en-US": "Introduction to World History"
                 },
                 "description": {
-                    "en-US": "Tips for starting your own garden and plant care."
+                    "en-US": "Exploring key events in world history."
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 10082292,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 1008136,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
