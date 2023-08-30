@@ -14,8 +14,7 @@ def set_object_extensions():
     list_ = []
     lecture_path = "resources/peer/lecture"
     content_path = "resources/peer/contents"
-    listdir_ = [name for name in os.listdir(lecture_path) if 'quiz' in name]
-    for lecture_name in listdir_:
+    for lecture_name in os.listdir(lecture_path):
         lecture = file.load_json(lecture_path+"/"+lecture_name)
         contents = file.load_json(content_path+"/"+lecture_name)
         list_.append([lecture, contents])

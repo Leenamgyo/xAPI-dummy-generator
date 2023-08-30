@@ -35,8 +35,8 @@ class Acceessed(XAPIAction):
             duration=iso8601.parse_sec_to_duration(random.randint(1, 3)),
             score={},
             extensions={
-                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": session_id,
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
+                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": kwargs["session_id"],
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"]
             }
         )
 
@@ -58,8 +58,8 @@ class Completed(XAPIAction):
             duration=iso8601.parse_sec_to_duration(random.randint(5, 10)),
             score={},
             extensions={
-                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": session_id,
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
+                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": kwargs["session_id"],
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"]
             }
         )
     
@@ -73,14 +73,14 @@ class Scoreded(XAPIAction):
             context=context
         )
 
-    def start(self, duration, attempt, session_id):
+    def start(self, **kwargs):
         self.result =  XAPIResult(
             success=str('true'),
             completion=str('true'),
             response="",
             score={},
             extensions={
-                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": session_id,
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
+                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": kwargs["session_id"],
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"]
             }
         )
