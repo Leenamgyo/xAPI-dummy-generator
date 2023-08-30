@@ -1,3 +1,5 @@
+from datetime import datetime
+from pytz import timezone
 """
     ISO 8601 Durations are expressed using the following format, 
     where (n) is replaced by the value for each of the date and time elements that follow the (n):
@@ -30,3 +32,6 @@ def parse_sec_to_duration(
     duration = ""
     duration = f"{second}S"
     return duration
+
+def timestamp_now_str():
+    return datetime.now(timezone('Asia/Seoul')).strftime("%Y-%m-%dT%H:%M:%S%z")
