@@ -10,6 +10,11 @@ DIR_PATH = f"dummy_gen/{str(date.today())}"
 def find_contents(lecture):
     contents = utils.files.load_json_file(f"dummy_gen/whaleclass/{lecture['lecture_type']}_contents.json")
     selected = random.sample(contents, 4)
+
+    if lecture['lecture_type'] == "peer":
+        contents = utils.files.load_json_file(f"dummy_gen/whaleclass/{lecture['lecture_type']}_contents.json")
+        selected = random.sample(contents, 1)
+
     return selected
 
 
@@ -22,8 +27,13 @@ def extra_data(lecture_info, object_extensions):
     elif lecture_info["lecture_type"] == "task":
         pass
     elif lecture_info["lecture_type"] == "peer":
-        pass
+        object_extensions["https://class.whalespace.io/classes/class/chapters/chapter/lectures/peer/assessment/start-date"] = lecture_info["assessment_start_date"]
+        object_extensions["https://class.whalespace.io/classes/class/chapters/chapter/lectures/peer/assessment/end-date"] = lecture_info["assessment_end_date"]
+        object_extensions["https://class.whalespace.io/classes/class/chapters/chapter/lectures/peer/assessment/number"] = lecture_info["assessment_number"]
     return object_extensions
+	
+	
+	
 
 def main():
     # actors = file.load_json("../resources/actors.json")

@@ -1,42 +1,42 @@
 [
     {
-      "content_name": "과제 1",
+      "content_name": "동료평가 1",
       "content_description": "해당 주제에 대한 리서치 보고서를 작성하세요."
     },
     {
-      "content_name": "과제 2",
+      "content_name": "동료평가 2",
       "content_description": "주어진 주제에 대한 논문을 쓰세요."
     },
     {
-      "content_name": "과제 3",
+      "content_name": "동료평가 3",
       "content_description": "해당 문제를 해결하는 방안을 제안하는 보고서를 작성하세요."
     },
     {
-      "content_name": "과제 4",
-      "content_description": "주어진 과제 주제에 대한 프로젝트 계획서를 작성하세요."
+      "content_name": "동료평가 4",
+      "content_description": "주어진 동료평가 주제에 대한 프로젝트 계획서를 작성하세요."
     },
     {
-      "content_name": "과제 5",
+      "content_name": "동료평가 5",
       "content_description": "주어진 주제에 대한 발표 자료를 준비하세요."
     },
     {
-      "content_name": "과제 6",
+      "content_name": "동료평가 6",
       "content_description": "토론 주제에 대한 논거를 제시하는 논문을 작성하세요."
     },
     {
-      "content_name": "과제 7",
+      "content_name": "동료평가 7",
       "content_description": "해당 주제에 대한 비평 또는 분석을 쓰세요."
     },
     {
-      "content_name": "과제 8",
+      "content_name": "동료평가 8",
       "content_description": "주어진 문제에 대한 솔루션을 설명하는 보고서를 작성하세요."
     },
     {
-      "content_name": "과제 9",
+      "content_name": "동료평가 9",
       "content_description": "자유 주제로 글을 쓰세요."
     },
     {
-      "content_name": "과제 10",
+      "content_name": "동료평가 10",
       "content_description": "주어진 주제에 대한 생각을 기술하는 글을 작성하세요."
     }
   ]

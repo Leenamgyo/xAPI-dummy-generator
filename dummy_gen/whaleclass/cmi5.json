@@ -473,7 +473,10 @@
         "lecture_tag_subject": "수학",
         "lecture_tag": "막학기",
         "lecture_start_date": "2023-09-15T00:00:00Z",
-        "lecture_end_date": "2023-12-31T00:00:00Z"
+        "lecture_end_date": "2023-12-31T00:00:00Z",
+        "assessment_start_date": "2023-09-15T00:00:00Z",
+        "assessment_end_date": "2023-12-10T00:00:00Z",
+        "assessment_number": 3
     },
     {
         "lecture_id": 4002,
@@ -482,7 +485,10 @@
         "lecture_tag_subject": "영어",
         "lecture_tag": "막학기",
         "lecture_start_date": "2023-09-15T00:00:00Z",
-        "lecture_end_date": "2023-12-31T00:00:00Z"
+        "lecture_end_date": "2023-12-31T00:00:00Z",
+        "assessment_start_date": "2023-09-15T00:00:00Z",
+        "assessment_end_date": "2023-12-10T00:00:00Z",
+        "assessment_number": 3
     },
     {
         "lecture_id": 4003,
@@ -491,7 +497,10 @@
         "lecture_tag_subject": "과학",
         "lecture_tag": "막학기",
         "lecture_start_date": "2023-09-15T00:00:00Z",
-        "lecture_end_date": "2023-12-31T00:00:00Z"
+        "lecture_end_date": "2023-12-31T00:00:00Z",
+        "assessment_start_date": "2023-09-20T00:00:00Z",
+        "assessment_end_date": "2023-12-15T00:00:00Z",
+        "assessment_number": 3
     },
     {
         "lecture_id": 4004,
@@ -500,7 +509,10 @@
         "lecture_tag_subject": "역사",
         "lecture_tag": "막학기",
         "lecture_start_date": "2023-09-15T00:00:00Z",
-        "lecture_end_date": "2023-12-31T00:00:00Z"
+        "lecture_end_date": "2023-12-31T00:00:00Z",
+        "assessment_start_date": "2023-09-20T00:00:00Z",
+        "assessment_end_date": "2023-12-15T00:00:00Z",
+        "assessment_number": 3
     },
     {
         "lecture_id": 4005,
@@ -509,7 +521,10 @@
         "lecture_tag_subject": "문학",
         "lecture_tag": "막학기",
         "lecture_start_date": "2023-09-15T00:00:00Z",
-        "lecture_end_date": "2023-12-31T00:00:00Z"
+        "lecture_end_date": "2023-12-31T00:00:00Z",
+        "assessment_start_date": "2023-09-20T00:00:00Z",
+        "assessment_end_date": "2023-12-15T00:00:00Z",
+        "assessment_number": 3
     },
     {
         "lecture_id": 4006,
@@ -518,7 +533,10 @@
         "lecture_tag_subject": "화학",
         "lecture_tag": "막학기",
         "lecture_start_date": "2023-09-15T00:00:00Z",
-        "lecture_end_date": "2023-12-31T00:00:00Z"
+        "lecture_end_date": "2023-12-31T00:00:00Z",
+        "assessment_start_date": "2023-10-01T00:00:00Z",
+        "assessment_end_date": "2023-12-20T00:00:00Z",
+        "assessment_number": 3
     },
     {
         "lecture_id": 4007,
@@ -527,7 +545,10 @@
         "lecture_tag_subject": "미술",
         "lecture_tag": "막학기",
         "lecture_start_date": "2023-09-15T00:00:00Z",
-        "lecture_end_date": "2023-12-31T00:00:00Z"
+        "lecture_end_date": "2023-12-31T00:00:00Z",
+        "assessment_start_date": "2023-10-01T00:00:00Z",
+        "assessment_end_date": "2023-12-20T00:00:00Z",
+        "assessment_number": 3
     },
     {
         "lecture_id": 4008,
@@ -536,7 +557,10 @@
         "lecture_tag_subject": "체육",
         "lecture_tag": "막학기",
         "lecture_start_date": "2023-09-15T00:00:00Z",
-        "lecture_end_date": "2023-12-31T00:00:00Z"
+        "lecture_end_date": "2023-12-31T00:00:00Z",
+        "assessment_start_date": "2023-10-01T00:00:00Z",
+        "assessment_end_date": "2023-12-20T00:00:00Z",
+        "assessment_number": 3
     },
     {
         "lecture_id": 4009,
@@ -545,7 +569,10 @@
         "lecture_tag_subject": "심리학",
         "lecture_tag": "막학기",
         "lecture_start_date": "2023-09-15T00:00:00Z",
-        "lecture_end_date": "2023-12-31T00:00:00Z"
+        "lecture_end_date": "2023-12-31T00:00:00Z",
+        "assessment_start_date": "2023-10-10T00:00:00Z",
+        "assessment_end_date": "2023-12-25T00:00:00Z",
+        "assessment_number": 3
     },
     {
         "lecture_id": 4010,
@@ -554,7 +581,10 @@
         "lecture_tag_subject": "경제학",
         "lecture_tag": "막학기",
         "lecture_start_date": "2023-09-15T00:00:00Z",
-        "lecture_end_date": "2023-12-31T00:00:00Z"
+        "lecture_end_date": "2023-12-31T00:00:00Z",
+        "assessment_start_date": "2023-10-10T00:00:00Z",
+        "assessment_end_date": "2023-12-25T00:00:00Z",
+        "assessment_number": 3
     },
     {
         "lecture_id": 4011,
@@ -563,7 +593,10 @@
         "lecture_tag_subject": "정치학",
         "lecture_tag": "막학기",
         "lecture_start_date": "2023-09-15T00:00:00Z",
-        "lecture_end_date": "2023-12-31T00:00:00Z"
+        "lecture_end_date": "2023-12-31T00:00:00Z",
+        "assessment_start_date": "2023-10-10T00:00:00Z",
+        "assessment_end_date": "2023-12-25T00:00:00Z",
+        "assessment_number": 3
     },
     {
         "lecture_id": 4012,
@@ -572,7 +605,10 @@
         "lecture_tag_subject": "음악",
         "lecture_tag": "막학기",
         "lecture_start_date": "2023-09-15T00:00:00Z",
-        "lecture_end_date": "2023-12-31T00:00:00Z"
+        "lecture_end_date": "2023-12-31T00:00:00Z",
+        "assessment_start_date": "2023-10-15T00:00:00Z",
+        "assessment_end_date": "2023-12-30T00:00:00Z",
+        "assessment_number": 3
     },
     {
         "lecture_id": 4013,
@@ -581,7 +617,10 @@
         "lecture_tag_subject": "스포츠",
         "lecture_tag": "막학기",
         "lecture_start_date": "2023-09-15T00:00:00Z",
-        "lecture_end_date": "2023-12-31T00:00:00Z"
+        "lecture_end_date": "2023-12-31T00:00:00Z",
+        "assessment_start_date": "2023-10-15T00:00:00Z",
+        "assessment_end_date": "2023-12-30T00:00:00Z",
+        "assessment_number": 3
     },
     {
         "lecture_id": 4014,
@@ -590,7 +629,10 @@
         "lecture_tag_subject": "언어",
         "lecture_tag": "막학기",
         "lecture_start_date": "2023-09-15T00:00:00Z",
-        "lecture_end_date": "2023-12-31T00:00:00Z"
+        "lecture_end_date": "2023-12-31T00:00:00Z",
+        "assessment_start_date": "2023-10-15T00:00:00Z",
+        "assessment_end_date": "2023-12-30T00:00:00Z",
+        "assessment_number": 3
     },
     {
         "lecture_id": 4015,
@@ -599,7 +641,10 @@
         "lecture_tag_subject": "생활 과학",
         "lecture_tag": "막학기",
         "lecture_start_date": "2023-09-15T00:00:00Z",
-        "lecture_end_date": "2023-12-31T00:00:00Z"
+        "lecture_end_date": "2023-12-31T00:00:00Z",
+        "assessment_start_date": "2023-10-15T00:00:00Z",
+        "assessment_end_date": "2023-12-30T00:00:00Z",
+        "assessment_number": 3
     }
 ]
   
