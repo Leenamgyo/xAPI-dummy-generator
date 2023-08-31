@@ -1,11 +1,19 @@
-dummy_gen 
-[ ] content-type Extra_data 추가 
-[ ] quiz-type Extra_data 추가 
-[ ] 동료평가 Extra_data 추가 
-[ ] peer, task content 추가
-[ ] peer 평가 처리 추가
+[O] 동료평가 stmt review 동작 추가 
+[O] contents ID 생성 로직 추가 
+[O] 동료평가 stmt review 항목 추가 
+[O] 동료평가 stmt review 테스트
 
-xapi_app
-[ ] auto result 처리 
-[ ] 실행 테스트 
-[ ] State 처리 
+[ ] 동료평가 full_statement 수정 
+[ ] 동료평가 state 추가 
+[ ] 동료평가 통합 테스트 
+
+동료 평가 시나리오 
+- A가 과제를 제출한다. (과제 contents ID)
+- A,B,C가 과제를 평가한다. (동료평가 contents ID 동일)
+- D가 과제를 평가한다. (과제 contents ID)
+
+- State는 과제 제출 시에 발생한다. (is_assessed="false")
+- State는 평가에서 Scored에 발생시킨다. (is_assessed="true")
+- 평가에는 CMI5이더라도 State를 발생시키지 않는다. 
+
+- 최종적으로 State는 과제를 제출한 당사자와 렉처, 그리고 컨텐츠만 발생한다. 

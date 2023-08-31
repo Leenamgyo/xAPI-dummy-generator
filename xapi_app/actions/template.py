@@ -228,7 +228,7 @@ factory.regist(QuizLongFillinTemplate, "quiz", "long-fill-in")
 # factory.regist(SurveyLongFillinTemplate, "survey", "long-fiil-in")
 
 
-class PeerActionTemplate(ContentsActionTemplate):
+class PeerSubmitActionTemplate(ContentsActionTemplate):
     def __init__(self): 
         super().__init__()
 
@@ -241,9 +241,26 @@ class PeerActionTemplate(ContentsActionTemplate):
     def _add_actions(self):
         items = [peer.SubmitSubmitted]
         return items 
+    
+
+class PeerReviewActionTemplate(ContentsActionTemplate):
+    def __init__(self): 
+        super().__init__()
+
+    def _initialize(self):
+        return peer.ReviewInitialized
+    
+    def _complated(self):
+        return peer.ReviewCompleted
+                 
+    def _add_actions(self):
+        items = [peer.ReviewAccessed]
+        return items 
+        
         
 factory = ContentsFactory()
-factory.regist(PeerActionTemplate, "peer")
+factory.regist(PeerSubmitActionTemplate, "peer", "submit")
+factory.regist(PeerReviewActionTemplate, "peer", "review")
 
 # class PeerActionTemplate(ContentsActionTemplate):
 #     def __init__(self): 
