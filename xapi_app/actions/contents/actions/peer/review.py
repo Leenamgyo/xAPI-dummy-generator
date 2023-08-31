@@ -50,6 +50,29 @@ class Acceessed(XAPIAction):
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/accessed/content/id": kwargs["content_id"]
             }
         )
+    def has_state(self):
+        return True
+    
+    def to_state(self):
+        agent_id = self.actor.account["homePage"][self.actor.account["homePage"].rindex("/") + 1 :]
+
+        params = {
+            "agent": self.actor.result_json(),
+            "activityId": self.obj.id,
+            "stateId": f"{self.obj.id}/{agent_id}",
+        }
+        
+        total_time = random.randrange(1, 1000)
+        attempt = self.result.extensions["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt"]
+        
+        body = {
+            "attempt": attempt,
+            "total_time": total_time,
+            "avg_attempt_times": total_time / attempt,
+            "is_assessed": "none"
+        }
+            
+        return params, body
 
 
 class Completed(XAPIAction):
