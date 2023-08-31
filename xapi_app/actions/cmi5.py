@@ -46,7 +46,6 @@ class Initialized(XAPIAction):
     
         body = {
             "initial_timestamp": iso8601.timestamp_now_str(),
-            "complete_timestamp": iso8601.timestamp_now_str(),
             "attempt": attempt,
             "total_time": random.randint(1, 1000),
             "avg_attempt_times": total_time / attempt
@@ -66,20 +65,11 @@ class Completed(XAPIAction):
         )
 
     def start(self, **kwargs):
-        max_ = 100
-        min_ = 0
-        raw_ = random.randint(1, 100)
-        scaled_ = raw_/max_
         self.result =  XAPIResult(
             success=True,
             completion=True,
             duration=iso8601.parse_sec_to_duration(random.randint(3,7)),
-            score={
-                "max": max_,
-                "min": min_,
-                "raw": raw_,
-                "scaled": scaled_
-            },
+            score={},
             extensions={
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"],
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/session_time": iso8601.parse_sec_to_duration(random.randint(1000, 3000))
@@ -103,7 +93,6 @@ class Completed(XAPIAction):
         
         body = {
             "initial_timestamp": iso8601.timestamp_now_str(),
-            "complete_timestamp": iso8601.timestamp_now_str(),
             "attempt": attempt,
             "total_time": total_time,
             "avg_attempt_times": total_time / attempt

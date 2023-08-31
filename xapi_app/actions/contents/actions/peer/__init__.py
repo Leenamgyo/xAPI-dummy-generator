@@ -8,7 +8,6 @@ from xapi_app.actions.contents.actions.peer.review import (
 from xapi_app.actions.contents.actions.peer.submit import (
     Initialized as SubmitInitialized,
     Completed as SubmitCompleted,
-    Scoreded as SubmitScored,
     Submitted as SubmitSubmitted
 )
 

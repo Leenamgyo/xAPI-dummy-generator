@@ -110,14 +110,15 @@ class Cmi5Scenario:
             "scaled": 0,
             "raw": 0,
         }
-
+        content_id = self.contents[0]['object']['definition']['extensions']['https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id']
         while task_queue:
             # TODO: cmi5와 contents의 run을 분리할 것 
             task_instance = task_queue.pop(0)
             score = task_instance.start(
                 attempt=self.attempt,
                 session_id=self.session_id,
-                total_score=total_score
+                total_score=total_score,
+                content_id=content_id
             )
 
             if score:
@@ -145,7 +146,7 @@ class Cmi5Scenario:
         )
         
         if task_instance.has_state():
-            state = XAPIState(**task_instance.to_state())
+            state = XAPIState(*task_instance.to_state())
 
         return stmt.to_full_statement(), state
     
