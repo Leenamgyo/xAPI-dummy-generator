@@ -30,6 +30,6 @@ from xapi_app.types.verb import (
     CheckedVerb,
     SubmittedVerb,
     ScoredVerb,
-    AccessedVerb
+    AssessedVerb
 )
 

@@ -85,3 +85,8 @@ for full_statement, state in scenario.run_peer_scored():
     index = index + 1
     file.store_json(f"full_statement_reviewer_04{index}.json", full_statement)
     
+    if state:
+        state_json = [state.get_params(), state.get_body()]
+        file.store_json(f"state{index}.json", state_json)
+
+    

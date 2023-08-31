@@ -254,7 +254,7 @@ class PeerReviewActionTemplate(ContentsActionTemplate):
         return peer.ReviewCompleted
                  
     def _add_actions(self):
-        items = [peer.ReviewAccessed]
+        items = [peer.ReviewAssessed]
         return items 
         
         
