@@ -12,7 +12,8 @@ class Launched(XAPIAction):
             actor=actor, 
             obj=obj, 
             verb=LaunchedVerb(),
-            context=context
+            context=context,
+            result=None
         )
         
     def start(self, **kwargs):
@@ -24,7 +25,8 @@ class Initialized(XAPIAction):
             actor=actor, 
             obj=obj, 
             verb=InitalizedVerb(),
-            context=context
+            context=context,
+            result=None
         )
         
     def start(self, **kwargs):
@@ -37,7 +39,8 @@ class Completed(XAPIAction):
             actor=actor, 
             obj=obj, 
             verb=CompletedVerb(),
-            context=context
+            context=context,
+            result=None
         )
 
     def start(self, **kwargs):
@@ -59,7 +62,8 @@ class Passed(XAPIAction):
             actor=actor, 
             obj=obj, 
             verb=PassedVerb(),
-            context=context
+            context=context,
+            result=None
         )
 
     def start(self, **kwargs):
@@ -72,7 +76,8 @@ class Failed(XAPIAction):
             actor=actor, 
             obj=obj, 
             verb=FailedVerb(),
-            context=context
+            context=context,
+            result=None
         )
 
     def start(self, **kwargs):
@@ -90,7 +95,8 @@ class Aboandoned(XAPIAction):
             actor=actor, 
             obj=obj, 
             verb=AbandonedVerb(),
-            context=context
+            context=context,
+            result=None
         )
 
     def start(self, **kwargs):
@@ -105,7 +111,8 @@ class Waived(XAPIAction):
             actor=actor, 
             obj=obj, 
             verb=WaivedVerb(),
-            context=context
+            context=context,
+            result=None
         )
 
     def start(self, **kwargs):
@@ -125,7 +132,8 @@ class Terminated(XAPIAction):
             actor=actor, 
             obj=obj, 
             verb=TerminatedVerb(),
-            context=context
+            context=context,
+            result=None
         )
 
     def start(self, **kwargs):
@@ -143,7 +151,8 @@ class Satisfied(XAPIAction):
             actor=actor, 
             obj=obj, 
             verb=SatisfiedVerb(),
-            context=context
+            context=context,
+            result=None
         )
 
 
