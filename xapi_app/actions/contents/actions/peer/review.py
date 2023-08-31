@@ -47,9 +47,34 @@ class Assessed(XAPIAction):
             extensions={
                 "https://w3id.org/xapi/cmi5/context/extensions/sessionid": kwargs["session_id"],
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"],
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/accessed/content/id": kwargs["content_id"]
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/assessed/content/id": kwargs["content_id"]
             }
         )
+    def has_state(self):
+        return True
+    
+    def to_state(self):
+        agent_id = self.actor.account["homePage"][self.actor.account["homePage"].rindex("/") + 1 :]
+
+        params = {
+            "agent": self.actor.result_json(),
+            "activityId": self.obj.id,
+            "stateId": f"{self.obj.id}/{agent_id}",
+        }
+        
+        total_time = random.randrange(1, 1000)
+        attempt = self.result.extensions["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt"]
+        
+        body = {
+            "attempt": attempt,
+            "total_time": total_time,
+            "avg_attempt_times": total_time / attempt,
+            "max_score": self.result.score["max"],
+            "score": self.result.score["raw"]
+        }
+            
+        return params, body
+    
 
 
 class Completed(XAPIAction):
@@ -71,7 +96,7 @@ class Completed(XAPIAction):
             extensions={
                 "https://w3id.org/xapi/cmi5/context/extensions/sessionid": kwargs["session_id"],
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"],
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/accessed/content/id": kwargs["content_id"]
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/assessed/content/id": kwargs["content_id"]
             }
         )
     
@@ -126,6 +151,7 @@ class Scoreded(XAPIAction):
             "total_time": total_time,
             "avg_attempt_times": total_time / attempt,
             "instructor_score": self.result.score["raw"],
+            "submit_timestamp": iso8601.timestamp_now_str(),
             "is_assessed": "true"
         }
             

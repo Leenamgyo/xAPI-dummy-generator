@@ -46,6 +46,7 @@ class Initialized(XAPIAction):
     
         body = {
             "initial_timestamp": iso8601.timestamp_now_str(),
+            "complete_timestamp": iso8601.timestamp_now_str(),
             "attempt": attempt,
             "total_time": random.randint(1, 1000),
             "avg_attempt_times": total_time / attempt
@@ -93,6 +94,7 @@ class Completed(XAPIAction):
         
         body = {
             "initial_timestamp": iso8601.timestamp_now_str(),
+            "complete_timestamp": iso8601.timestamp_now_str(),
             "attempt": attempt,
             "total_time": total_time,
             "avg_attempt_times": total_time / attempt

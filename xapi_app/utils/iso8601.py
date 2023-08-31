@@ -30,7 +30,7 @@ def parse_sec_to_duration(
         second=None
     ):
     duration = ""
-    duration = f"{second}S"
+    duration = f"PT{second}S"
     return duration
 
 def timestamp_now_str():
