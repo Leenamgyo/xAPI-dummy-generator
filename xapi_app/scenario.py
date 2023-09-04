@@ -51,7 +51,7 @@ class Cmi5Scenario:
         task_queue.append(cmi5.Completed(actor, lecture_object, lecture_context))
         return self._run(task_queue)
     
-    def run_peer_submit(self):
+    def run_peer_submit(self, subimit_id):
         actor = XAPIActor(**self.actor)
         lecture_object = XAPIObject(**self.lecture["object"])
         lecture_context = XAPIContext(**self.lecture["context"])
@@ -61,10 +61,13 @@ class Cmi5Scenario:
         task_queue.append(cmi5.Initialized(actor, lecture_object, lecture_context))
     
         for contents in self.contents:
+            copy_contents = deepcopy(contents)
+            contents = self._regenerate_contents_id(copy_contents, subimit_id)
+
             keys = ["peer", "submit"] 
             template = factory.get_template(*keys)()
-            contents_obj = XAPIObject(**contents["object"])
-            contents_context = XAPIContext(**contents["context"])
+            contents_obj = XAPIObject(**copy_contents["object"])
+            contents_context = XAPIContext(**copy_contents["context"])
             for task_class in template.actions():
                 task_queue.append(task_class(actor, contents_obj, contents_context))
 
