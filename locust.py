@@ -56,7 +56,7 @@ class User(HttpUser):
             lecture_object_context=object_extensions[0],
             contents_object_context=object_extensions[1]
         )
-        is_assessed = "none"
+        is_assessed = "false"
         instructor_score = 0
         for full_statement, state in scenario.run_complted_with_contents():
             if state:

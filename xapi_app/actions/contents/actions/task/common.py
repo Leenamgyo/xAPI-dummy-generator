@@ -96,11 +96,20 @@ class Scoreded(XAPIAction):
         )
 
     def start(self, **kwargs):
+        min_ = 0
+        max_ = 5
+        raw_ = random.randint(1, 5)
+        scaled = raw_ / max_
         self.result =  XAPIResult(
             success=True,
             completion=True,
             response="",
-            score={},
+            score={
+                "min": 0,
+                "max": 5,
+                "raw": raw_,
+                "scaled": scaled
+            },
             extensions={
                 "https://w3id.org/xapi/cmi5/context/extensions/sessionid": kwargs["session_id"],
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"]
