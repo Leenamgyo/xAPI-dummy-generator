@@ -92,56 +92,56 @@ for ob_ext_index in range(len(_object_extensions)):
         for full_statement, state in scenario.run_peer_submit(subimit_id):
             index = index + 1
             # file.store_json(f"full_statement_submit_{index}.json", full_statement)   
-            _response_check(_api_request("http://localhost:8000/xAPI/statements", full_statement))
+            _response_check(_api_request("https://cne-lrs.bubblecon.io/xAPI/statements", full_statement))
 
             if state:
                 state_json = [state.get_params(), state.get_body()]
                 # file.store_json(f"state{index}.json", state_json)
-                _response_check(_state_api_request("http://localhost:8000/xAPI/activities/state", body=state.get_body(), params=state.get_params()))
+                _response_check(_state_api_request("https://cne-lrs.bubblecon.io/xAPI/activities/state", body=state.get_body(), params=state.get_params()))
 
         review_1_id = int(str(subimit_id) + str(rand_index).rjust(2,"0"))
         for full_statement, state in scenario.run_peer_review(actor, review_1_id, 'self'):
             index = index + 1
             # file.store_json(f"full_statement_reviewer_01{index}.json", full_statement)
-            _response_check(_api_request("http://localhost:8000/xAPI/statements", full_statement))
+            _response_check(_api_request("https://cne-lrs.bubblecon.io/xAPI/statements", full_statement))
 
             if state:
                 state_json = [state.get_params(), state.get_body()]
                 # file.store_json(f"state{index}.json", state_json)
-                _response_check(_state_api_request("http://localhost:8000/xAPI/activities/state", body=state.get_body(), params=state.get_params()))
+                _response_check(_state_api_request("https://cne-lrs.bubblecon.io/xAPI/activities/state", body=state.get_body(), params=state.get_params()))
 
         review_2_id = int(str(subimit_id) + str(rand_index + 5).rjust(2,"0"))
         for full_statement, state in scenario.run_peer_review(_get_actor(rand_index+5)[0], review_2_id, "peer"):
             index = index + 1
             # file.store_json(f"full_statement_reviewer_02{index}.json", full_statement)
-            _response_check(_api_request("http://localhost:8000/xAPI/statements", full_statement))
+            _response_check(_api_request("https://cne-lrs.bubblecon.io/xAPI/statements", full_statement))
 
             if state:
                 state_json = [state.get_params(), state.get_body()]
                 # file.store_json(f"state{index}.json", state_json)
-                _response_check(_state_api_request("http://localhost:8000/xAPI/activities/state", body=state.get_body(), params=state.get_params()))
+                _response_check(_state_api_request("https://cne-lrs.bubblecon.io/xAPI/activities/state", body=state.get_body(), params=state.get_params()))
 
 
         review_3_id = int(str(subimit_id) + str(rand_index + 10).rjust(2,"0"))
         for full_statement, state in scenario.run_peer_review(_get_actor(rand_index+10)[0], review_3_id, "peer"):
             index = index + 1
             # file.store_json(f"full_statement_reviewer_03{index}.json", full_statement)
-            _response_check(_api_request("http://localhost:8000/xAPI/statements", full_statement))
+            _response_check(_api_request("https://cne-lrs.bubblecon.io/xAPI/statements", full_statement))
 
             if state:
                 state_json = [state.get_params(), state.get_body()]
                 # file.store_json(f"state{index}.json", state_json)
-                _response_check(_state_api_request("http://localhost:8000/xAPI/activities/state", body=state.get_body(), params=state.get_params()))
+                _response_check(_state_api_request("https://cne-lrs.bubblecon.io/xAPI/activities/state", body=state.get_body(), params=state.get_params()))
 
 
         for full_statement, state in scenario.run_peer_scored():
             index = index + 1
             # file.store_json(f"full_statement_reviewer_04{index}.json", full_statement)
-            _response_check(_api_request("http://localhost:8000/xAPI/statements", full_statement))
+            _response_check(_api_request("https://cne-lrs.bubblecon.io/xAPI/statements", full_statement))
             
             if state:
                 state_json = [state.get_params(), state.get_body()]
                 # file.store_json(f"state{index}.json", state_json)
-                _response_check(_state_api_request("http://localhost:8000/xAPI/activities/state", body=state.get_body(), params=state.get_params()))
+                _response_check(_state_api_request("https://cne-lrs.bubblecon.io/xAPI/activities/state", body=state.get_body(), params=state.get_params()))
 
     
