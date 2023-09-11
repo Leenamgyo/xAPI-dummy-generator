@@ -58,8 +58,7 @@ class Completed(XAPIAction):
         body = {
             "attempt": attempt,
             "total_time": total_time,
-            "avg_attempt_times": total_time / attempt,
-            "instructor_score": random.randint(30, 100)
+            "avg_attempt_times": total_time / attempt
         }
             
         return params, body

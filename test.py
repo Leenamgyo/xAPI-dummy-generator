@@ -44,25 +44,11 @@ scenario = Cmi5Scenario(
     contents_object_context=object_extensions[1]
 )
 index = 0
-is_assessed = "none"
 instructor_score = 0
 for full_statement, state in scenario.run_complted_with_contents():
     index = index + 1
     file.store_json(f"full_statement{index}.json", full_statement)
     
     if state:
-        if 'is_assessed'in state.get_body():
-            # if state.get_body()["is_assessed"] == "false":
-            #     is_assessed = "false"
-            if state.get_body()["is_assessed"] == "true":
-                is_assessed = "true"
-            state.get_body()["is_assessed"] = is_assessed    
-
-            if "instructor_score" in state.get_body():
-                instructor_score += state.get_body()["instructor_score"]
-            
-            if instructor_score != 0:
-                state.get_body()["instructor_score"] = instructor_score
-
         state_json = [state.get_params(), state.get_body()]
         file.store_json(f"state{index}.json", state_json)

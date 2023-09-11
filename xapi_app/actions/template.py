@@ -75,6 +75,22 @@ class LectureMovieTemplate(LectureActionTemplate):
             lecture.MoviePaused,
             lecture.MovieInteracted,
             lecture.MovieSeeked,
+            lecture.MoviePlayed,
+            lecture.MoviePaused,
+            lecture.MovieInteracted,
+            lecture.MovieSeeked,
+            lecture.MoviePlayed,
+            lecture.MoviePaused,
+            lecture.MovieInteracted,
+            lecture.MovieSeeked,
+            lecture.MoviePlayed,
+            lecture.MoviePaused,
+            lecture.MovieInteracted,
+            lecture.MovieSeeked,
+            lecture.MoviePlayed,
+            lecture.MoviePaused,
+            lecture.MovieInteracted,
+            lecture.MovieSeeked,
         ]
         return items
     
