@@ -2,7 +2,7 @@
     {
       "content_name": "수학 문제 1",
       "content_description": "3 + 5는?",
-      "correctResponsesPattern": ["1"],
+      "correctResponsesPattern": ["8"],
       "interactionType": "choice",
       "score": 3,
       "choices": [
@@ -35,7 +35,7 @@
     {
       "content_name": "과학 문제 1",
       "content_description": "물의 화학식은 무엇인가요?",
-      "correctResponsesPattern": ["2"],
+      "correctResponsesPattern": ["CO2"],
       "interactionType": "choice",
       "score": 8,
       "choices": [
@@ -68,7 +68,7 @@
     {
       "content_name": "영어 문제 1",
       "content_description": "다음 중 사과를 영어로 뭐라고 하나요?",
-      "correctResponsesPattern": ["3"],
+      "correctResponsesPattern": ["Apple"],
       "interactionType": "choice",
       "score": 2,
       "choices": [
@@ -101,7 +101,7 @@
     {
       "content_name": "역사 문제 1",
       "content_description": "제2차 세계 대전이 끝난 연도는 언제인가요?",
-      "correctResponsesPattern": ["1"],
+      "correctResponsesPattern": ["1945년"],
       "interactionType": "choice",
       "score": 7,
       "choices": [
@@ -134,7 +134,7 @@
     {
       "content_name": "문학 문제 1",
       "content_description": "다음 중 김소월의 작품이 아닌 것은 무엇인가요?",
-      "correctResponsesPattern": ["4"],
+      "correctResponsesPattern": ["해피엔딩", "사진"],
       "interactionType": "choice",
       "score": 8,
       "choices": [
@@ -153,7 +153,7 @@
         {
           "id": "3",
           "description": {
-            "en-US":"햇님"
+            "en-US":"사진"
           } 
         },
         {
@@ -167,7 +167,7 @@
     {
       "content_name": "체육 문제 1",
       "content_description": "농구 경기에서 선수는 몇 명인가요?",
-      "correctResponsesPattern": ["2"],
+      "correctResponsesPattern": ["10명"],
       "interactionType": "choice",
       "score": 10,
       "choices": [
@@ -200,7 +200,7 @@
     {
       "content_name": "음악 문제 1",
       "content_description": "바이올린은 몇 줄로 이루어져 있나요?",
-      "correctResponsesPattern": ["1"],
+      "correctResponsesPattern": ["4줄"],
       "interactionType": "choice",
       "score": 2,
       "choices": [
@@ -233,7 +233,7 @@
     {
         "content_name": "영어 문제 1",
         "content_description": "다음 중 사과를 영어로 뭐라고 하나요?",
-        "correctResponsesPattern": ["3"],
+        "correctResponsesPattern": ["Apple"],
         "interactionType": "choice",
         "score": 3,
         "choices": [
@@ -266,7 +266,7 @@
     {
         "content_name": "영어 문제 2",
         "content_description": "다음 중 고양이를 영어로 뭐라고 하나요?",
-        "correctResponsesPattern": ["2"],
+        "correctResponsesPattern": ["Cat"],
         "interactionType": "choice",
         "score": 10,
         "choices": [
@@ -299,7 +299,7 @@
     {
         "content_name": "영어 문제 3",
         "content_description": "다음 중 바다를 영어로 뭐라고 하나요?",
-        "correctResponsesPattern": ["1"],
+        "correctResponsesPattern": ["Sea"],
         "interactionType": "choice",
         "score": 7,
         "choices": [
@@ -332,7 +332,7 @@
     {
       "content_name": "Art Quiz 1",
       "content_description": "Leonardo da Vinci의 대표작 중 하나는 무엇일까요?",
-      "correctResponsesPattern": ["3"],
+      "correctResponsesPattern": ["Mona Lisa"],
       "interactionType": "choice",
       "score": 5,
       "choices": [
@@ -357,7 +357,7 @@
     {
       "content_name": "Art Quiz 2",
       "content_description": "René Magritte의 작품 중 '망상의 성배'는 어떤 물체를 가리키나요?",
-      "correctResponsesPattern": ["2"],
+      "correctResponsesPattern": ["Apple"],
       "interactionType": "choice",
       "score": 5,
       "choices": [
@@ -382,7 +382,7 @@
     {
       "content_name": "Art Quiz 3",
       "content_description": "반고흐의 작품 '별이 빛나는 밤에'에서 주로 어떤 색상이 사용되었나요?",
-      "correctResponsesPattern": ["1"],
+      "correctResponsesPattern": ["Blue and Yellow"],
       "interactionType": "choice",
       "score": 5,
       "choices": [
@@ -407,7 +407,7 @@
     {
         "content_name": "영어 문제 4",
         "content_description": "다음 중 비행기를 영어로 뭐라고 하나요?",
-        "correctResponsesPattern": ["4"],
+        "correctResponsesPattern": ["Airplane"],
         "interactionType": "choice",
         "score": 5,
         "choices": [
@@ -440,7 +440,7 @@
     {
         "content_name": "영어 문제 5",
         "content_description": "다음 중 책을 영어로 뭐라고 하나요?",
-        "correctResponsesPattern": ["3"],
+        "correctResponsesPattern": ["Book"],
         "interactionType": "choice",
         "score": 5,
         "choices": [

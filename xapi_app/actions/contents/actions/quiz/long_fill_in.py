@@ -53,6 +53,9 @@ class Checked(XAPIAction):
         score_min = 0
         score_raw = random.randint(1, 5)
         response = "서술형 답"
+        
+        if score_raw == score_max:
+            response = ",".join(self.obj.definition["correctResponsesPattern"])
 
         self.result =  XAPIResult(
             success=True,
@@ -85,7 +88,9 @@ class Completed(XAPIAction):
         score_max = 5
         score_min = 0
         score_raw = random.randint(1, 5)
-        response = "서술형"
+        response = "fail"
+        if score_raw == score_max:
+            response = ",".join(self.obj.definition["correctResponsesPattern"])
 
         self.result =  XAPIResult(
             success=True,
@@ -143,13 +148,15 @@ class Answered(XAPIAction):
         score_max = 5
         score_min = 0
         score_raw = random.randint(1, 5)
-        
+        response = "fail"
+        if score_raw == score_max:
+            response = ",".join(self.obj.definition["correctResponsesPattern"])        
 
         self.result =  XAPIResult(
             success=True,
             completion=True,
             duration=iso8601.parse_sec_to_duration(random.randint(3,5)),
-            response="서술형",
+            response=response,
             score={
                 "max": score_max,
                 "min": score_min,
@@ -176,12 +183,14 @@ class Scored(XAPIAction):
         score_max = 5
         score_min = 0
         score_raw = random.randint(1, 5)
-        response = "서술형"
+        response = "fail"
+        if score_raw == score_max:
+            response = ",".join(self.obj.definition["correctResponsesPattern"])
 
         self.result =  XAPIResult(
             success=True,
             completion=True,
-            response="서술형",
+            response=response,
             score={
                 "max": score_max,
                 "min": score_min,

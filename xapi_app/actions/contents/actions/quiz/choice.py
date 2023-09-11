@@ -51,12 +51,11 @@ class Checked(XAPIAction):
     def start(self, **kwargs):
         score_max = 5
         score_min = 0
-        score_raw = random.randint(1, 5)
+        score_raw = random.randint(4, 5)
         response = str(random.randint(1, 4))
 
-        if "correctResponsesPattern" in self.obj.definition:
-            if response in self.obj.definition["correctResponsesPattern"]:
-                score_raw = score_max
+        if score_raw == score_max:
+            response = ",".join(self.obj.definition["correctResponsesPattern"])
 
         self.result =  XAPIResult(
             success=True,
@@ -88,13 +87,12 @@ class Completed(XAPIAction):
     def start(self, **kwargs):
         score_max = 5
         score_min = 0
-        score_raw = random.randint(1, 5)
+        score_raw = random.randint(4, 5)
         response = str(random.randint(1, 4))
 
 
-        if "correctResponsesPattern" in self.obj.definition:
-            if response in self.obj.definition["correctResponsesPattern"]:
-                score_raw = score_max
+        if score_raw == score_max:
+            response = ",".join(self.obj.definition["correctResponsesPattern"])
 
         self.result =  XAPIResult(
             success=True,
@@ -152,11 +150,10 @@ class Answered(XAPIAction):
         score_max = 5
         score_min = 0
         score_raw = 0
-        response = str(random.randint(1, 4))
+        response = str(random.randint(4, 5))
 
-        if "correctResponsesPattern" in self.obj.definition:
-            if response in self.obj.definition["correctResponsesPattern"]:
-                score_raw = score_max
+        if score_raw == score_max:
+            response = ",".join(self.obj.definition["correctResponsesPattern"])
 
         self.result =  XAPIResult(
             success=True,
