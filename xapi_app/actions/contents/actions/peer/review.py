@@ -28,10 +28,10 @@ class Assessed(XAPIAction):
         )
 
     def start(self, **kwargs):
-        max_ = 250
+        max_ = 100
         min_ = 0
         raw_ = 0
-        raw_ = random.randint(1, 250)
+        raw_ = random.randint(1, 100)
 
         self.result =  XAPIResult(
             success=True,
@@ -111,10 +111,10 @@ class Scoreded(XAPIAction):
         )
 
     def start(self, **kwargs):
-        max_ = 250
+        max_ = 100
         min_ = 0
         raw_ = 0
-        raw_ = random.randint(1, 250)
+        raw_ = random.randint(1, 100)
 
         self.result =  XAPIResult(
             success=True,
