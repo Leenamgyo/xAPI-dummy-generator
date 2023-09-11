@@ -1,102 +1,11 @@
 [
-    
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2016/contents/20161679",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2031/contents/20311110",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uc2ec\ub9ac\ud559 \uc8fc\uad00\uc2dd 1"
-                },
-                "description": {
-                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
-                },
-                "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "fill-in",
-                "correctResponsesPattern": [
-                    "\ubb34\uae30\ub825\uac10",
-                    "lack of energy"
-                ],
-                "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20161679,
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
-                    "https://class.whalespace.io/classes/class/id": 123,
-                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
-                    "https://class.whalespace.io/classes/class/type": "group",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
-                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2016,
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "English Vocabulary Quiz",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/quiz-type": "self-study"
-                }
-            }
-        },
-        "context": {
-            "instructor": {
-                "objectType": "Group",
-                "account": {
-                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
-                    "name": "\ud559\uad501"
-                },
-                "member": [
-                    {
-                        "mbox": "mailto:999@class.whalespace.io",
-                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
-                    },
-                    {
-                        "mbox": "mailto:998@class.whalespace.io",
-                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
-                    }
-                ]
-            },
-            "team": {
-                "objectType": "Group",
-                "account": {
-                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
-                    "name": "\uc18c\uc18d \uae30\uad00"
-                }
-            },
-            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
-            "revision": "1.0",
-            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
-            "contextActivities": {
-                "parent": [
-                    {
-                        "objectType": "Activity",
-                        "id": "https://class.whalespace.io/data2/lectures/455106",
-                        "definition": {
-                            "type": "http://activitystrea.ms/schema/1.0/read",
-                            "name": {
-                                "en-US": "\ud074\ub798\uc2a4\uba85"
-                            },
-                            "description": {
-                                "en-US": "null"
-                            }
-                        }
-                    }
-                ],
-                "category": [
-                    {
-                        "objectType": "Activity",
-                        "id": "http://class.whalespace.io/xapi/profile/lecture"
-                    }
-                ]
-            },
-            "extensions": {}
-        }
-    },
-    {
-        "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2016/contents/20161299",
-            "objectType": "Activity",
-            "definition": {
-                "name": {
-                    "en-US": "History Essay 2"
+                    "en-US": "History Essay 3"
                 },
                 "description": {
                     "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
@@ -107,20 +16,20 @@
                     ""
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20161299,
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20311110,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 1,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
                     "https://class.whalespace.io/classes/class/type": "group",
                     "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
                     "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2016,
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "English Vocabulary Quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2031,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Introduction to World Geography",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc5ec\ud589",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "beginning-of-semester",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-11-30T00:00:00Z",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/quiz-type": "self-study"
                 }
             }
@@ -181,11 +90,11 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2016/contents/20162629",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2031/contents/20311044",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Literature Open-ended 2"
+                    "en-US": "\uccb4\uc721 \uc8fc\uad00\uc2dd 1"
                 },
                 "description": {
                     "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
@@ -193,23 +102,254 @@
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "interactionType": "fill-in",
                 "correctResponsesPattern": [
-                    "\uc778\uac04 \ubcf8\uc131\uacfc \uc778\uac04 \uad00\uacc4\uc5d0 \ub300\ud55c \uc0ac\uc0c9"
+                    "goal",
+                    "scoring a goal"
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20162629,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20311044,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 2,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2031,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Introduction to World Geography",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc5ec\ud589",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "beginning-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-11-30T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/quiz-type": "self-study"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2031/contents/20312041",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "Art Quiz 1"
+                },
+                "description": {
+                    "en-US": "\uc11c\uc220"
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "interactionType": "choice",
+                "correctResponsesPattern": [
+                    "Mona Lisa"
+                ],
+                "choices": [
+                    {
+                        "id": "1",
+                        "description": {
+                            "en-US": "The Persistence of Memory"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "description": {
+                            "en-US": "The Starry Night"
+                        }
+                    },
+                    {
+                        "id": "3",
+                        "description": {
+                            "en-US": "Mona Lisa"
+                        }
+                    },
+                    {
+                        "id": "4",
+                        "description": {
+                            "en-US": "The Scream"
+                        }
+                    }
+                ],
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20312041,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 3,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2031,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Introduction to World Geography",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc5ec\ud589",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "beginning-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-11-30T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/quiz-type": "self-study"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2031/contents/20312280",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "\uacfc\ud559 \ubb38\uc81c 1"
+                },
+                "description": {
+                    "en-US": "\uc11c\uc220"
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "interactionType": "choice",
+                "correctResponsesPattern": [
+                    "CO2", "H2O"
+                ],
+                "choices": [
+                    {
+                        "id": "1",
+                        "description": {
+                            "en-US": "H2O"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "description": {
+                            "en-US": "CO2"
+                        }
+                    },
+                    {
+                        "id": "3",
+                        "description": {
+                            "en-US": "O2"
+                        }
+                    },
+                    {
+                        "id": "4",
+                        "description": {
+                            "en-US": "N2"
+                        }
+                    }
+                ],
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20312280,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 4,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
                     "https://class.whalespace.io/classes/class/type": "group",
                     "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
                     "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2016,
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "English Vocabulary Quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2031,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Introduction to World Geography",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc5ec\ud589",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "beginning-of-semester",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-11-30T00:00:00Z",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/quiz-type": "self-study"
                 }
             }
@@ -270,11 +410,11 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2016/contents/20161880",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2031/contents/2031144",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\ubb38\ud559 \ubb38\uc81c 1"
+                    "en-US": "\uc601\uc5b4 \ubb38\uc81c 1"
                 },
                 "description": {
                     "en-US": "\uc11c\uc220"
@@ -282,49 +422,49 @@
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "interactionType": "choice",
                 "correctResponsesPattern": [
-                    "4"
+                    "Apple"
                 ],
                 "choices": [
                     {
                         "id": "1",
                         "description": {
-                            "en-US": "\ube44\ub098\ub9ac"
+                            "en-US": "Banana"
                         }
                     },
                     {
                         "id": "2",
                         "description": {
-                            "en-US": "\ubcc4\ub625\ube5b"
+                            "en-US": "Orange"
                         }
                     },
                     {
                         "id": "3",
                         "description": {
-                            "en-US": "\ud587\ub2d8"
+                            "en-US": "Apple"
                         }
                     },
                     {
                         "id": "4",
                         "description": {
-                            "en-US": "\ud574\ud53c\uc5d4\ub529"
+                            "en-US": "Grapes"
                         }
                     }
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20161880,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2031144,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 5,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
                     "https://class.whalespace.io/classes/class/type": "group",
                     "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
                     "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2016,
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "English Vocabulary Quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2031,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Introduction to World Geography",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc5ec\ud589",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "beginning-of-semester",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-11-30T00:00:00Z",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/quiz-type": "self-study"
                 }
             }
@@ -385,35 +525,36 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2016/contents/2016460",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2031/contents/203175",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "\uacfc\ud559 \uc11c\uc220\ud615 1"
+                    "en-US": "\uc5ed\uc0ac \uc8fc\uad00\uc2dd 1"
                 },
                 "description": {
                     "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "long-fill-in",
+                "interactionType": "fill-in",
                 "correctResponsesPattern": [
-                    "\ub2e8\ubc31\uc9c8\uc740 \uc138\ud3ec \uad6c\uc870\uc640 \uae30\ub2a5\uc5d0 \uc911\uc694\ud558\uba70, \ud6a8\uc18c, \ud56d\uccb4 \ub4f1 \ub2e4\uc591\ud55c \uc5ed\ud560\uc744 \uc218\ud589\ud558\uba70 \uc601\uc591\uc18c \ubc0f \uc870\uc9c1 \uad6c\uc131 \uc694\uc18c\ub85c \uae30\ub2a5\ud569\ub2c8\ub2e4."
+                    "1914",
+                    "1914\ub144"
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2016460,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 203175,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 6,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
                     "https://class.whalespace.io/classes/class/type": "group",
                     "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
                     "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2016,
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "English Vocabulary Quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2031,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Introduction to World Geography",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc5ec\ud589",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "beginning-of-semester",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-11-30T00:00:00Z",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/quiz-type": "self-study"
                 }
             }
@@ -474,122 +615,7 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2016/contents/2016327",
-            "objectType": "Activity",
-            "definition": {
-                "name": {
-                    "en-US": "\uc601\uc5b4 \ubb38\uc81c 2"
-                },
-                "description": {
-                    "en-US": "\uc11c\uc220"
-                },
-                "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "choice",
-                "correctResponsesPattern": [
-                    "2"
-                ],
-                "choices": [
-                    {
-                        "id": "1",
-                        "description": {
-                            "en-US": "Dog"
-                        }
-                    },
-                    {
-                        "id": "2",
-                        "description": {
-                            "en-US": "Cat"
-                        }
-                    },
-                    {
-                        "id": "3",
-                        "description": {
-                            "en-US": "Bird"
-                        }
-                    },
-                    {
-                        "id": "4",
-                        "description": {
-                            "en-US": "Elephant"
-                        }
-                    }
-                ],
-                "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2016327,
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 7,
-                    "https://class.whalespace.io/classes/class/id": 123,
-                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
-                    "https://class.whalespace.io/classes/class/type": "group",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
-                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2016,
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "English Vocabulary Quiz",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/quiz-type": "self-study"
-                }
-            }
-        },
-        "context": {
-            "instructor": {
-                "objectType": "Group",
-                "account": {
-                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
-                    "name": "\ud559\uad501"
-                },
-                "member": [
-                    {
-                        "mbox": "mailto:999@class.whalespace.io",
-                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
-                    },
-                    {
-                        "mbox": "mailto:998@class.whalespace.io",
-                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
-                    }
-                ]
-            },
-            "team": {
-                "objectType": "Group",
-                "account": {
-                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
-                    "name": "\uc18c\uc18d \uae30\uad00"
-                }
-            },
-            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
-            "revision": "1.0",
-            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
-            "contextActivities": {
-                "parent": [
-                    {
-                        "objectType": "Activity",
-                        "id": "https://class.whalespace.io/data2/lectures/455106",
-                        "definition": {
-                            "type": "http://activitystrea.ms/schema/1.0/read",
-                            "name": {
-                                "en-US": "\ud074\ub798\uc2a4\uba85"
-                            },
-                            "description": {
-                                "en-US": "null"
-                            }
-                        }
-                    }
-                ],
-                "category": [
-                    {
-                        "objectType": "Activity",
-                        "id": "http://class.whalespace.io/xapi/profile/lecture"
-                    }
-                ]
-            },
-            "extensions": {}
-        }
-    },
-    {
-        "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2016/contents/20162181",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2031/contents/20311175",
             "objectType": "Activity",
             "definition": {
                 "name": {
@@ -601,7 +627,7 @@
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "interactionType": "choice",
                 "correctResponsesPattern": [
-                    "1"
+                    "Sea"
                 ],
                 "choices": [
                     {
@@ -630,20 +656,110 @@
                     }
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20162181,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20311175,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 7,
+                    "https://class.whalespace.io/classes/class/id": 123,
+                    "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
+                    "https://class.whalespace.io/classes/class/type": "group",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2031,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Introduction to World Geography",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc5ec\ud589",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "beginning-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-11-30T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/quiz-type": "self-study"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/555",
+                    "name": "\ud559\uad501"
+                },
+                "member": [
+                    {
+                        "mbox": "mailto:999@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7901"
+                    },
+                    {
+                        "mbox": "mailto:998@class.whalespace.io",
+                        "name": "\uc6e8\uc77c\ud074\ub798\uc2a4 \uad50\uc218\uc7902"
+                    }
+                ]
+            },
+            "team": {
+                "objectType": "Group",
+                "account": {
+                    "homePage": "https://class.whalespace.io/userInfo/base-info/333",
+                    "name": "\uc18c\uc18d \uae30\uad00"
+                }
+            },
+            "registration": "cf3ca788-d7cc-464e-a654-a98a777d2372",
+            "revision": "1.0",
+            "platform": "\uad50\uc721\uccad\ubcc4 \uc6e8\uc77c\ud074\ub798\uc2a4 \uc8fc\uc18c",
+            "contextActivities": {
+                "parent": [
+                    {
+                        "objectType": "Activity",
+                        "id": "https://class.whalespace.io/data2/lectures/455106",
+                        "definition": {
+                            "type": "http://activitystrea.ms/schema/1.0/read",
+                            "name": {
+                                "en-US": "\ud074\ub798\uc2a4\uba85"
+                            },
+                            "description": {
+                                "en-US": "null"
+                            }
+                        }
+                    }
+                ],
+                "category": [
+                    {
+                        "objectType": "Activity",
+                        "id": "http://class.whalespace.io/xapi/profile/lecture"
+                    }
+                ]
+            },
+            "extensions": {}
+        }
+    },
+    {
+        "object": {
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2031/contents/20311302",
+            "objectType": "Activity",
+            "definition": {
+                "name": {
+                    "en-US": "Literature Open-ended 5"
+                },
+                "description": {
+                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
+                },
+                "type": "http://activitystrea.ms/schema/1.0/collection",
+                "interactionType": "fill-in",
+                "correctResponsesPattern": [
+                    "\uc0b6\uc758 \uac00\uce58\uc640 \uc790\uc720\uc758 \uc911\uc694\uc131",
+                    "The Value of Life and the Importance of Freedom"
+                ],
+                "extensions": {
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20311302,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 8,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
                     "https://class.whalespace.io/classes/class/type": "group",
                     "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
                     "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2016,
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "English Vocabulary Quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2031,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Introduction to World Geography",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc5ec\ud589",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "beginning-of-semester",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-11-30T00:00:00Z",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/quiz-type": "self-study"
                 }
             }
@@ -704,36 +820,61 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2016/contents/20161965",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2031/contents/20312064",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Literature Open-ended 3"
+                    "en-US": "Art Quiz 2"
                 },
                 "description": {
-                    "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
+                    "en-US": "\uc11c\uc220"
                 },
                 "type": "http://activitystrea.ms/schema/1.0/collection",
-                "interactionType": "fill-in",
+                "interactionType": "choice",
                 "correctResponsesPattern": [
-                    "\uace0\uc804 \ub85c\ub9e8\uc2a4",
-                    "Classical Romance"
+                    "Apple"
+                ],
+                "choices": [
+                    {
+                        "id": "1",
+                        "description": {
+                            "en-US": "Clock"
+                        }
+                    },
+                    {
+                        "id": "2",
+                        "description": {
+                            "en-US": "Apple"
+                        }
+                    },
+                    {
+                        "id": "3",
+                        "description": {
+                            "en-US": "Umbrella"
+                        }
+                    },
+                    {
+                        "id": "4",
+                        "description": {
+                            "en-US": "Shoe"
+                        }
+                    }
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20161965,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20312064,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 9,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
                     "https://class.whalespace.io/classes/class/type": "group",
                     "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
                     "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2016,
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "English Vocabulary Quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2031,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Introduction to World Geography",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc5ec\ud589",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "beginning-of-semester",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-11-30T00:00:00Z",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/quiz-type": "self-study"
                 }
             }
@@ -794,11 +935,11 @@
     },
     {
         "object": {
-            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2016/contents/2016979",
+            "id": "https://class.whalespace.io/bubblecon-guide/lecture/2031/contents/20312556",
             "objectType": "Activity",
             "definition": {
                 "name": {
-                    "en-US": "Literature Open-ended 4"
+                    "en-US": "Literature Open-ended 1"
                 },
                 "description": {
                     "en-US": "\uc8fc\uad00\uc2dd \ub2e8\ub2f5"
@@ -806,24 +947,24 @@
                 "type": "http://activitystrea.ms/schema/1.0/collection",
                 "interactionType": "fill-in",
                 "correctResponsesPattern": [
-                    "\uad6d\uac00 \uac10\uc2dc\uc640 \uac1c\uc778\uc758 \uc790\uc720",
-                    "State Surveillance and Individual Freedom"
+                    "\ud558\ub298\uacfc \ubc14\ub78c\uacfc \ubcc4\uacfc \uc2dc",
+                    "Sky and Wind and Stars and Poetry"
                 ],
                 "extensions": {
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 2016979,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id": 20312556,
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-order": 10,
                     "https://class.whalespace.io/classes/class/id": 123,
                     "https://class.whalespace.io/classes/class/name": "\ud589\ubcf5\ud55c \ud074\ub798\uc2a4",
                     "https://class.whalespace.io/classes/class/type": "group",
                     "https://class.whalespace.io/classes/class/chapters/chapter/id": 123,
                     "https://class.whalespace.io/classes/class/chapters/chapter/name": "\ucc55\ud130 1",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2016,
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "English Vocabulary Quiz",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/id": 2031,
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/name": "Introduction to World Geography",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type": "quiz",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc601\uc5b4",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "end-of-semester",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag-subject": "\uc5ec\ud589",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/tag": "beginning-of-semester",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/startdate": "2023-09-15T00:00:00Z",
-                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-12-31T00:00:00Z",
+                    "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/period-set/enddate": "2023-11-30T00:00:00Z",
                     "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/quiz-type": "self-study"
                 }
             }
