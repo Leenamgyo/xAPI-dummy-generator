@@ -103,7 +103,7 @@ class Scoreded(XAPIAction):
         self.result =  XAPIResult(
             success=True,
             completion=True,
-            response="",
+            response="Scored",
             score={
                 "min": 0,
                 "max": 5,
