@@ -130,7 +130,8 @@ class Paused(XAPIAction):
             "progress": self.result.extensions["https://w3id.org/xapi/video/extensions/progress"],
             "attempt": attempt,
             "total_time": total_time,
-            "avg_attempt_times": float(total_time / attempt)
+            "avg_attempt_times": float(total_time / attempt),
+            "init_count": random.randint(1, 5)
         }
             
         return params, body
