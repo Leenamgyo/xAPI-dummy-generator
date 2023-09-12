@@ -92,7 +92,7 @@ class User(HttpUser):
             "Authorization": "Basic Og==",
             "X-Experience-API-Version": "1.0.3",
             "Accept": "*/*",
-            "Host": "localhost:8000",
+            "Host": "cne-lrs.bubblecon.io",
         }
         return headers
 
