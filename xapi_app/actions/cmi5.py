@@ -68,7 +68,7 @@ class Completed(XAPIAction):
     def start(self, **kwargs):
         max_ = 100
         min_ = 0
-        raw_ = random.randint(1, 100)
+        raw_ = random.randint(30, 60)
         scaled_ = raw_/max_
         self.result =  XAPIResult(
             success=True,
