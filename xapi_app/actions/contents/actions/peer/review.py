@@ -36,7 +36,7 @@ class Assessed(XAPIAction):
         self.result =  XAPIResult(
             success=True,
             completion=True,
-            response="",
+            response="저는 오늘 귀하가 그 어려운 고객 전화를 어떻게 처리했는지에 대해 제가 얼마나 감명을 받았는지 말씀드리고 싶습니다. 당신은 시종일관 차분하고 프로페셔널했으며, 소비자가 만족하는 상황을 해결할 수 있었습니다. 바로 당신이 우리 팀을 돋보이게 만드는 것입니다.",
             duration=iso8601.parse_sec_to_duration(random.randint(1, 3)),
             score={
                 "max": max_,
@@ -90,7 +90,7 @@ class Completed(XAPIAction):
         self.result =  XAPIResult(
             success=True,
             completion=True,
-            response="",
+            response="짧은 시간에 이 프로젝트를 시작했을 때 여러분 모두가 해주신 놀라운 작업에 감사드립니다. 우리 모두가 한 팀으로 일하는 모습이 놀랍습니다.",
             duration=iso8601.parse_sec_to_duration(random.randint(5, 10)),
             score={},
             extensions={
@@ -119,7 +119,7 @@ class Scoreded(XAPIAction):
         self.result =  XAPIResult(
             success=True,
             completion=True,
-            response="Scored",
+            response='프로젝트를 제시간에 고품질로 완료하기 위해 정말 열심히 노력했습니다! 세부 사항에 대한 관심과 마감일을 맞추기 위한 노력은 정말 인상적입니다. 당신은 프로젝트의 성공에 크게 기여했으며 우리 팀에 당신이 있어 감사합니다.',
             score={
                 "max": max_,
                 "min": min_,
