@@ -59,17 +59,11 @@ def set_object_extensions():
 _actors = set_actor()
 _object_extensions = set_object_extensions()
 
-def _get_actor(index=None):
-    if not index:
-        index = random.randint(1, 100) % len(_actors)
-    
-    return _actors[index % len(_actors)]["actor"], index
+def _get_actor(index_):
+    return _actors[index_ % len(_actors)]["actor"], index_
 
-def _get_object_extensions(index=None):
-    if not index:
-        index = random.randint(1, 100) % len(_object_extensions)
-
-    return _object_extensions[index % len(_object_extensions)] 
+def _get_object_extensions(index_):
+    return _object_extensions[index_ % len(_object_extensions)] 
 
 for ob_ext_index in range(len(_object_extensions)):
     for index, _ in enumerate(_actors):
@@ -89,6 +83,7 @@ for ob_ext_index in range(len(_object_extensions)):
         )
         
         subimit_id = int(scenario.contents[0]['object']['id'][scenario.contents[0]['object']['id'].rindex("/")+1:] + str(rand_index).rjust(2,"0"))
+        print(f"submit_id: {subimit_id}")
         for full_statement, state in scenario.run_peer_submit(subimit_id):
             index = index + 1
             # file.store_json(f"full_statement_submit_{index}.json", full_statement)   
@@ -100,7 +95,7 @@ for ob_ext_index in range(len(_object_extensions)):
                 _response_check(_state_api_request("https://cne-lrs.bubblecon.io/xAPI/activities/state", body=state.get_body(), params=state.get_params()))
 
         review_1_id = int(str(subimit_id) + str(rand_index).rjust(2,"0"))
-        for full_statement, state in scenario.run_peer_review(actor, review_1_id, 'self'):
+        for full_statement, state in scenario.run_peer_review(actor, subimit_id, review_1_id, 'self'):
             index = index + 1
             # file.store_json(f"full_statement_reviewer_01{index}.json", full_statement)
             _response_check(_api_request("https://cne-lrs.bubblecon.io/xAPI/statements", full_statement))
@@ -111,7 +106,7 @@ for ob_ext_index in range(len(_object_extensions)):
                 _response_check(_state_api_request("https://cne-lrs.bubblecon.io/xAPI/activities/state", body=state.get_body(), params=state.get_params()))
 
         review_2_id = int(str(subimit_id) + str(rand_index + 5).rjust(2,"0"))
-        for full_statement, state in scenario.run_peer_review(_get_actor(rand_index+5)[0], review_2_id, "peer"):
+        for full_statement, state in scenario.run_peer_review(_get_actor(rand_index+5)[0], subimit_id, review_2_id, "peer"):
             index = index + 1
             # file.store_json(f"full_statement_reviewer_02{index}.json", full_statement)
             _response_check(_api_request("https://cne-lrs.bubblecon.io/xAPI/statements", full_statement))
@@ -123,7 +118,7 @@ for ob_ext_index in range(len(_object_extensions)):
 
 
         review_3_id = int(str(subimit_id) + str(rand_index + 10).rjust(2,"0"))
-        for full_statement, state in scenario.run_peer_review(_get_actor(rand_index+10)[0], review_3_id, "peer"):
+        for full_statement, state in scenario.run_peer_review(_get_actor(rand_index+10)[0], subimit_id, review_3_id, "peer"):
             index = index + 1
             # file.store_json(f"full_statement_reviewer_03{index}.json", full_statement)
             _response_check(_api_request("https://cne-lrs.bubblecon.io/xAPI/statements", full_statement))
@@ -134,7 +129,7 @@ for ob_ext_index in range(len(_object_extensions)):
                 _response_check(_state_api_request("https://cne-lrs.bubblecon.io/xAPI/activities/state", body=state.get_body(), params=state.get_params()))
 
 
-        for full_statement, state in scenario.run_peer_scored():
+        for full_statement, state in scenario.run_peer_scored(subimit_id):
             index = index + 1
             # file.store_json(f"full_statement_reviewer_04{index}.json", full_statement)
             _response_check(_api_request("https://cne-lrs.bubblecon.io/xAPI/statements", full_statement))

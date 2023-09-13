@@ -62,7 +62,7 @@ class Cmi5Scenario:
     
         for contents in self.contents:
             copy_contents = deepcopy(contents)
-            contents = self._regenerate_contents_id(copy_contents, subimit_id)
+            copy_contents = self._regenerate_contents_id(copy_contents, subimit_id)
 
             keys = ["peer", "submit"] 
             template = factory.get_template(*keys)()
@@ -74,7 +74,7 @@ class Cmi5Scenario:
         task_queue.append(cmi5.Completed(actor, lecture_object, lecture_context))
         return self._run(task_queue)
 
-    def run_peer_review(self, reviewer, contents_id, assessment_type=None):
+    def run_peer_review(self, reviewer, submit_id, contents_id, assessment_type=None):
         actor = XAPIActor(**reviewer)
         lecture_object = XAPIObject(**self.lecture["object"])
         lecture_context = XAPIContext(**self.lecture["context"])
@@ -85,7 +85,7 @@ class Cmi5Scenario:
     
         for contents in self.contents:
             copy_contents = deepcopy(contents)
-            contents = self._regenerate_contents_id(copy_contents, contents_id)
+            copy_contents = self._regenerate_contents_id(copy_contents, contents_id)
             copy_contents["object"]["definition"]["extensions"]["https://class.whalespace.io/chapters/chapter/lectures/lecture/assessment-type"] = assessment_type
             keys = ["peer", "review"] 
             template = factory.get_template(*keys)()
@@ -95,25 +95,27 @@ class Cmi5Scenario:
                 task_queue.append(task_class(actor, contents_obj, contents_context))
 
         task_queue.append(cmi5.Completed(actor, lecture_object, lecture_context))
-        return self._run(task_queue)
+        return self._run(task_queue, submit_id)
     
-    def run_peer_scored(self):
+    def run_peer_scored(self, subimit_id):
         actor = XAPIActor(**self.actor)
         task_queue = []
-        for contents in self.contents:    
-            contents_obj = XAPIObject(**contents["object"])
-            contents_context = XAPIContext(**contents["context"])
+        for contents in self.contents: 
+            copy_contents = deepcopy(contents)
+            copy_contents = self._regenerate_contents_id(copy_contents, subimit_id)   
+            contents_obj = XAPIObject(**copy_contents["object"])
+            contents_context = XAPIContext(**copy_contents["context"])
             task_queue.append(peer.ReviewScored(actor, contents_obj, contents_context))
         return self._run(task_queue)
 
-    def _run(self, task_queue: list):
+    def _run(self, task_queue: list, submit_id=None):
         total_score = {
             "max": 0,
             "min": 0,
             "scaled": 0,
             "raw": 0,
         }
-        content_id = self.contents[0]['object']['definition']['extensions']['https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/content-id']
+        content_id = submit_id
         while task_queue:
             # TODO: cmi5와 contents의 run을 분리할 것 
             task_instance = task_queue.pop(0)
