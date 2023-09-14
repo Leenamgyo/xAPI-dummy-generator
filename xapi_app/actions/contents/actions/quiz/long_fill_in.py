@@ -29,12 +29,12 @@ class Suspended(XAPIAction):
 
     def start(self, **kwargs):
         self.result =  XAPIResult(
-            success=str('true'),
-            completion=str('true'),
+            success=True,
+            completion=True,
             duration=iso8601.parse_sec_to_duration(random.randint(1, 3)),
             extensions={
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"],
-                "https://w3id.org/xapi/cmi5/context/extensions/sessionid ": kwargs["session_id"]
+                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": kwargs["session_id"]
             }
         )
 
@@ -52,11 +52,14 @@ class Checked(XAPIAction):
         score_max = 5
         score_min = 0
         score_raw = random.randint(1, 5)
-        response = random.randint(1, 4)
+        response = "서술형 답"
+        
+        if score_raw == score_max:
+            response = ",".join(self.obj.definition["correctResponsesPattern"])
 
         self.result =  XAPIResult(
-            success=str('true'),
-            completion=str('true'),
+            success=True,
+            completion=True,
             response=response,
             duration=iso8601.parse_sec_to_duration(random.randint(1, 3)),
             score={
@@ -67,7 +70,7 @@ class Checked(XAPIAction):
             },
             extensions={
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"],
-                "https://w3id.org/xapi/cmi5/context/extensions/sessionid ": kwargs["session_id"]
+                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": kwargs["session_id"]
             }
         )
 
@@ -85,11 +88,13 @@ class Completed(XAPIAction):
         score_max = 5
         score_min = 0
         score_raw = random.randint(1, 5)
-        response = "서술형"
+        response = "fail"
+        if score_raw == score_max:
+            response = ",".join(self.obj.definition["correctResponsesPattern"])
 
         self.result =  XAPIResult(
-            success="true",
-            completion="true",
+            success=True,
+            completion=True,
             duration=iso8601.parse_sec_to_duration(random.randint(3,5)),
             response=response,
             score={
@@ -100,10 +105,34 @@ class Completed(XAPIAction):
             },
             extensions={
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"],
-                "https://w3id.org/xapi/cmi5/context/extensions/sessionid ": kwargs["session_id"]
+                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": kwargs["session_id"]
             }
         )
         return self.result.score
+    
+    def has_state(self):
+        return True
+
+    def to_state(self):
+        agent_id = self.actor.account["homePage"][self.actor.account["homePage"].rindex("/") + 1 :]
+
+        params = {
+            "agent": self.actor.result_json(),
+            "activityId": self.obj.id,
+            "stateId": f"{self.obj.id}/{agent_id}",
+        }
+        
+        total_time = random.randrange(1, 1000)
+        attempt = self.result.extensions["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt"]
+        
+        body = {
+            "attempt": attempt,
+            "total_time": total_time,
+            "avg_attempt_times": total_time / attempt,
+            "is_assessed": "false"
+        }
+            
+        return params, body
 
 
 class Answered(XAPIAction):
@@ -119,11 +148,13 @@ class Answered(XAPIAction):
         score_max = 5
         score_min = 0
         score_raw = random.randint(1, 5)
-        response = random.randint(1, 4)
+        response = "fail"
+        if score_raw == score_max:
+            response = ",".join(self.obj.definition["correctResponsesPattern"])        
 
         self.result =  XAPIResult(
-            success="true",
-            completion="true",
+            success=True,
+            completion=True,
             duration=iso8601.parse_sec_to_duration(random.randint(3,5)),
             response=response,
             score={
@@ -134,7 +165,7 @@ class Answered(XAPIAction):
             },
             extensions={
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"],
-                "https://w3id.org/xapi/cmi5/context/extensions/sessionid ": kwargs["session_id"]
+                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": kwargs["session_id"]
             }
         )
    
@@ -152,12 +183,14 @@ class Scored(XAPIAction):
         score_max = 5
         score_min = 0
         score_raw = random.randint(1, 5)
-        response = random.randint(1, 4)
+        response = "fail"
+        if score_raw == score_max:
+            response = ",".join(self.obj.definition["correctResponsesPattern"])
 
         self.result =  XAPIResult(
-            success=str('true'),
-            completion=str('true'),
-            response="서술형",
+            success=True,
+            completion=True,
+            response=response,
             score={
                 "max": score_max,
                 "min": score_min,
@@ -166,6 +199,31 @@ class Scored(XAPIAction):
             },
             extensions={
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"],
-                "https://w3id.org/xapi/cmi5/context/extensions/sessionid ": kwargs["session_id"]
+                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": kwargs["session_id"]
             }
         )
+
+    def has_state(self):
+        return True
+
+    def to_state(self):
+        agent_id = self.actor.account["homePage"][self.actor.account["homePage"].rindex("/") + 1 :]
+
+        params = {
+            "agent": self.actor.result_json(),
+            "activityId": self.obj.id,
+            "stateId": f"{self.obj.id}/{agent_id}",
+        }
+        
+        total_time = random.randrange(1, 1000)
+        attempt = self.result.extensions["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt"]
+        
+        body = {
+            "attempt": attempt,
+            "total_time": total_time,
+            "avg_attempt_times": total_time / attempt,
+            "is_assessed": "true",
+            "instructor_score": random.randint(1, 5)
+        }
+        
+        return params, body

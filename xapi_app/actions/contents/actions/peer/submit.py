@@ -29,8 +29,8 @@ class Submitted(XAPIAction):
 
     def start(self, **kwargs):
         self.result =  XAPIResult(
-            success=str('true'),
-            completion=str('true'),
+            success=True,
+            completion=True,
             response="",
             duration=iso8601.parse_sec_to_duration(random.randint(1, 3)),
             extensions={
@@ -52,8 +52,8 @@ class Completed(XAPIAction):
 
     def start(self, **kwargs):
         self.result =  XAPIResult(
-            success=str('true'),
-            completion=str('true'),
+            success=True,
+            completion=True,
             response="",
             duration=iso8601.parse_sec_to_duration(random.randint(5, 10)),
             extensions={
@@ -74,8 +74,8 @@ class Scoreded(XAPIAction):
 
     def start(self, **kwargs):
         self.result =  XAPIResult(
-            success=str('true'),
-            completion=str('true'),
+            success=True,
+            completion=True,
             response="",
             score={},
             extensions={

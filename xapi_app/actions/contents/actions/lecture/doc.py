@@ -19,7 +19,7 @@ class Donwloaded(XAPIAction):
         self.result =  XAPIResult(
             duration=iso8601.parse_sec_to_duration(10, 20),
             extensions={
-                "https://w3id.org/xapi/cmi5/context/extensions/sessionid ": kwargs["session_id"]
+                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": kwargs["session_id"]
             }
         )
 

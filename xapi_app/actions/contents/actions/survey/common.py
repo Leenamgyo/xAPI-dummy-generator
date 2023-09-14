@@ -30,8 +30,8 @@ class Answered(XAPIAction):
 
     def start(self, **kwargs):
         self.result =  XAPIResult(
-            success=str('true'),
-            completion=str('true'),
+            success=True,
+            completion=True,
             response="",
             duration=iso8601.parse_sec_to_duration(random.randint(5, 10)),
             extensions={
@@ -52,8 +52,8 @@ class Completed(XAPIAction):
 
     def start(self, **kwargs):
         self.result =  XAPIResult(
-            success=str('true'),
-            completion=str('true'),
+            success=True,
+            completion=True,
             duration=iso8601.parse_sec_to_duration(random.randint(5, 10)),
             extensions={
                 "https://w3id.org/xapi/cmi5/context/extensions/sessionid": session_id
@@ -72,8 +72,8 @@ class Suspended(XAPIAction):
 
     def start(self, **kwargs):
         self.result =  XAPIResult(
-            success=str('true'),
-            completion=str('true'),
+            success=True,
+            completion=True,
             duration=iso8601.parse_sec_to_duration(random.randint(1, 3)),
             extensions={
                 "https://w3id.org/xapi/cmi5/context/extensions/sessionid": session_id,
@@ -93,8 +93,8 @@ class Checked(XAPIAction):
 
     def start(self, **kwargs):
         self.result =  XAPIResult(
-            success=str('true'),
-            completion=str('true'),
+            success=True,
+            completion=True,
             response="",
             duration=iso8601.parse_sec_to_duration(random.randint(1, 3)),
             score={},
@@ -116,8 +116,8 @@ class Scoreded(XAPIAction):
 
     def start(self, **kwargs):
         self.result =  XAPIResult(
-            success=str('true'),
-            completion=str('true'),
+            success=True,
+            completion=True,
             response="",
             score={},
             extensions={
