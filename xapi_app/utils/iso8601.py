@@ -34,5 +34,10 @@ def parse_sec_to_duration(
     return duration
 
 
+
 def timestamp_now_str():
     return datetime.now(timezone('Asia/Seoul')).strftime("%Y-%m-%dT%H:%M:%S%z")
+
+if __name__ == "__main__":
+    print(timestamp_now_str())
+

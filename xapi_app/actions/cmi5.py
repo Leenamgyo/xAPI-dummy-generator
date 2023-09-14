@@ -66,20 +66,10 @@ class Completed(XAPIAction):
         )
 
     def start(self, **kwargs):
-        max_ = 100
-        min_ = 0
-        raw_ = random.randint(30, 60)
-        scaled_ = raw_/max_
         self.result =  XAPIResult(
             success=True,
             completion=True,
             duration=iso8601.parse_sec_to_duration(random.randint(3,7)),
-            score={
-                "max": max_,
-                "min": min_,
-                "raw": raw_,
-                "scaled": scaled_
-            },
             extensions={
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"],
                 "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/session_time": iso8601.parse_sec_to_duration(random.randint(1000, 3000))
