@@ -79,6 +79,7 @@ class Completed(XAPIAction):
             "attempt": attempt,
             "total_time": total_time,
             "avg_attempt_times": total_time / attempt,
+            "submit_timestamp": iso8601.timestamp_now_str(),
             "is_assessed": "false"
         }
            
@@ -103,7 +104,7 @@ class Scoreded(XAPIAction):
         self.result =  XAPIResult(
             success=True,
             completion=True,
-            response="Scored",
+            response="짧은 시간에 이 프로젝트를 시작했을 때 여러분 모두가 해주신 놀라운 작업에 감사드립니다. 우리 모두가 한 팀으로 일하는 모습이 놀랍습니다.",
             score={
                 "min": 0,
                 "max": 5,

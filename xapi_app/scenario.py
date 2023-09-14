@@ -35,6 +35,7 @@ class Cmi5Scenario:
 
         for contents in self.contents:
             keys =[] 
+            
             definition = contents["object"]["definition"]
             keys.append(definition['extensions']["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/type"])
             
@@ -43,7 +44,7 @@ class Cmi5Scenario:
             
             if "interactionType" in definition:
                 keys.append(definition["interactionType"])
-            
+
             template = factory.get_template(*keys)()
             contents_obj = XAPIObject(**contents["object"])
             contents_context = XAPIContext(**contents["context"])

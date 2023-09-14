@@ -225,6 +225,10 @@ class TaskActionTemplate(ContentsActionTemplate):
     def _add_actions(self):
         items = [task.TaskSubmitted]
         return items 
+    
+    def _hooks(self):
+        items = [task.TaskScored]
+        return items
         
 factory = ContentsFactory()
 factory.regist(TaskActionTemplate, "task")
@@ -275,7 +279,6 @@ class PeerReviewActionTemplate(ContentsActionTemplate):
         return items 
         
         
-factory = ContentsFactory()
 factory.regist(PeerSubmitActionTemplate, "peer", "submit")
 factory.regist(PeerReviewActionTemplate, "peer", "review")
 
