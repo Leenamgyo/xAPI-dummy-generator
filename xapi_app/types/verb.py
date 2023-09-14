@@ -161,9 +161,9 @@ class ScoredVerb(XAPIVerb):
             "en-US": "scored"
         }
 
-class AccessedVerb(XAPIVerb):
+class AssessedVerb(XAPIVerb):
     def __init__(self):
-        self.id =  "http://activitystrea.ms/schema/1.0/access"
+        self.id =  "https://w3id.org/xapi/dod-isd/verbs/assessed"
         self.display = {
-            "en-US": "accessed"
+            "en-US": "assessed"
         }

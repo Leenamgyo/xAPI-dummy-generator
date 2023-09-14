@@ -10,13 +10,13 @@ class XAPIAction:
         verb: XAPIVerb,
         obj: XAPIObject, 
         context: XAPIContext,
-        result: XAPIResult=None
+        result: XAPIResult = None
     ):
         self.actor = actor
         self.obj = obj
         self.context = context
         self.verb = verb
-        self.result =  result
+        self.result = result
 
     def start(self, **kwargs):
         raise NotImplementedError

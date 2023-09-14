@@ -1,5 +1,5 @@
 import random
-from xapi_app.actions.contents.actions import lecture, quiz, task
+from xapi_app.actions.contents.actions import lecture, quiz, task, peer
 
 
 class ContentsActionTemplate:
@@ -243,3 +243,56 @@ factory.regist(LectureLiveTemplate, "lecture", "live")
 
 # factory.regist(SurveyFillinTemplate, "survey", "fill-in")
 # factory.regist(SurveyLongFillinTemplate, "survey", "long-fiil-in")
+
+
+class PeerSubmitActionTemplate(ContentsActionTemplate):
+    def __init__(self): 
+        super().__init__()
+
+    def _initialize(self):
+        return peer.SubmitInitialized
+    
+    def _complated(self):
+        return peer.SubmitCompleted
+                 
+    def _add_actions(self):
+        items = [peer.SubmitSubmitted]
+        return items 
+    
+
+class PeerReviewActionTemplate(ContentsActionTemplate):
+    def __init__(self): 
+        super().__init__()
+
+    def _initialize(self):
+        return peer.ReviewInitialized
+    
+    def _complated(self):
+        return peer.ReviewCompleted
+                 
+    def _add_actions(self):
+        items = [peer.ReviewAssessed]
+        return items 
+        
+        
+factory = ContentsFactory()
+factory.regist(PeerSubmitActionTemplate, "peer", "submit")
+factory.regist(PeerReviewActionTemplate, "peer", "review")
+
+# class PeerActionTemplate(ContentsActionTemplate):
+#     def __init__(self): 
+#         super().__init__()
+
+#     def _initialize(self):
+#         return peer.SubmitInitialized
+    
+#     def _complated(self):
+#         return peer.SubmitCompleted
+                 
+#     def _add_actions(self):
+#         items = [peer.SubmitSubmitted]
+#         return items 
+        
+# factory = ContentsFactory()
+# factory.regist(PeerActionTemplate, "peer")
+

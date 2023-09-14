@@ -31,14 +31,40 @@ class Submitted(XAPIAction):
         self.result =  XAPIResult(
             success=True,
             completion=True,
-            response="",
+            response="submit",
             duration=iso8601.parse_sec_to_duration(random.randint(1, 3)),
             extensions={
-                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": session_id,
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
+                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": kwargs["session_id"],
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"]
             }
         )
     
+    def has_state(self):
+        return True
+    
+    def to_state(self):
+        agent_id = self.actor.account["homePage"][self.actor.account["homePage"].rindex("/") + 1 :]
+
+        params = {
+            "agent": self.actor.result_json(),
+            "activityId": self.obj.id,
+            "stateId": f"{self.obj.id}/{agent_id}",
+        }
+        
+        total_time = random.randrange(1, 1000)
+        attempt = self.result.extensions["https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt"]
+        
+        body = {
+            "attempt": attempt,
+            "total_time": total_time,
+            "avg_attempt_times": total_time / attempt,
+            "is_assessed": "false",
+            "submit_timestamp": iso8601.timestamp_now_str(),
+        }
+            
+        return params, body
+    
+   
 
 
 class Completed(XAPIAction):
@@ -54,11 +80,11 @@ class Completed(XAPIAction):
         self.result =  XAPIResult(
             success=True,
             completion=True,
-            response="",
+            response="Completed",
             duration=iso8601.parse_sec_to_duration(random.randint(5, 10)),
             extensions={
-                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": session_id,
-                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": attempt
+                "https://w3id.org/xapi/cmi5/context/extensions/sessionid": kwargs["session_id"],
+                "https://class.whalespace.io/classes/class/chapters/chapter/lectures/lecture/attempt": kwargs["attempt"]
             }
         )
     
