@@ -4,6 +4,7 @@ from datetime import date
 import random
 import utils
 from copy import deepcopy
+import urllib3
 
 OBJECT_ID_PREFIX = "https://class.whalespace.io/bubblecon-guide/lecture"
 DIR_PATH = f"dummy_gen/{str(date.today())}"
@@ -100,7 +101,6 @@ def main():
 
         result_lecture_contents.append([lecture_info, result_lecture,result_contents])
         
-
 
     lecture_dirpath = os.path.join(DIR_PATH, "lecture")
     contents_dirpath = os.path.join(DIR_PATH, "contents")
